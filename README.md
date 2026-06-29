@@ -27,28 +27,22 @@ The `figures/` directory contains keyword co-occurrence graphs used in the study
 
 The `tables/` directory contains the tables used to summarize the thematic evolution and community structure of the field.
 
-- `table_01_number_of_papers.xlsx`  
-  Number of person Re-ID papers indexed in the Web of Science Core Collection by year.
-
-- `table_02_thematic_evolution_2015_2024.xlsx`  
-  Summary of the top thematic evolution of person Re-ID research from 2015 to 2024.
-
-- `table_03_l1_l0_communities_2015_2024.xlsx`  
+- `table_01_l1_l0_communities_2015_2024.xlsx`  
   L1 and L0 communities for the cumulative 2015–2024 period.
 
-- `table_04_l1_l0_communities_2015_2016.xlsx`  
+- `table_02_l1_l0_communities_2015_2016.xlsx`  
   L1 and L0 communities for the period 2015–2016.
 
-- `table_05_l1_l0_communities_2017_2018.xlsx`  
+- `table_03_l1_l0_communities_2017_2018.xlsx`  
   L1 and L0 communities for the period 2017–2018.
 
-- `table_06_l1_l0_communities_2019_2020.xlsx`  
+- `table_04_l1_l0_communities_2019_2020.xlsx`  
   L1 and L0 communities for the period 2019–2020.
 
-- `table_07_l1_l0_communities_2021_2022.xlsx`  
+- `table_05_l1_l0_communities_2021_2022.xlsx`  
   L1 and L0 communities for the period 2021–2022.
 
-- `table_08_l1_l0_communities_2023_2024.xlsx`  
+- `table_06_l1_l0_communities_2023_2024.xlsx`  
   L1 and L0 communities for the period 2023–2024.
 
 ### Methodology
