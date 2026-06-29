@@ -77,7 +77,11 @@ The `methodology/` directory documents the workflow used to generate and interpr
 
 In the keyword co-occurrence graphs, each node represents a keyword and each edge represents a co-occurrence between two keywords. Thicker edges indicate stronger co-occurrence. Node colors indicate Level 0 communities, corresponding to fine-grained thematic groups. Node shapes indicate Level 1 communities, corresponding to broader thematic groups.
 
-The graphs use the Kamada–Kawai layout. In this layout, keywords that are structurally close in the network tend to be placed near each other, while keywords connected through longer graph-theoretical paths are placed farther apart. Because the layout projects a high-dimensional network onto a two-dimensional plane, local distortions may occur.
+The cross-sectional graphs use the Kamada–Kawai layout. In this layout, keywords that are structurally close in the network tend to be placed near each other, while keywords connected through longer graph-theoretical paths are placed farther apart. Because the layout projects a high-dimensional network onto a two-dimensional plane, local distortions may occur. For the cumulative graphs, the utilization of the Kamada-Kawai layout resulted in a cluttered graph. For this reason, we preferred the GEM (Graph Embedder) layout. Fruchterman-Reingold layout aims to create a balanced layout where nodes are evenly distributed across the graph and the attraction/repulsion forces are proportional to the number of connected edges. Conversely, GEM modifies Fruchterman-Reingold using a simulated annealing process, which results in a graph where the distances between nodes are maximized, and edge crossings are minimized. This makes the graph more legible (see the annexes).
+
+] A. Frick, A. Ludwig, and H. Mehldau, "A fast adaptive layout algorithm for undirected graphs," in Graph Drawing, DIMACS Workshop Proc., Princeton, NJ, USA, Oct. 10–12, 1994, pp. 388–403.
+T. M. Fruchterman and E. M. Reingold, "Graph drawing by force-directed placement," Softw. Pract. Exp., vol. 21, no. 11, pp. 1129–1164, Nov. 1991.
+S. Kirkpatrick, C. D. Gelatt, Jr., et M. P. Vecchi, “Optimization by simulated annealing,” Science, vol. 220, no. 4598, pp. 671–680, 13 May 1983. doi: 10.1126/science.220.4598.671.
 
 ## Citation
 
