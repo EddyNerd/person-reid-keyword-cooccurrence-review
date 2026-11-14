@@ -1,96 +1,67 @@
 # Person Re-Identification Keyword Co-occurrence Review
 
-This repository contains supplementary materials for the paper:
+Supplementary materials for **Person Re-Identification: A Longitudinal Keyword Co-Occurrence Graph-Based Review of Its Evolution Toward Open-World Applications**, by Edouard Bengono Essola and Makoto Tsukai.
 
-**Person Re-Identification: A Longitudinal Keyword Co-Occurrence Graph-Based Review of Its Evolution Toward Open-World Applications**
+The materials support the analysis of author-keyword co-occurrence in the 2015-2024 person Re-ID literature. They provide the data behind the article's figures and tables, detailed numerical results, saved community memberships and reproducibility scripts.
 
-The repository provides the figures, tables, and methodological notes used to support the longitudinal analysis of person Re-ID research from 2015 to 2024.
+## Start here
 
-## Corrected cumulative graph for 2015–2022
+- **Read the supporting methods and tables:** [Supplementary material](supplementary/README.md).
+- **Inspect a result:** [Scientific evidence index](reproducibility/evidence_index.csv).
+- **Check a figure:** [Article figures and captions](manuscript_figures/) and [rendering sources](manuscript_figures/source/).
+- **Verify the frozen data and results:** [Reproduction guide](reproducibility/README.md).
+- **Inspect the corpus-coverage audit:** [OpenAlex reference data](data/openalex/).
 
-The cumulative 2015–2022 figure has been rebuilt from the complete study-period corpus. The earlier input labelled 2015–2022 contained only 2019–2022 records. Restoring the 254 records from 2015–2018 gives **1,499 records**, including **1,439 with usable author keywords**.
+## Repository contents
 
-The [corrected figure](figures/cumulative_graphs/2015%E2%80%932022.png) displays **91 nodes and 434 weighted links**. It uses the saved Louvain partition under filter-and-suppress (seed 1000; threshold multiplier 1): 14 L0 communities and 7 L1 communities, with FINAL at L1. The historical visual design is retained, while the memberships come from the corrected analysis. Its native GUESS GEM layout uses seed 1000 and saved coordinates from the union of the seven display masks (202 nodes and 1,463 links).
+| Directory | Contents |
+|---|---|
+| `manuscript_figures/` | The seven article figures, captions, exact vector files and rendering sources |
+| `article_tables/` | Machine-readable versions of the tables retained in the article |
+| `supplementary/` | Detailed methods, additional tables and an index of Supplementary Tables S1-S15 |
+| `data/` | Derived record incidence, expression mappings, frozen graph inputs and the OpenAlex coverage audit |
+| `results/` | Saved partitions, numerical comparisons, prevalence, temporal correspondence and projection provenance |
+| `src/` | Portable verification, detector-replay and document-projection scripts |
+| `reproducibility/` | Protocols, software provenance, scientific evidence index and file checksums |
+| `archive/` | Preserved source implementations and historical material, identified separately from current outputs |
 
-The [correction record](corrections/cumulative_2015_2022_20261114/README.md) provides the cohort counts, graph statistics, portable rendering files, Leiden hierarchy memberships and analysis audit. The earlier figure remains available in the versioned Git history and is not the current cumulative 2015–2022 reference.
+## Analytical corpus and current scope
 
-## Contents
+The analytical corpus contains **2,333 records**, including **2,260 with usable normalized author keywords**. Vocabulary is derived exclusively from author keywords. Titles, abstracts and Keywords Plus do not contribute network nodes or edges. The public incidence file contains derived representations and record identifiers, rather than raw WoS exports.
 
-### Figures
+There are five nonoverlapping two-year cross-sections and five cumulative windows. The current cumulative 2015-2022 input contains **1,499 records**, including **1,439 with usable keywords**. It restores the 254 records from 2015-2018 that were absent from the older input carrying that label. Current graph inputs, numerical tables and reference memberships use this corrected scope. Historical source material is kept separately for provenance.
 
-The `figures/` directory contains keyword co-occurrence graphs used in the study.
+The independent OpenAlex audit uses a screened reference set of **4,665 publications**: 2,450 journal articles/reviews and 2,215 conference papers. Of these, 1,869 match the analytical WoS corpus. The resulting proportion describes relative recall against that defined reference set, not recall for all relevant Re-ID research. The retrieval list, eligibility decisions, matches and search-page manifest are provided in [`data/openalex/`](data/openalex/).
 
-- `figures/cross_sectional_graphs/`  
-  Cross-sectional keyword co-occurrence graphs for each two-year period:
-  2015–2016, 2017–2018, 2019–2020, 2021–2022, and 2023–2024.
+## Representations and community levels
 
-- `figures/cumulative_graphs/`  
-  Cumulative keyword co-occurrence graphs for the periods:
-  2015–2016, 2015–2018, 2015–2020, 2015–2022, and 2015–2024.
+- **T**: the historical normalized token representation.
+- **N**: the same normalized stems retained together as an atomic keyword expression.
+- **P**: complete source keyword expressions, with case and whitespace harmonized.
 
-- `figures/graph_interpretation/`  
-  Example figures explaining node colors, node shapes, Level 0 communities, Level 1 communities, and edge thickness.
+**L0** is the first distinct partition returned by an implementation; **L1** is the next, when available. **FINAL** is the actual last returned partition and may therefore be L0, L1 or a later level. An unavailable L1 is not replaced by FINAL. Additional hierarchy levels aggregate existing communities; their presence does not by itself identify additional research themes.
 
-### Tables
+Under **filter-and-suppress**, detection uses the retained graph. Under **filter-and-hide**, detection uses the full graph and filtering changes only what is displayed. Several display masks can therefore refer to the same saved detection output. Saved-output counts are not independent bibliographic sample sizes.
 
-The `tables/` directory contains the tables used to summarize the thematic evolution and community structure of the field.
+## Quick verification
 
-- `table_01_l1_l0_communities_2015_2024.xlsx`  
-  L1 and L0 communities for the cumulative 2015–2024 period.
+From the repository root, using Python:
 
-- `table_02_l1_l0_communities_2015_2016.xlsx`  
-  L1 and L0 communities for the period 2015–2016.
+```text
+python src/verify_materials.py --check-partitions
+python src/reproduce_document_ari.py
+```
 
-- `table_03_l1_l0_communities_2017_2018.xlsx`  
-  L1 and L0 communities for the period 2017–2018.
+The first command checks file integrity, reconstructs all 30 full T/N/P graphs from the published incidence data, checks the corrected cumulative counts and verifies the saved hierarchies. The second recalculates the 2023-2024 full-network L1 publication and source-expression agreement for both algorithms and compares it with the saved numerical results. Neither command reruns community detection.
 
-- `table_04_l1_l0_communities_2019_2020.xlsx`  
-  L1 and L0 communities for the period 2019–2020.
+The [reproduction guide](reproducibility/README.md) explains the complete detector replay, other settings, optional label exports and the recorded environment.
 
-- `table_05_l1_l0_communities_2021_2022.xlsx`  
-  L1 and L0 communities for the period 2021–2022.
+## Provenance and limits
 
-- `table_06_l1_l0_communities_2023_2024.xlsx`  
-  L1 and L0 communities for the period 2023–2024.
+The saved analyses use Louvain and Leiden, seeds 1000-1029, and final-cutoff multipliers 0.4, 0.6, 0.8, 1, 1.2, 1.4 and 1.6. The initial node/edge selection rules remain fixed. The original Sci2 random seed and complete historical WoS search history were not recovered. Replaying frozen graph inputs is therefore distinct from reconstructing that unavailable search history.
 
-### Methodology
-
-The `methodology/` directory documents the workflow used to generate and interpret the keyword co-occurrence graphs.
-
-- `01_data_collection_and_preprocessing.md`  
-  Description of the bibliometric corpus, keyword extraction, stopword processing, and text normalization.
-
-- `02_cooccurrence_network_construction.md`  
-  Explanation of how keyword co-occurrence networks were constructed, including the definition of nodes, edges, weights, and node degree.
-
-- `03_graph_pruning.md`  
-  Description of the pruning strategy used to improve graph readability and maintain consistency across study periods.
-
-- `04_community_detection.md`  
-  Explanation of the modularity-based community detection procedure, including the use of the Blondel/Louvain method and the interpretation of Level 0 and Level 1 communities.
-
-- `05_graph_visualization.md`  
-  Description of the visual encoding used in the graphs. Node size represents keyword frequency, node color represents Level 0 community membership, node shape represents Level 1 community membership, and edge thickness represents co-occurrence strength.
-
-- `06_cross_sectional_and_cumulative_analysis.md`  
-  Description of the two analytical strategies used in the study: cross-sectional analysis and cumulative analysis.
-
-## Graph interpretation
-
-In the keyword co-occurrence graphs, each node represents a keyword and each edge represents a co-occurrence between two keywords. Thicker edges indicate stronger co-occurrence. Node colors indicate Level 0 communities, corresponding to fine-grained thematic groups. Node shapes indicate Level 1 communities, corresponding to broader thematic groups.
-
-The historical cross-sectional figures use Kamada–Kawai, and the cumulative figures use GEM (Graph Embedder) in GUESS. The corrected cumulative 2015–2022 figure reuses the saved native GUESS GEM coordinates from the corrected campaign. These layout coordinates arrange nodes for display; the community-detection algorithm determines community membership separately. The corrected coordinates remain fixed within comparisons of that window's pruning masks. Spatial proximity alone does not establish a shared community or thematic persistence.
-
-References
-
-] A. Frick, A. Ludwig, and H. Mehldau, "A fast adaptive layout algorithm for undirected graphs," in Graph Drawing, DIMACS Workshop Proc., Princeton, NJ, USA, Oct. 10–12, 1994, pp. 388–403.
-
-T. M. Fruchterman and E. M. Reingold, "Graph drawing by force-directed placement," Softw. Pract. Exp., vol. 21, no. 11, pp. 1129–1164, Nov. 1991.
-
-S. Kirkpatrick, C. D. Gelatt, Jr., et M. P. Vecchi, “Optimization by simulated annealing,” Science, vol. 220, no. 4598, pp. 671–680, 13 May 1983. doi: 10.1126/science.220.4598.671.
+File checksums are recorded in [`reproducibility/SHA256SUMS.json`](reproducibility/SHA256SUMS.json). The accompanying article and its associated repository version should be used together. Third-party code retains its original licence in [`src/vendor/`](src/vendor/).
 
 ## Citation
 
-If you use these materials, please cite the associated paper:
-
-**Person Re-Identification: A Longitudinal Keyword Co-Occurrence Graph-Based Review of Its Evolution Toward Open-World Applications**
+Please cite the associated article when using these materials. Repository citation metadata are available in [`CITATION.cff`](CITATION.cff).

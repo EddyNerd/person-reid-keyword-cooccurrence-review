@@ -1,0 +1,425 @@
+{
+  "verification_type": "Checks of packaged frozen outputs; no new campaign",
+  "full_graph_and_corpus_checks": {
+    "passed": true,
+    "checks": [
+      {
+        "check": "analytical_corpus",
+        "records": 2333,
+        "usable_keyword_records": 2260,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cross_sectional_2015-2016",
+        "records": 73,
+        "nodes": 238,
+        "edges": 1650,
+        "total_weight": 1846,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cross_sectional_2017-2018",
+        "records": 181,
+        "nodes": 484,
+        "edges": 6010,
+        "total_weight": 7231,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cross_sectional_2019-2020",
+        "records": 505,
+        "nodes": 758,
+        "edges": 14724,
+        "total_weight": 23631,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cross_sectional_2021-2022",
+        "records": 740,
+        "nodes": 956,
+        "edges": 19148,
+        "total_weight": 39462,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cross_sectional_2023-2024",
+        "records": 834,
+        "nodes": 968,
+        "edges": 20771,
+        "total_weight": 39263,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cumulative_2015-2016",
+        "records": 73,
+        "nodes": 238,
+        "edges": 1650,
+        "total_weight": 1846,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cumulative_2015-2018",
+        "records": 254,
+        "nodes": 561,
+        "edges": 7224,
+        "total_weight": 9077,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cumulative_2015-2020",
+        "records": 759,
+        "nodes": 961,
+        "edges": 19989,
+        "total_weight": 32708,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cumulative_2015-2022",
+        "records": 1499,
+        "nodes": 1365,
+        "edges": 33630,
+        "total_weight": 72170,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "T",
+        "case": "cumulative_2015-2024",
+        "records": 2333,
+        "nodes": 1672,
+        "edges": 46357,
+        "total_weight": 111433,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cross_sectional_2015-2016",
+        "records": 73,
+        "nodes": 203,
+        "edges": 365,
+        "total_weight": 367,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cross_sectional_2017-2018",
+        "records": 181,
+        "nodes": 517,
+        "edges": 1706,
+        "total_weight": 1719,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cross_sectional_2019-2020",
+        "records": 505,
+        "nodes": 1238,
+        "edges": 6182,
+        "total_weight": 6902,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cross_sectional_2021-2022",
+        "records": 740,
+        "nodes": 1630,
+        "edges": 9222,
+        "total_weight": 12244,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cross_sectional_2023-2024",
+        "records": 834,
+        "nodes": 1812,
+        "edges": 9559,
+        "total_weight": 11701,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cumulative_2015-2016",
+        "records": 73,
+        "nodes": 203,
+        "edges": 365,
+        "total_weight": 367,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cumulative_2015-2018",
+        "records": 254,
+        "nodes": 675,
+        "edges": 2065,
+        "total_weight": 2086,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cumulative_2015-2020",
+        "records": 759,
+        "nodes": 1760,
+        "edges": 8196,
+        "total_weight": 8988,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cumulative_2015-2022",
+        "records": 1499,
+        "nodes": 3005,
+        "edges": 16685,
+        "total_weight": 21232,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "N",
+        "case": "cumulative_2015-2024",
+        "records": 2333,
+        "nodes": 4282,
+        "edges": 24976,
+        "total_weight": 32933,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cross_sectional_2015-2016",
+        "records": 73,
+        "nodes": 209,
+        "edges": 374,
+        "total_weight": 375,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cross_sectional_2017-2018",
+        "records": 181,
+        "nodes": 537,
+        "edges": 1754,
+        "total_weight": 1767,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cross_sectional_2019-2020",
+        "records": 505,
+        "nodes": 1332,
+        "edges": 6227,
+        "total_weight": 6887,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cross_sectional_2021-2022",
+        "records": 740,
+        "nodes": 1765,
+        "edges": 9336,
+        "total_weight": 12068,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cross_sectional_2023-2024",
+        "records": 834,
+        "nodes": 1997,
+        "edges": 9768,
+        "total_weight": 11704,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cumulative_2015-2016",
+        "records": 73,
+        "nodes": 209,
+        "edges": 374,
+        "total_weight": 375,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cumulative_2015-2018",
+        "records": 254,
+        "nodes": 702,
+        "edges": 2123,
+        "total_weight": 2142,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cumulative_2015-2020",
+        "records": 759,
+        "nodes": 1895,
+        "edges": 8311,
+        "total_weight": 9029,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cumulative_2015-2022",
+        "records": 1499,
+        "nodes": 3281,
+        "edges": 17004,
+        "total_weight": 21097,
+        "passed": true
+      },
+      {
+        "check": "full_graph_from_incidence",
+        "representation": "P",
+        "case": "cumulative_2015-2024",
+        "records": 2333,
+        "nodes": 4739,
+        "edges": 25663,
+        "total_weight": 32801,
+        "passed": true
+      },
+      {
+        "check": "corrected_cumulative_2015_2022",
+        "records": 1499,
+        "usable": 1439,
+        "passed": true
+      },
+      {
+        "check": "OpenAlex_reference",
+        "retrieved_records": 5666,
+        "eligible_publications": 4665,
+        "journal": 2450,
+        "conference": 2215,
+        "represented": 1869,
+        "relative_recall": 0.4006430868167203,
+        "passed": true
+      },
+      {
+        "check": "unusable_keyword_inventory",
+        "records": 73,
+        "passed": true
+      },
+      {
+        "check": "saved_partition_hierarchies",
+        "collection": "native",
+        "unique_outputs": 4140,
+        "passed": true
+      },
+      {
+        "check": "saved_partition_hierarchies",
+        "collection": "TNP",
+        "unique_outputs": 10920,
+        "passed": true
+      }
+    ]
+  },
+  "projection_ARI_checks": [
+    {
+      "case": "cross_sectional_2023-2024",
+      "treatment": "hide",
+      "level": "L1",
+      "matched_saved_summary_rows": 12
+    },
+    {
+      "case": "cumulative_2015-2020",
+      "treatment": "hide",
+      "level": "FINAL",
+      "matched_saved_summary_rows": 12
+    },
+    {
+      "case": "cross_sectional_2015-2016",
+      "treatment": "suppress",
+      "multiplier": 1,
+      "level": "L1",
+      "matched_saved_summary_rows": 12
+    }
+  ],
+  "detector_replay_environment": {
+    "python": "3.9.12",
+    "networkx": "3.2.1",
+    "PYTHONHASHSEED": "0"
+  },
+  "reference_detector_checks": [
+    {
+      "arguments": [
+        "--representation",
+        "T",
+        "--case",
+        "cross_sectional_2023-2024",
+        "--algorithm",
+        "louvain"
+      ],
+      "passed": true,
+      "result": "Matched saved output; 2 distinct hierarchy levels"
+    },
+    {
+      "arguments": [
+        "--representation",
+        "T",
+        "--case",
+        "cumulative_2015-2022",
+        "--algorithm",
+        "leiden"
+      ],
+      "passed": true,
+      "result": "Matched saved output; 3 distinct hierarchy levels"
+    },
+    {
+      "arguments": [
+        "--representation",
+        "P",
+        "--case",
+        "cross_sectional_2023-2024",
+        "--algorithm",
+        "leiden",
+        "--treatment",
+        "hide"
+      ],
+      "passed": true,
+      "result": "Matched saved output; 4 distinct hierarchy levels"
+    },
+    {
+      "arguments": [
+        "--representation",
+        "N",
+        "--case",
+        "cross_sectional_2015-2016",
+        "--algorithm",
+        "louvain"
+      ],
+      "passed": true,
+      "result": "Matched saved output; 1 distinct hierarchy levels"
+    }
+  ]
+}

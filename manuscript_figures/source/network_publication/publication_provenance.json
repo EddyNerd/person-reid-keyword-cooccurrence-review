@@ -1,0 +1,1309 @@
+{
+  "source_renderer": "frozen_input/render_hierarchical_networks.py",
+  "source_renderer_sha256": "f0a0d6e1b905b018371c690589b8edb607f58d8f298e01c9e2978410da943fc8",
+  "source_provenance": {
+    "source_atlas": "frozen_input/x4.js",
+    "atlas_sha256": "fa6a4e0b14449195d051ac1ee727cf8e2fbb210e93ffb328a00c6dd2314dc80b",
+    "historical_image_url": "frozen_input/2023-2024.png",
+    "visible_nodes": 64,
+    "visible_edges": 239,
+    "seed": 1000,
+    "multiplier": 1,
+    "community_detection_recomputed": false,
+    "layout": {
+      "type": "shared force-directed layout of the 64-node reference display graph",
+      "recomputed_for_readability": false,
+      "coordinates_reused_from": "frozen_input/node_memberships.csv",
+      "seed": 1000,
+      "edge_attraction": "cooccurrence_weight ** 0.35",
+      "same_positions_in_all_four_panels": true,
+      "readability_transform": "partition-independent radial expansion and 0.155-unit minimum-separation relaxation",
+      "does_not_replace_campaign_union_layout": true
+    },
+    "L2_display_rule": "At least 5 displayed nodes and at most 5 parents, ranked by displayed count then saved parent ID. Every selected parent receives a common spatial membership enclosure, constructed from member disks and obstacle-routed connectors. Nonmembers are excluded; disconnected pieces are explicitly recorded if routing cannot connect all members. All 64 nodes and 239 edges remain.",
+    "colour_rule": "Original archive hues matched to current L0 groups by member overlap; deterministic lightness variants distinguish splits. Colours are display correspondences, not evidence of identical membership.",
+    "L3_encoding": "Distinct soft halo colours for all visible L3 parents, containing their exact L2 child enclosures.",
+    "L4_encoding": "Distinct sparse hatches for all visible L4 parents, containing their exact L3 child enclosures.",
+    "raw_hierarchy_sources": {
+      "s_m10_lo_1000": {
+        "file": "frozen_input/0556cd02a5763dd2_lo_1000.json",
+        "sha256": "fbd319ecf7d621abefb0df37d9c31f464209eaf25583963b93bc38193631953f",
+        "community_counts": [
+          12,
+          5
+        ]
+      },
+      "s_m10_le_1000": {
+        "file": "frozen_input/0556cd02a5763dd2_le_1000.json",
+        "sha256": "f2ec61acc8a201933d20a8a5d02c4563b46cc1d0e7ef8b88b41f61e9c95f2c65",
+        "community_counts": [
+          17,
+          6,
+          5
+        ]
+      },
+      "h_m10_lo_1000": {
+        "file": "frozen_input/5f468569c6c8918e_lo_1000.json",
+        "sha256": "251babbce6627c90a8786d3e435ff32db9a5e4daa67e5dcd1c4d5d122692c45f",
+        "community_counts": [
+          38,
+          11,
+          10
+        ]
+      },
+      "h_m10_le_1000": {
+        "file": "frozen_input/5f468569c6c8918e_le_1000.json",
+        "sha256": "c5f5c3b5c614b2b58ad9894002e5908da5a52c79427a3af84ae7e215e002b686",
+        "community_counts": [
+          186,
+          37,
+          12,
+          9,
+          8
+        ]
+      }
+    },
+    "runs": {}
+  },
+  "source_memberships": "frozen_input/node_memberships.csv",
+  "changes": "Publication canvas and selected larger labels; no graph, partition, palette or coordinate changes",
+  "unchanged_coordinates_colours_memberships_verified": true,
+  "community_detection_recomputed": false,
+  "reported_level_counts_include_hidden_nodes": true,
+  "reports": [
+    {
+      "algorithm": "Louvain",
+      "stem": "Louvain_publication",
+      "canvas_inches": [
+        9.8,
+        6.15
+      ],
+      "token_font_pt_at_9_8in_width": 8.3,
+      "uniform_marker_edge_scale": 0.6460084033613445,
+      "displayed_node_count": 64,
+      "displayed_edge_count": 239,
+      "label_count_per_panel": 24,
+      "labels": [
+        "convolut",
+        "neural",
+        "network",
+        "graph",
+        "vision",
+        "transform",
+        "occlud",
+        "cloth",
+        "chang",
+        "adversari",
+        "generat",
+        "cross",
+        "modal",
+        "infrar",
+        "visibl",
+        "text",
+        "retriev",
+        "domain",
+        "adapt",
+        "learn",
+        "metric",
+        "pseudo",
+        "label",
+        "featur"
+      ],
+      "runs": {
+        "s_m10_lo_1000": {
+          "counts": {
+            "L0": 12,
+            "L1": 5,
+            "L2": null,
+            "FINAL": 5,
+            "L3": null,
+            "L4": null
+          },
+          "FINAL_index": 1,
+          "graph_sha256": "0556cd02a5763dd2b6bba3a1913a4eb1046f144a297135c1ba50904133a479bd",
+          "selected_L2": [],
+          "L2_membership_contours": [],
+          "higher_hierarchy": {
+            "present": false,
+            "L3": [],
+            "L4": []
+          }
+        },
+        "h_m10_lo_1000": {
+          "counts": {
+            "L0": 38,
+            "L1": 11,
+            "L2": 10,
+            "FINAL": 10,
+            "L3": null,
+            "L4": null
+          },
+          "FINAL_index": 2,
+          "graph_sha256": "5f468569c6c8918e0d616639700525a241d2dd8c7db0672c797dfcfdb7c02850",
+          "selected_L2": [
+            {
+              "id": 3,
+              "visible_count": 23
+            },
+            {
+              "id": 0,
+              "visible_count": 17
+            },
+            {
+              "id": 1,
+              "visible_count": 15
+            }
+          ],
+          "L2_membership_contours": [
+            {
+              "parent_id": 3,
+              "visible_members": 23,
+              "colour": "#546b83",
+              "line_style": "solid",
+              "member_centres_inside": 23,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 0,
+              "visible_members": 17,
+              "colour": "#967047",
+              "line_style": "(0, (7, 3))",
+              "member_centres_inside": 17,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 1,
+              "visible_members": 15,
+              "colour": "#60816e",
+              "line_style": "(0, (2, 2))",
+              "member_centres_inside": 15,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            }
+          ],
+          "higher_hierarchy": {
+            "present": false,
+            "L3": [],
+            "L4": []
+          }
+        }
+      },
+      "label_positions": {
+        "s_m10_lo_1000": {
+          "adapt": [
+            -0.13024932973435055,
+            -0.19485097144017338
+          ],
+          "adversari": [
+            0.623815097559443,
+            0.22624087695970507
+          ],
+          "chang": [
+            0.5646502394636328,
+            -0.8258545458906476
+          ],
+          "cloth": [
+            0.45871630619506676,
+            -0.6385913580127632
+          ],
+          "convolut": [
+            0.11951682024486354,
+            0.5069860418156411
+          ],
+          "cross": [
+            0.009410372871374584,
+            0.25541326859930535
+          ],
+          "domain": [
+            -0.03238761131176693,
+            -0.3393310425289324
+          ],
+          "featur": [
+            0.23367243847879138,
+            -0.04902742501762458
+          ],
+          "generat": [
+            0.5226247319738091,
+            0.5600636008057154
+          ],
+          "graph": [
+            0.14055060431619104,
+            0.718113173677112
+          ],
+          "infrar": [
+            -0.05110601731170328,
+            0.5912396525777166
+          ],
+          "label": [
+            -0.5059728084907013,
+            -0.012660872750980268
+          ],
+          "learn": [
+            0.18073913478105075,
+            0.11954314242623743
+          ],
+          "metric": [
+            0.7066170535802379,
+            0.33112944010754686
+          ],
+          "modal": [
+            -0.05043414438439897,
+            0.4130803859946828
+          ],
+          "network": [
+            0.18653173847043036,
+            0.333579883797386
+          ],
+          "neural": [
+            0.3883027635525522,
+            0.45817177188019276
+          ],
+          "occlud": [
+            0.7462087863464184,
+            -0.12733749169056474
+          ],
+          "pseudo": [
+            -0.6369045423138171,
+            -0.12262674483387426
+          ],
+          "retriev": [
+            -0.24350293429462477,
+            0.5768607963138654
+          ],
+          "text": [
+            -0.30815140384838746,
+            0.718378477122386
+          ],
+          "transform": [
+            0.49508484276725784,
+            0.05256473510750026
+          ],
+          "visibl": [
+            -0.23199048279770196,
+            0.4179099103135484
+          ],
+          "vision": [
+            0.5984468812409305,
+            -0.03775057653986913
+          ]
+        },
+        "h_m10_lo_1000": {
+          "adapt": [
+            -0.1302493297343501,
+            -0.19485097144017338
+          ],
+          "adversari": [
+            0.6238150975594432,
+            0.22624087695970507
+          ],
+          "chang": [
+            0.5646502394636332,
+            -0.8258545458906476
+          ],
+          "cloth": [
+            0.458716306195067,
+            -0.6385913580127632
+          ],
+          "convolut": [
+            0.13275265617219034,
+            0.5202218777429684
+          ],
+          "cross": [
+            0.009410372871375028,
+            0.25541326859930535
+          ],
+          "domain": [
+            -0.03238761131176693,
+            -0.3393310425289324
+          ],
+          "featur": [
+            0.2160246572423552,
+            -0.042121126949953513
+          ],
+          "generat": [
+            0.5226247319738091,
+            0.5600636008057154
+          ],
+          "graph": [
+            0.14055060431619149,
+            0.718113173677112
+          ],
+          "infrar": [
+            -0.051106017311703056,
+            0.5912396525777166
+          ],
+          "label": [
+            -0.5147966991089192,
+            -0.014442039607079682
+          ],
+          "learn": [
+            0.1807391347810512,
+            0.11954314242623743
+          ],
+          "metric": [
+            0.7198528895075653,
+            0.31789360418021984
+          ],
+          "modal": [
+            -0.06366998031172555,
+            0.41902969194195294
+          ],
+          "network": [
+            0.18653173847043014,
+            0.32475599317916815
+          ],
+          "neural": [
+            0.401538599479879,
+            0.4405239906437566
+          ],
+          "occlud": [
+            0.7462087863464189,
+            -0.12733749169056474
+          ],
+          "pseudo": [
+            -0.6369045423138173,
+            -0.12262674483387426
+          ],
+          "retriev": [
+            -0.25232682491284253,
+            0.5768607963138654
+          ],
+          "text": [
+            -0.31432812728114,
+            0.718378477122386
+          ],
+          "transform": [
+            0.49508484276725806,
+            0.05256473510750026
+          ],
+          "visibl": [
+            -0.2628740999614654,
+            0.4179099103135484
+          ],
+          "vision": [
+            0.5984468812409305,
+            -0.03775057653986913
+          ]
+        }
+      },
+      "out_of_figure_text": []
+    },
+    {
+      "algorithm": "Leiden",
+      "stem": "Leiden_publication",
+      "canvas_inches": [
+        9.8,
+        6.15
+      ],
+      "token_font_pt_at_9_8in_width": 8.3,
+      "uniform_marker_edge_scale": 0.6460084033613445,
+      "displayed_node_count": 64,
+      "displayed_edge_count": 239,
+      "label_count_per_panel": 24,
+      "labels": [
+        "convolut",
+        "neural",
+        "network",
+        "graph",
+        "vision",
+        "transform",
+        "occlud",
+        "cloth",
+        "chang",
+        "adversari",
+        "generat",
+        "cross",
+        "modal",
+        "infrar",
+        "visibl",
+        "text",
+        "retriev",
+        "domain",
+        "adapt",
+        "learn",
+        "metric",
+        "pseudo",
+        "label",
+        "featur"
+      ],
+      "runs": {
+        "s_m10_le_1000": {
+          "counts": {
+            "L0": 17,
+            "L1": 6,
+            "L2": 5,
+            "FINAL": 5,
+            "L3": null,
+            "L4": null
+          },
+          "FINAL_index": 2,
+          "graph_sha256": "0556cd02a5763dd2b6bba3a1913a4eb1046f144a297135c1ba50904133a479bd",
+          "selected_L2": [
+            {
+              "id": 0,
+              "visible_count": 21
+            },
+            {
+              "id": 2,
+              "visible_count": 15
+            },
+            {
+              "id": 3,
+              "visible_count": 14
+            },
+            {
+              "id": 4,
+              "visible_count": 8
+            },
+            {
+              "id": 1,
+              "visible_count": 6
+            }
+          ],
+          "L2_membership_contours": [
+            {
+              "parent_id": 0,
+              "visible_members": 21,
+              "colour": "#546b83",
+              "line_style": "solid",
+              "member_centres_inside": 21,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 2,
+              "visible_members": 15,
+              "colour": "#967047",
+              "line_style": "(0, (7, 3))",
+              "member_centres_inside": 15,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 3,
+              "visible_members": 14,
+              "colour": "#60816e",
+              "line_style": "(0, (2, 2))",
+              "member_centres_inside": 14,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 4,
+              "visible_members": 8,
+              "colour": "#8d6d8b",
+              "line_style": "(0, (7, 2, 1, 2))",
+              "member_centres_inside": 8,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 1,
+              "visible_members": 6,
+              "colour": "#737373",
+              "line_style": "(0, (9, 2, 2, 2))",
+              "member_centres_inside": 6,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            }
+          ],
+          "higher_hierarchy": {
+            "present": false,
+            "L3": [],
+            "L4": []
+          }
+        },
+        "h_m10_le_1000": {
+          "counts": {
+            "L0": 186,
+            "L1": 37,
+            "L2": 12,
+            "FINAL": 8,
+            "L3": 9,
+            "L4": 8
+          },
+          "FINAL_index": 4,
+          "graph_sha256": "5f468569c6c8918e0d616639700525a241d2dd8c7db0672c797dfcfdb7c02850",
+          "selected_L2": [
+            {
+              "id": 0,
+              "visible_count": 17
+            },
+            {
+              "id": 4,
+              "visible_count": 14
+            },
+            {
+              "id": 1,
+              "visible_count": 10
+            },
+            {
+              "id": 7,
+              "visible_count": 10
+            }
+          ],
+          "L2_membership_contours": [
+            {
+              "parent_id": 0,
+              "visible_members": 17,
+              "colour": "#546b83",
+              "line_style": "solid",
+              "member_centres_inside": 17,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 4,
+              "visible_members": 14,
+              "colour": "#967047",
+              "line_style": "(0, (7, 3))",
+              "member_centres_inside": 14,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 1,
+              "visible_members": 10,
+              "colour": "#60816e",
+              "line_style": "(0, (2, 2))",
+              "member_centres_inside": 10,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            },
+            {
+              "parent_id": 7,
+              "visible_members": 10,
+              "colour": "#8d6d8b",
+              "line_style": "(0, (7, 2, 1, 2))",
+              "member_centres_inside": 10,
+              "nonmember_centres_inside": 0,
+              "nonmember_glyph_core_pixels_inside": 0,
+              "member_components": [
+                1
+              ],
+              "region_components": 1,
+              "corridor_half_width": 0.022,
+              "unrouted_mst_connections": [],
+              "all_members_connected": true
+            }
+          ],
+          "higher_hierarchy": {
+            "present": true,
+            "L3": [
+              {
+                "id": 0,
+                "full_members": 151,
+                "displayed_tokens": [
+                  "adversari",
+                  "analysi",
+                  "camera",
+                  "color",
+                  "comput",
+                  "extract",
+                  "generat",
+                  "measur",
+                  "meta",
+                  "model",
+                  "nois",
+                  "pedestrian",
+                  "represent",
+                  "semant",
+                  "task",
+                  "train",
+                  "visual"
+                ],
+                "displayed_children": [
+                  0
+                ],
+                "all_children": [
+                  0
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 17,
+                "member_centres_inside": 17,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "halo_colour": "#6fa8dc"
+              },
+              {
+                "id": 1,
+                "full_members": 168,
+                "displayed_tokens": [
+                  "cluster",
+                  "contrast",
+                  "deep",
+                  "id",
+                  "label",
+                  "learn",
+                  "loss",
+                  "metric",
+                  "pseudo",
+                  "self",
+                  "supervis",
+                  "unsupervis"
+                ],
+                "displayed_children": [
+                  1,
+                  8
+                ],
+                "all_children": [
+                  1,
+                  8
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 12,
+                "member_centres_inside": 12,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "halo_colour": "#e6af57"
+              },
+              {
+                "id": 2,
+                "full_members": 122,
+                "displayed_tokens": [
+                  "recognit",
+                  "system"
+                ],
+                "displayed_children": [
+                  2
+                ],
+                "all_children": [
+                  2
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 2,
+                "member_centres_inside": 2,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "halo_colour": "#ad8ac6"
+              },
+              {
+                "id": 3,
+                "full_members": 98,
+                "displayed_tokens": [
+                  "adapt",
+                  "augment",
+                  "data",
+                  "domain",
+                  "general"
+                ],
+                "displayed_children": [
+                  3,
+                  6
+                ],
+                "all_children": [
+                  3,
+                  6
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 5,
+                "member_centres_inside": 5,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "halo_colour": "#63b6a4"
+              },
+              {
+                "id": 4,
+                "full_members": 175,
+                "displayed_tokens": [
+                  "attent",
+                  "base",
+                  "featur",
+                  "fusion",
+                  "granular",
+                  "local",
+                  "mechan",
+                  "multi",
+                  "occlud",
+                  "scale",
+                  "surveil",
+                  "transform",
+                  "video",
+                  "vision"
+                ],
+                "displayed_children": [
+                  4
+                ],
+                "all_children": [
+                  4
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 14,
+                "member_centres_inside": 14,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "halo_colour": "#de8faa"
+              },
+              {
+                "id": 5,
+                "full_members": 96,
+                "displayed_tokens": [
+                  "cross",
+                  "infrar",
+                  "modal",
+                  "visibl"
+                ],
+                "displayed_children": [
+                  5,
+                  11
+                ],
+                "all_children": [
+                  5,
+                  11
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 4,
+                "member_centres_inside": 4,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "halo_colour": "#a1ae58"
+              },
+              {
+                "id": 6,
+                "full_members": 129,
+                "displayed_tokens": [
+                  "chang",
+                  "cloth",
+                  "convolut",
+                  "graph",
+                  "imag",
+                  "inform",
+                  "network",
+                  "neural",
+                  "retriev",
+                  "text"
+                ],
+                "displayed_children": [
+                  7
+                ],
+                "all_children": [
+                  7
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 10,
+                "member_centres_inside": 10,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "halo_colour": "#b59070"
+              }
+            ],
+            "L4": [
+              {
+                "id": 0,
+                "full_members": 151,
+                "displayed_tokens": [
+                  "adversari",
+                  "analysi",
+                  "camera",
+                  "color",
+                  "comput",
+                  "extract",
+                  "generat",
+                  "measur",
+                  "meta",
+                  "model",
+                  "nois",
+                  "pedestrian",
+                  "represent",
+                  "semant",
+                  "task",
+                  "train",
+                  "visual"
+                ],
+                "displayed_children": [
+                  0
+                ],
+                "all_children": [
+                  0
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 17,
+                "member_centres_inside": 17,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "hatch": "//"
+              },
+              {
+                "id": 1,
+                "full_members": 266,
+                "displayed_tokens": [
+                  "adapt",
+                  "augment",
+                  "cluster",
+                  "contrast",
+                  "data",
+                  "deep",
+                  "domain",
+                  "general",
+                  "id",
+                  "label",
+                  "learn",
+                  "loss",
+                  "metric",
+                  "pseudo",
+                  "self",
+                  "supervis",
+                  "unsupervis"
+                ],
+                "displayed_children": [
+                  1,
+                  3
+                ],
+                "all_children": [
+                  1,
+                  3
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 17,
+                "member_centres_inside": 17,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "hatch": "\\\\"
+              },
+              {
+                "id": 2,
+                "full_members": 122,
+                "displayed_tokens": [
+                  "recognit",
+                  "system"
+                ],
+                "displayed_children": [
+                  2
+                ],
+                "all_children": [
+                  2
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 2,
+                "member_centres_inside": 2,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "hatch": ".."
+              },
+              {
+                "id": 3,
+                "full_members": 175,
+                "displayed_tokens": [
+                  "attent",
+                  "base",
+                  "featur",
+                  "fusion",
+                  "granular",
+                  "local",
+                  "mechan",
+                  "multi",
+                  "occlud",
+                  "scale",
+                  "surveil",
+                  "transform",
+                  "video",
+                  "vision"
+                ],
+                "displayed_children": [
+                  4
+                ],
+                "all_children": [
+                  4
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 14,
+                "member_centres_inside": 14,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "hatch": "xx"
+              },
+              {
+                "id": 4,
+                "full_members": 96,
+                "displayed_tokens": [
+                  "cross",
+                  "infrar",
+                  "modal",
+                  "visibl"
+                ],
+                "displayed_children": [
+                  5
+                ],
+                "all_children": [
+                  5
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 4,
+                "member_centres_inside": 4,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "hatch": "||"
+              },
+              {
+                "id": 5,
+                "full_members": 129,
+                "displayed_tokens": [
+                  "chang",
+                  "cloth",
+                  "convolut",
+                  "graph",
+                  "imag",
+                  "inform",
+                  "network",
+                  "neural",
+                  "retriev",
+                  "text"
+                ],
+                "displayed_children": [
+                  6
+                ],
+                "all_children": [
+                  6
+                ],
+                "child_enclosures_contained": true,
+                "visible_members": 10,
+                "member_centres_inside": 10,
+                "nonmember_centres_inside": 0,
+                "nonmember_glyph_core_pixels_inside": 0,
+                "region_components": 1,
+                "all_members_connected": true,
+                "hatch": "--"
+              }
+            ]
+          }
+        }
+      },
+      "label_positions": {
+        "s_m10_le_1000": {
+          "adapt": [
+            -0.13024932973435055,
+            -0.19485097144017338
+          ],
+          "adversari": [
+            0.623815097559443,
+            0.22624087695970507
+          ],
+          "chang": [
+            0.5646502394636328,
+            -0.8258545458906476
+          ],
+          "cloth": [
+            0.45871630619506676,
+            -0.6385913580127632
+          ],
+          "convolut": [
+            0.17246016395417163,
+            0.49816215119742324
+          ],
+          "cross": [
+            0.009410372871374584,
+            0.25541326859930535
+          ],
+          "domain": [
+            -0.03238761131176693,
+            -0.3393310425289324
+          ],
+          "featur": [
+            0.23367243847879138,
+            -0.04902742501762458
+          ],
+          "generat": [
+            0.5226247319738091,
+            0.5600636008057154
+          ],
+          "graph": [
+            0.158198385552627,
+            0.7357609549135478
+          ],
+          "infrar": [
+            -0.06875379854813923,
+            0.5647679807230626
+          ],
+          "label": [
+            -0.5147966991089192,
+            -0.014442039607079682
+          ],
+          "learn": [
+            0.18073913478105075,
+            0.11954314242623743
+          ],
+          "metric": [
+            0.7066170535802379,
+            0.33112944010754686
+          ],
+          "modal": [
+            -0.04161025376618088,
+            0.39696996539640805
+          ],
+          "network": [
+            0.18653173847043036,
+            0.32475599317916815
+          ],
+          "neural": [
+            0.4191863807163152,
+            0.43611204533464765
+          ],
+          "occlud": [
+            0.7462087863464184,
+            -0.12733749169056474
+          ],
+          "pseudo": [
+            -0.6369045423138171,
+            -0.12262674483387426
+          ],
+          "retriev": [
+            -0.27615132958203126,
+            0.5768607963138654
+          ],
+          "text": [
+            -0.3231520178993579,
+            0.7272023677406039
+          ],
+          "transform": [
+            0.49508484276725784,
+            0.05256473510750026
+          ],
+          "visibl": [
+            -0.22757853748859302,
+            0.4179099103135484
+          ],
+          "vision": [
+            0.5984468812409305,
+            -0.03775057653986913
+          ]
+        },
+        "h_m10_le_1000": {
+          "adapt": [
+            -0.1302493297343501,
+            -0.19485097144017338
+          ],
+          "adversari": [
+            0.6238150975594432,
+            0.22624087695970507
+          ],
+          "chang": [
+            0.5646502394636332,
+            -0.8258545458906476
+          ],
+          "cloth": [
+            0.458716306195067,
+            -0.6385913580127632
+          ],
+          "convolut": [
+            0.13275265617219034,
+            0.5202218777429684
+          ],
+          "cross": [
+            0.009410372871375028,
+            0.25541326859930535
+          ],
+          "domain": [
+            -0.03238761131176693,
+            -0.3393310425289324
+          ],
+          "featur": [
+            0.23367243847879093,
+            -0.04902742501762458
+          ],
+          "generat": [
+            0.44762166171895634,
+            0.5777113820421511
+          ],
+          "graph": [
+            0.14055060431619149,
+            0.718113173677112
+          ],
+          "infrar": [
+            -0.051106017311703056,
+            0.5912396525777166
+          ],
+          "label": [
+            -0.5147966991089192,
+            -0.014442039607079682
+          ],
+          "learn": [
+            0.1807391347810512,
+            0.11954314242623743
+          ],
+          "metric": [
+            0.7198528895075653,
+            0.31789360418021984
+          ],
+          "modal": [
+            -0.06366998031172555,
+            0.41902969194195294
+          ],
+          "network": [
+            0.18653173847043014,
+            0.32475599317916815
+          ],
+          "neural": [
+            0.401538599479879,
+            0.4405239906437566
+          ],
+          "occlud": [
+            0.7462087863464189,
+            -0.12733749169056474
+          ],
+          "pseudo": [
+            -0.6369045423138173,
+            -0.12262674483387426
+          ],
+          "retriev": [
+            -0.25232682491284253,
+            0.5768607963138654
+          ],
+          "text": [
+            -0.31432812728114,
+            0.718378477122386
+          ],
+          "transform": [
+            0.49508484276725806,
+            0.05256473510750026
+          ],
+          "visibl": [
+            -0.2628740999614654,
+            0.4179099103135484
+          ],
+          "vision": [
+            0.5984468812409305,
+            -0.03775057653986913
+          ]
+        }
+      },
+      "out_of_figure_text": []
+    }
+  ],
+  "visual_QA": "passed: both refreshed24-label previews inspected; selected tokens legible and no labels clipped; featur labelled explicitly",
+  "minimum_recommended_placement_width_inches": 8.3,
+  "token_font_pt_at_minimum_recommended_width": 7.03,
+  "explanations_moved_to_external_caption": true,
+  "output_files": [
+    {
+      "name": "Louvain_publication.png",
+      "bytes": 1582234,
+      "sha256": "df573954aea6a936a3f3d29f9d44f5fbe92680066f99a6a3bd8408ffcb047c88",
+      "pixel_dimensions": [
+        3920,
+        2460
+      ]
+    },
+    {
+      "name": "Louvain_publication.svg",
+      "bytes": 966133,
+      "sha256": "44c26b8e764ad14b9452f21e39e676ff6c3fea81b43aefc536de46f52ab24d38"
+    },
+    {
+      "name": "Leiden_publication.png",
+      "bytes": 2585438,
+      "sha256": "90ac916430feebfbc7e2c1f9e4c3696f119025e897bb82894c7e658db991b0d6",
+      "pixel_dimensions": [
+        3920,
+        2460
+      ]
+    },
+    {
+      "name": "Leiden_publication.svg",
+      "bytes": 3287193,
+      "sha256": "39c1a1e4cbd072f4f85a54b1f05c5c7a88c2202f7a3fcaedb1597fcd237023a0"
+    }
+  ]
+}

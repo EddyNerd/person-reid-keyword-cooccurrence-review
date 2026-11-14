@@ -1,0 +1,2090 @@
+[
+  {
+    "file": "data/record_incidence.jsonl.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/inputs/all_records_with_representations.json",
+    "source_sha256": "1a6ed4d1732351ad1d5a3115b9c1a6287bc54068eeda49be32dfd82e3dda9d7d",
+    "operation": "select derived incidence fields; no titles, abstracts, journal fields or raw export"
+  },
+  {
+    "file": "data/expression_dictionary.json.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/inputs/expression_dictionary.json",
+    "source_sha256": "b3786f107f420fe6f98ca2b72f02be1a79fe75baba203f1161cde248b1db5ce2",
+    "operation": "metadata selection or lossless compression"
+  },
+  {
+    "file": "data/stopwords.txt",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/recovered_stopwords.txt",
+    "source_sha256": "0d5b2f2ef1f0e831f9f133271620acc98634a7596fadea3113969f81ba22e4fa",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cross_sectional_2015-2016.json",
+    "source_sha256": "358a7c6f3e71187f5857a0c22f82265081cedd9d9208bdf63d4350357d5e5dad",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cross_sectional_2015-2016.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2015-2016_m04.json",
+    "source_sha256": "c3b58ab574161e63fb490691d47b5b4758541cc4824ec803deb4c5df38fc08db",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2015-2016_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2015-2016_m06.json",
+    "source_sha256": "43810b9e603b847998a7902f054f0914e7d5a184bb84d5bcdd11f0e9adebe20a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2015-2016_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2015-2016_m08.json",
+    "source_sha256": "94b1831ca3094d1997e8395318d7017e7829284695c871f5c38923e5d7118f71",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2015-2016_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2015-2016_m10.json",
+    "source_sha256": "972e31ec62bcdc20e77d6c589e41232c247110f32bba657ddcd00fadffbb274f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2015-2016_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2015-2016_m12.json",
+    "source_sha256": "e3a38a099772befdf0e6eb1b2703635f46799b5b8ae05c2c03eeb555423165e5",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2015-2016_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2015-2016_m14.json",
+    "source_sha256": "584ac98761b23fd07c00704217550d1bcba002e9f0ee3207022245f1baff7a8c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2015-2016_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2015-2016_m16.json",
+    "source_sha256": "3c495605b4f374d03543baac8d3a3d8d26b990bb75a804888b19c96cb8d0df29",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2015-2016_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cross_sectional_2017-2018.json",
+    "source_sha256": "e3477a107f382dc1fadb4b72f6fe0f3c9e2af588f1d674c843ca5da0a8989af2",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cross_sectional_2017-2018.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2017-2018_m04.json",
+    "source_sha256": "c478a1d96e312c12e3000d4348c42e3648d9d98be323e2f437731afe7d453c99",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2017-2018_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2017-2018_m06.json",
+    "source_sha256": "902b25f69423f77eaebb9116dfcc09a562174f409ca7ba4822cb20ee9e763712",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2017-2018_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2017-2018_m08.json",
+    "source_sha256": "9e62ebd19bde752cb9ffb0abb4577b71ad6fa418c92738f15829d7a896c21e61",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2017-2018_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2017-2018_m10.json",
+    "source_sha256": "061cb552554a3bd7ff98c95603a77491cd7fe26e53239df7744c4ee11d207f00",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2017-2018_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2017-2018_m12.json",
+    "source_sha256": "d33230588a5b793e1a62ce85985eb5a13952109207d1b7565524c6da780f5371",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2017-2018_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2017-2018_m14.json",
+    "source_sha256": "21784bb1c07011b5e2f9623f2b7e1fee75a86e054e4f679832f25bfba285965f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2017-2018_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2017-2018_m16.json",
+    "source_sha256": "b3c65693fce0c0d41489e8a093790b1efd2a2b00d6a80562c9bc88ae5c5fe4ea",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2017-2018_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cross_sectional_2019-2020.json",
+    "source_sha256": "41cb6de951cecb8e17a2cce7c740d3a882d79859b349d16abffff315e09228b0",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cross_sectional_2019-2020.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2019-2020_m04.json",
+    "source_sha256": "1b7fef12b52bc12a3ee22c70c403834db0bc3e745d5358f6d32559596fe0c2aa",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2019-2020_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2019-2020_m06.json",
+    "source_sha256": "2607c6da388f25a6d75db72c543556054610c946f3744f5dd0457188c77c855a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2019-2020_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2019-2020_m08.json",
+    "source_sha256": "1683df95b1426e3eb15acd5d21029844a91c1dc761ae897171d67cbceb7347dc",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2019-2020_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2019-2020_m10.json",
+    "source_sha256": "4e2b20955235f6b72183a05e943a439fddf5fb3b7d2ba4723b9489a1fc5acf47",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2019-2020_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2019-2020_m12.json",
+    "source_sha256": "09e9ea15ed1943762ae57596c42f5dd8087da2a94cf5f670c6b206c547bd6c41",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2019-2020_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2019-2020_m14.json",
+    "source_sha256": "154e259e5ad8e9e08d5b948049bdd7609780314acd08d25a0b689278039b4dc9",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2019-2020_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2019-2020_m16.json",
+    "source_sha256": "5688915e2ebd42427feb22aee220032aece99d1db41894a16a9e11d39973cf26",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2019-2020_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cross_sectional_2021-2022.json",
+    "source_sha256": "8836f9eafd9e5b19373f34a946d447f07f60f192f0b5917599953344ef5379b9",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cross_sectional_2021-2022.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2021-2022_m04.json",
+    "source_sha256": "badabc1e10c114b4afcc5654a06c4598be31943df9f1c5a919a7dc0a299cf080",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2021-2022_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2021-2022_m06.json",
+    "source_sha256": "116048d646e1ec3560ebb05c991515f30188a22292da163fb917919b92dcec60",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2021-2022_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2021-2022_m08.json",
+    "source_sha256": "530166361ca7e2f439564c15a75f559f2fba2c9f45d572a85efc988f03281699",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2021-2022_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2021-2022_m10.json",
+    "source_sha256": "b6059aae7e69918180278c9b8ce100f044cf76adfae7611c41b8a69a86dc5d59",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2021-2022_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2021-2022_m12.json",
+    "source_sha256": "7878bb251e34807d325df97c87292e074d80a6e3a7c7b4c9cd24801371995f41",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2021-2022_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2021-2022_m14.json",
+    "source_sha256": "1cb5fd6eba924ed084b9900146500a6453c3d680071e6058bcdd2f3343ad19ef",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2021-2022_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2021-2022_m16.json",
+    "source_sha256": "605bcbcc37b146ecc9a5a7c6ead266be40d1bd8e9976689a99140f73d0c62625",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2021-2022_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cross_sectional_2023-2024.json",
+    "source_sha256": "1debf3ad0cbba8a215697bf1bcc6a630f9adca1a2660fc2dc507c246c93ac44f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cross_sectional_2023-2024.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2023-2024_m04.json",
+    "source_sha256": "52448f2236833a5e191e4e5b93586bf955c701ba94d1131b28344c1aa9c35eeb",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2023-2024_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2023-2024_m06.json",
+    "source_sha256": "bb3f2dd8bb90e70a5d4ac1ee97adf00b5890fc462775d336934d4f810be75b27",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2023-2024_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2023-2024_m08.json",
+    "source_sha256": "0ba41d81e1d5a08a2044add3f6c7ca953ff60beb1dcb7f3f0507d2d7a5205f4d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2023-2024_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2023-2024_m10.json",
+    "source_sha256": "1b2ef7805bd3aa94d4968af29fe31dbeec2796c649d1f5f5f9442849ea06c459",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2023-2024_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2023-2024_m12.json",
+    "source_sha256": "8e2ceb6696728ed8bb6693a0ea7ff21155440edebe0e31bd4dd2de8bf5d356f9",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2023-2024_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2023-2024_m14.json",
+    "source_sha256": "0681e11468b620982546d338b8307cb79d7d2d72944dcdea22666ed116d05612",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2023-2024_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cross_sectional_2023-2024_m16.json",
+    "source_sha256": "15755c3265d3493c13f8445038a0146e117a617d7bc5cfb8f2db0612491466d9",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cross_sectional_2023-2024_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cumulative_2015-2016.json",
+    "source_sha256": "358a7c6f3e71187f5857a0c22f82265081cedd9d9208bdf63d4350357d5e5dad",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cumulative_2015-2016.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2016_m04.json",
+    "source_sha256": "d7525b9cc0e6d4cff9b37d21f04fd74732001ebff884e62ce36ea470e4c8c83a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2016_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2016_m06.json",
+    "source_sha256": "6ea8df449bcaaa89e34e61d080a1dbb6934a7136c2396db8952b1dc3ae990600",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2016_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2016_m08.json",
+    "source_sha256": "c455008a0256e5733031d716cc2bc8d877d07c3bc5a537f8e8e83402bd097469",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2016_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2016_m10.json",
+    "source_sha256": "179bf343b6b16924d6b939a2d4ec1cb8c4883d897f75cac1c99f71d68e1579d8",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2016_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2016_m12.json",
+    "source_sha256": "01e2d39309b34a5873b6b56e68ece23e6a3dcf7240cb163cd3a7b60f7ad2f5ca",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2016_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2016_m14.json",
+    "source_sha256": "70a6a097f19f86e694e580de2223628662e9b4c9ed23cea3ca7448ae6c1b61da",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2016_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2016_m16.json",
+    "source_sha256": "c2f85c771fb1488e6b7d12b0b3d36b83c9d6ea68917c53ba7df488f32309af5c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2016_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cumulative_2015-2018.json",
+    "source_sha256": "88bc47471567ff59419d8faa22ee3f9194decb1bf2468dc693c5bc43daa35612",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cumulative_2015-2018.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2018_m04.json",
+    "source_sha256": "8c2bc262163f87d32f2488473d341a5ec40dc5103da5524e76258c1d5a3b362b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2018_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2018_m06.json",
+    "source_sha256": "fb24b38296254fa4e12767cac1a3a835b55fedfe21b50027cc1de40b31e1ce26",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2018_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2018_m08.json",
+    "source_sha256": "186cda8819cb03bd43935246e60a576434dd30aea8f458711c19bee19126dde2",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2018_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2018_m10.json",
+    "source_sha256": "3d7e16bce14c13967c25465557e601a19d65da2e394cd65d84e201557e0adf3d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2018_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2018_m12.json",
+    "source_sha256": "4ac3887d916190f24e687cba9fe95571c55072cbe0b19c2c0b2b8bb8db1f2e95",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2018_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2018_m14.json",
+    "source_sha256": "4f16b476763f88667a8bc13ccef550a939d690ed55d72d1f10850858722eff8b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2018_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2018_m16.json",
+    "source_sha256": "2fbc6cb511ae66f3ecbc365e8bd3885b46541853076ccf63278dda28bf6571db",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2018_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cumulative_2015-2020.json",
+    "source_sha256": "0a7f790021f94f32d2f2c2d6d3686b4a0ded2c257992dc03a7bc93a93a624db8",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cumulative_2015-2020.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2020_m04.json",
+    "source_sha256": "033a7c30414e616936560db980b1d8fdc34306083582aac81d21bff37abd2ef4",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2020_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2020_m06.json",
+    "source_sha256": "df6653f17c4c46584ae4f5453ab6da55e772db633370e748aeabee2a2ecde155",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2020_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2020_m08.json",
+    "source_sha256": "2396eabd7b474bfd4903b833125a851acead9cb5d7a9d8f54f80bf8f52e56692",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2020_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2020_m10.json",
+    "source_sha256": "1999a340e1fce29550665664184b738a58a2932689ba527431e3049e46d705af",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2020_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2020_m12.json",
+    "source_sha256": "fcd42d708c867aa39a8a6f161696f04b4cda5879651c8489ffa123247043b598",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2020_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2020_m14.json",
+    "source_sha256": "22b182743fffe417efa453bde07ceda0f520f984544a8d5a943aafdd6b4dee87",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2020_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2020_m16.json",
+    "source_sha256": "da3cf81d832beb86846a99f4fe4efca2dda01e66a6303f09a77a38df19cf82af",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2020_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/inputs/full/cumulative_2015-2022.json",
+    "source_sha256": "53ae7616f8a0d4f95f179ea4d732357e19700f935dbbd4a4fb415cae6e6b657d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cumulative_2015-2022.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m04.json",
+    "source_sha256": "429d3015fc4cd0b75a71ed4d979fba9d2ca844c350600125326cd97e2ef9ea98",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2022_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m06.json",
+    "source_sha256": "97cb3331f89c556f09634137ec75c2c4f1cfe5b4e5eb15b5a8a04384e67064f2",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2022_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m08.json",
+    "source_sha256": "43123b2cab9adbbbd58f150399f5628b8ae7b4c693af9f7e0581ef6f53deedb0",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2022_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m10.json",
+    "source_sha256": "049b8b281fe809f29237e64b0777f8759338b8b27fb704c5cc01fe558df25381",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2022_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m12.json",
+    "source_sha256": "5bc11aaf420356a938fb6dd86ac9ec7f8fee2ce1947c865fe9bcc6bbb0094e8a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2022_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m14.json",
+    "source_sha256": "8f64ae2141657c202a261e255a491c6d979d12ac6ebb5b3fbaf194920ee88455",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2022_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m16.json",
+    "source_sha256": "b2ebd31952441937b4b930fda919fed7680bf63235a606fb723a4077db30b61c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2022_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/inputs/full/cumulative_2015-2024.json",
+    "source_sha256": "78f1cbfc87ab6d937be440df81f6dac53a62afddab4b23f2ff2637b92a8cc821",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/full/cumulative_2015-2024.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2024_m04.json",
+    "source_sha256": "f16e0ff000f4dc1d5e8f7b71d3f70c40f2f5c877a666c94132b162fdf3e4e529",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2024_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2024_m06.json",
+    "source_sha256": "0a551d595f102148551c1f32388235c442e57f4dda41a57f6795e76bbca8fa79",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2024_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2024_m08.json",
+    "source_sha256": "db6c37a7c8f7725eac2d752d4f2bf61163163d4d7d3bc813fc52fa23f79b62a4",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2024_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2024_m10.json",
+    "source_sha256": "6df702b8eb0198328b8d9f99fb2ea70528375178308fe190b24819accfc36e62",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2024_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2024_m12.json",
+    "source_sha256": "4b8e6e04e6e4b50476921be28710310765c314f38b354f63766c154020a6dce5",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2024_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2024_m14.json",
+    "source_sha256": "15917bf785cff774c130b09af9d3af469ec35bcd9e363435b36fc5110971f07b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2024_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/graphs/cumulative_2015-2024_m16.json",
+    "source_sha256": "24083c09827815ae52b3d424f2c8cf95b48c48c69663998ef1448fb8056e4ac6",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/T/suppressed/cumulative_2015-2024_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cross_sectional_2015-2016.json",
+    "source_sha256": "1a264207aefb8b195b03b2efc96f3013334151d1fcc188d067452c517389daae",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cross_sectional_2015-2016.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2015-2016_m04.json",
+    "source_sha256": "99f81c5756be39fbf2fb15cb0a2f97857e31af54585ec9d40f65d26f580c77c0",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2015-2016_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2015-2016_m06.json",
+    "source_sha256": "746b4405fcc61be1c4890a2484f938bcf1bf5f28a58e17d73cde372b0ba4c255",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2015-2016_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2015-2016_m08.json",
+    "source_sha256": "4944a85e50e8d5a7e99749061429e4984332031deb2b50bea1308a71d22a06f9",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2015-2016_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2015-2016_m10.json",
+    "source_sha256": "b3e0ceee1d9cb0a23d952e94896a6b922b55d184c58d0e9fca58e9a234000d96",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2015-2016_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2015-2016_m12.json",
+    "source_sha256": "976bc82bc9466ac40562496bc9bc918521b0a24f27b8a76bf8fce30af21d8756",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2015-2016_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2015-2016_m14.json",
+    "source_sha256": "2408e3a537ef0c6049f91d54c2d163f79188bf75e79decd772c24b6f31b6c151",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2015-2016_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2015-2016_m16.json",
+    "source_sha256": "06575bd689ed083244c4c9b4d167843e81db3fce0b8b17f95456ac35be28f2bb",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2015-2016_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cross_sectional_2017-2018.json",
+    "source_sha256": "da2509b5ff99d734a823924f9c670615dccdfff5f57ce38afc6941aff90406fb",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cross_sectional_2017-2018.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2017-2018_m04.json",
+    "source_sha256": "cd059ecba7f4adc825f01dab745e463f54e227350ca84886a81f592da5c6f90a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2017-2018_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2017-2018_m06.json",
+    "source_sha256": "98cb60e2e4d921f1856b2cf12d8cb8a971afbcd30af37078a612de59e1cdc2b0",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2017-2018_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2017-2018_m08.json",
+    "source_sha256": "68a8f1ec2bd66b3f18a78483dad36739ded39bd773e85cab87ed6051f1dc330d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2017-2018_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2017-2018_m10.json",
+    "source_sha256": "40a3c0516d56714b84b51e09cbcaefebe604822fcf38db05b1d9356c09493c16",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2017-2018_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2017-2018_m12.json",
+    "source_sha256": "21dd30f1c33e587e4c3ad8863a6d020331cc8d8dfc6290329a650bd5030c568f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2017-2018_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2017-2018_m14.json",
+    "source_sha256": "3dbac12b4f0c956b57e788aa4d540e534de6726f211293a99856272060a3808f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2017-2018_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2017-2018_m16.json",
+    "source_sha256": "6a5975a78b7395b811fb15d09516dd227dc8f7e7f8453147e00af18f508bdb2f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2017-2018_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cross_sectional_2019-2020.json",
+    "source_sha256": "7d8f52d3c9e6ecc0f25a320280aa4878cd59cea15532ad217facbb7bbc758a4a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cross_sectional_2019-2020.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2019-2020_m04.json",
+    "source_sha256": "b21fdc9bf0604d1b73d88709427bb3f7345ffa2a94694d22d359efa6717a045a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2019-2020_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2019-2020_m06.json",
+    "source_sha256": "ded127a8c43584e1fe8eafbb8a0f028e5ccebd173320f3179178d15b9e4f869b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2019-2020_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2019-2020_m08.json",
+    "source_sha256": "47a17dbba3b9ceb1846c47bbdbbf37250f5c66631c462981b3b97085567272e7",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2019-2020_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2019-2020_m10.json",
+    "source_sha256": "b66e1bdfc3391666c84bc0bc6804f89ae32259e1ff3451fe27107c8ffb45bbae",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2019-2020_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2019-2020_m12.json",
+    "source_sha256": "fa223c5f09fb7a4f59ecef15956d512ba8ccba8a0ae5a77fe02fc6d502b14a4e",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2019-2020_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2019-2020_m14.json",
+    "source_sha256": "f2eeeea91625b031f56cb6116a2e6bbde1bd183d4292e5db66661dfba697cdaf",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2019-2020_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2019-2020_m16.json",
+    "source_sha256": "9272689bc2654975d16d331e8398f67e310a7dfb6e3f7bd801455481c9600982",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2019-2020_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cross_sectional_2021-2022.json",
+    "source_sha256": "3e8258549156b0cedeac9e0680c0edfd2f02dc13bc1965ec21634473e9f3eccc",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cross_sectional_2021-2022.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2021-2022_m04.json",
+    "source_sha256": "ad1fa1af2c35081dbb05ea4b7f5e7c4f414ed2041b35c0c3f66b9e57097b703b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2021-2022_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2021-2022_m06.json",
+    "source_sha256": "e52f8ca8208640b842ffb33e7c16670a4f033fad9eb43dc7ffd2278201afc82a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2021-2022_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2021-2022_m08.json",
+    "source_sha256": "43ed17dabc80dbeba4a6e9a311f3a62ebd79f47cc7475a10a173f8e5d6650861",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2021-2022_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2021-2022_m10.json",
+    "source_sha256": "d232335ca2a34006ed7d16deb100cfec1ba6ed2de07dc9bc1de2f0e9cbe976e9",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2021-2022_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2021-2022_m12.json",
+    "source_sha256": "2c003d30bf9ad88cfe0f6824ec00894eeedc2288555f06280ccb26c56229875f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2021-2022_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2021-2022_m14.json",
+    "source_sha256": "08f431f3d426b16ba5ac235d7ac17b1e6b42dd846dbe81005966be5488958d26",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2021-2022_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2021-2022_m16.json",
+    "source_sha256": "d50133ca7dbce4ef28f648583659f8dbdca7416a39b76bdc7421cb60c48404e4",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2021-2022_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cross_sectional_2023-2024.json",
+    "source_sha256": "059b66770921c125859afc549a8c29e48c654a75403aa967a822cafaa7877263",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cross_sectional_2023-2024.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2023-2024_m04.json",
+    "source_sha256": "1007c9108994a8f9e64d1ca88d4c29c05ec02fb486fbd3ae745a5014af33f8e0",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2023-2024_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2023-2024_m06.json",
+    "source_sha256": "f00ae88562823f4cd67a3d7700f830e1a76f5ba0bf62202d041984024bbd24a5",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2023-2024_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2023-2024_m08.json",
+    "source_sha256": "1f0ea1b2088c516b881e7d8bf93d021cd0119e65d4a02beac26e41806f5e8fa5",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2023-2024_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2023-2024_m10.json",
+    "source_sha256": "9825f3a898064dd32c04ab71dca0dcfa14a770ffd8ed65291d755da106bddb4c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2023-2024_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2023-2024_m12.json",
+    "source_sha256": "579d71d846dc68f53ed2254cf7da106dca5b1df56981c00438bbacc9c8a38d93",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2023-2024_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2023-2024_m14.json",
+    "source_sha256": "eaf838333157fc02e0b8041042dd8c4273ab21967cd162c34a6bf402fa5fd291",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2023-2024_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cross_sectional_2023-2024_m16.json",
+    "source_sha256": "5fe498eb2bab7623ef0bd10876a089fcd238a20a50c428de9738961869237e9e",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cross_sectional_2023-2024_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cumulative_2015-2016.json",
+    "source_sha256": "1a264207aefb8b195b03b2efc96f3013334151d1fcc188d067452c517389daae",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cumulative_2015-2016.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2016_m04.json",
+    "source_sha256": "2a1ce39f15a1fe63dd2919d65fd7e25eb2d8ace21edc3043201477402abcf67f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2016_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2016_m06.json",
+    "source_sha256": "8ae5cd17af1282e4b9577842f81ad02df7f8680b0808dcc2e458b3b8279b0c8a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2016_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2016_m08.json",
+    "source_sha256": "d44093f086701baaf080f14f138070136e5ec0717f5def2470d2f4accdd8e721",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2016_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2016_m10.json",
+    "source_sha256": "4f0b09dc148442621c5445532cf464e2d0b9b09c37223a2146ff94d48b890501",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2016_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2016_m12.json",
+    "source_sha256": "12b33550a19724b0f8fd9747743ba07b9df150c0716f52e44a1ecf05deaa0d62",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2016_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2016_m14.json",
+    "source_sha256": "a010c9536c94a94fbf14c21a74494cf8567570639fbfe115c9aaecbb8d80fefe",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2016_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2016_m16.json",
+    "source_sha256": "18f594fd7499824b6abd7748ebdeaef4d621d07e472307a019c749d0377035f8",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2016_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cumulative_2015-2018.json",
+    "source_sha256": "02406e7bf207eb8db885595744d712c27547b348d9f27e4060cef61275885478",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cumulative_2015-2018.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2018_m04.json",
+    "source_sha256": "7f192ff8da6cf2966c8b859444008f901a7010807e01f478735e68da238aabcf",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2018_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2018_m06.json",
+    "source_sha256": "13270761d2209d93dc2188500c3ca2958c4f655201e10819b093883cd73e9448",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2018_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2018_m08.json",
+    "source_sha256": "40b1e48bf8175aeac1477faf432dd1dccb7ec832bd77c8646aa1a4ef3da5168d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2018_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2018_m10.json",
+    "source_sha256": "ab000b5ca91d4ecff08e3b1c3176ab99b598631b836ce582ffae8f869af539cc",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2018_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2018_m12.json",
+    "source_sha256": "cbf70abebd8ede592882e24eef4a7333f4f037a470f1bc16f2cbf57e7d34a426",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2018_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2018_m14.json",
+    "source_sha256": "d19b35c4914b8f5f158b9c52020e5b5e6749715b8115f84850d47212dff5448c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2018_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2018_m16.json",
+    "source_sha256": "3c94977131062b85e9a42e5f0285f73358687952e91ed33e6d670e4abc070d5b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2018_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cumulative_2015-2020.json",
+    "source_sha256": "26378e8da4905ca53e013a82f3f1ed8c91e190ed1c1ba54888d5269f23cadb17",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cumulative_2015-2020.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2020_m04.json",
+    "source_sha256": "9468bcb3ebfaaf26cf5bde335ecd9e2165c85f84869f62e68a657b40239a5904",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2020_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2020_m06.json",
+    "source_sha256": "7c3f1f643f970806fb6640d4f2a0a4b7b029c047d7ba600c18d7ef107885f468",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2020_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2020_m08.json",
+    "source_sha256": "11e77114b476ebead64d11a749f6c526261fd612043ea12f405a69c0c95c4d82",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2020_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2020_m10.json",
+    "source_sha256": "596c509e4570eb819a7897a36f5f2beccf0e3ef2859f2b33b5f67f0fdcfc4ca3",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2020_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2020_m12.json",
+    "source_sha256": "c5950d6bf09142063196377d28e3ab84ec32f414da38ba859cb8c038115f3bf7",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2020_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2020_m14.json",
+    "source_sha256": "de397b1c69ff0b6021a6999e24486467c4451efcb51c31ae6fb11ce80b959eb8",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2020_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2020_m16.json",
+    "source_sha256": "3a645a59ba39b07efd0026d16e818b54ab84fdedf10652e91c05c152b494c4f7",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2020_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cumulative_2015-2022.json",
+    "source_sha256": "827e9fa74be16e813071cd515e14f61d85c5f65de7cf902585f11e20eb69fcc1",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cumulative_2015-2022.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2022_m04.json",
+    "source_sha256": "a05d0c861160f1094e8dc18eae204b84fef1483f18e3636ea5ae516e5c80696d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2022_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2022_m06.json",
+    "source_sha256": "114bdfb74ca76822ea8f46e3a70ee730da393fff0a3d5234fb2a1f161ae8392c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2022_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2022_m08.json",
+    "source_sha256": "bece6d5f980a72cf15fe7bacfa965dbf64e33ce8216b3fe2d242e6b17cfb8262",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2022_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2022_m10.json",
+    "source_sha256": "aa5836cb6c42cbed115c2bc42bae0d1addd5ab94946f8931f718a65c85dc99de",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2022_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2022_m12.json",
+    "source_sha256": "6d8db844be9a8d647aec4fafff25d86fd99650c5da4617b1ff18d0058ad74c5e",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2022_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2022_m14.json",
+    "source_sha256": "6de06ade102fb85f068c68723811fef0d488ab314170c1c34e3177386e7233f5",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2022_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2022_m16.json",
+    "source_sha256": "6a8c0f5ac4dd5692d2bb195afffe20a9cef140bd119bcc325156b5c538673a3e",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2022_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/inputs/full/cumulative_2015-2024.json",
+    "source_sha256": "9235437954f5946cfa563bf2ac079463bc8920021e80e9eea9e56e20e72cf51e",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/full/cumulative_2015-2024.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2024_m04.json",
+    "source_sha256": "9f6a1cb2f0de0dd7664d264fd2b4c93a8f657f91127a8906afd2fe10edad95fd",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2024_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2024_m06.json",
+    "source_sha256": "5a3b3b52764ace9dd468ee06c0ca02ad293981622a5c0c296ddf9f554b2983a8",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2024_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2024_m08.json",
+    "source_sha256": "de81841047c939a8290888c02e2cd64c9659137f460e2558e43bccf58d200e78",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2024_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2024_m10.json",
+    "source_sha256": "20df59424b5c927ad2e4a7dfc4b329b7c9e783f87aec4710dbc385de81713f63",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2024_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2024_m12.json",
+    "source_sha256": "ba1438ffdf0cfc06c55913122b8ffe29513170ed71bfdfb30ca489a2cd241025",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2024_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2024_m14.json",
+    "source_sha256": "d10602c843e697832586f1c9c0950122702bc12735ca4b7c84449ba22a1a8033",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2024_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases_normalized/graphs/cumulative_2015-2024_m16.json",
+    "source_sha256": "8fbec15658b9a8dc8a5ac3a060076dd73f98490188588986c7c0f916f9fb3b96",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/N/suppressed/cumulative_2015-2024_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cross_sectional_2015-2016.json",
+    "source_sha256": "8da7df9c4aec2d0f3be1b0efe9b4bcb082d4cc54523d2c5b0956df6a6779d029",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cross_sectional_2015-2016.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2015-2016_m04.json",
+    "source_sha256": "bab6e10d214e94adc275328fbda09befed15e14a17d0611e064870aa17606843",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2015-2016_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2015-2016_m06.json",
+    "source_sha256": "484ca79344052dfcf045d5f488f6e36963678b5f7a1552e7f41cfa12fbf5af01",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2015-2016_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2015-2016_m08.json",
+    "source_sha256": "bed8a7b0ba4e8394f531dd6494dba5152654846e643d656574b43cfedcebda5d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2015-2016_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2015-2016_m10.json",
+    "source_sha256": "3e66c5d54588e7908e935eb0618b7c014b16fd6cd7c75db91d9b6cab2b48ee60",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2015-2016_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2015-2016_m12.json",
+    "source_sha256": "3e224d1d329fc69c4462af0b19da48b6987d6e31b9fa6ba18153e7fc42236d5d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2015-2016_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2015-2016_m14.json",
+    "source_sha256": "ee7e93cbb75151734e65e04146bfdd24e52d6731d52aa331858d11af9df01d41",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2015-2016_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2015-2016_m16.json",
+    "source_sha256": "048c8371e4db31aef0d67fc10ffdfd304413c1956d07a1759c64d82914102f9f",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2015-2016_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cross_sectional_2017-2018.json",
+    "source_sha256": "87210a7a9025dc8490eab6bf63587b45436f202bc2ca6f54340e522c0a7905bb",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cross_sectional_2017-2018.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2017-2018_m04.json",
+    "source_sha256": "dc5c4b043185e4444b3d28aba89a1887963bfc4bfe17692a0c884fa1fb1dc5ee",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2017-2018_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2017-2018_m06.json",
+    "source_sha256": "17d75d5dd5d0fa23c50c037eb245d08d841193dd0d83f874934ad89b2717ff04",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2017-2018_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2017-2018_m08.json",
+    "source_sha256": "c844e66f771942556f59237c2db580de19e156b348d0ac439b538b61cfd66f3b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2017-2018_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2017-2018_m10.json",
+    "source_sha256": "2157051d8bdf25af088711a2c0be9489941e67a1c22a10d16dafbdee52e51c70",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2017-2018_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2017-2018_m12.json",
+    "source_sha256": "63910929f27c9a3d1a9eb6b3948d1e70e34badc4209ca0fda10ac09ceb6d6098",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2017-2018_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2017-2018_m14.json",
+    "source_sha256": "09041ece4313e93938e209554ed89cdef63ca3f4b8d884987fbb85e754bd6f69",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2017-2018_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2017-2018_m16.json",
+    "source_sha256": "f408f1756e21bc5d5bd2960ec1c401fcc73a55d263fd53c98f6fe7b53c423809",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2017-2018_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cross_sectional_2019-2020.json",
+    "source_sha256": "2af3408d313c7a6a01657ecdce55c7888c7d3c111b59a42bc0d35219234982ac",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cross_sectional_2019-2020.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2019-2020_m04.json",
+    "source_sha256": "21a03029c8f007e8c447e1c8e42fe7fb8526ede912be1e368a23f73d0c905eac",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2019-2020_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2019-2020_m06.json",
+    "source_sha256": "09b21eaf2d6afde8a3c3934ef5ec1274481b51265687dfa79e7af17c9c49d060",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2019-2020_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2019-2020_m08.json",
+    "source_sha256": "a718e0980714b1e97001337df590714dfa3f6b08c6fa4513b721d50df669f092",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2019-2020_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2019-2020_m10.json",
+    "source_sha256": "7a86e4ee1016616e163fe011e674e1bb6aad68e17d3716e126b6d26d99d4d221",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2019-2020_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2019-2020_m12.json",
+    "source_sha256": "3815b597ee2c4db5c3d395575c614042d76806817d00b389f9e2b5ff74d9f63b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2019-2020_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2019-2020_m14.json",
+    "source_sha256": "d428c039457e38570f926ce0064dda776422217991dcc2814ba8a20106de5753",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2019-2020_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2019-2020_m16.json",
+    "source_sha256": "55138ad6107a7717f50f3e4a7e29a4675007a01d414d6c0b6c8a7781dea9dfbb",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2019-2020_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cross_sectional_2021-2022.json",
+    "source_sha256": "7afc59e0194aad7c1e7559e366f0dc5229465c54f4ec2481915ff0d590fa1f57",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cross_sectional_2021-2022.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2021-2022_m04.json",
+    "source_sha256": "43818a9c14c4fc55f49c08b7bcf821a71b5bd0a5749876d6cfd2f6e294713130",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2021-2022_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2021-2022_m06.json",
+    "source_sha256": "a4a2e3fe522d46e920f9e18222b9c67fc876a20a2dee6c69546b83327efc9a41",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2021-2022_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2021-2022_m08.json",
+    "source_sha256": "3b6f0fd364ec1872bd4d2e1af9f346e5a94e0bbcd4b40c0564a8cde10470c294",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2021-2022_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2021-2022_m10.json",
+    "source_sha256": "aadcb492a619277b602743846765e8d33941f1d63910161390e3b1d950bf8554",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2021-2022_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2021-2022_m12.json",
+    "source_sha256": "bf0c5d293f0cb8ac0f4eab88a73efdbe69117e34e35ecfb88c72dcabc3ead9de",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2021-2022_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2021-2022_m14.json",
+    "source_sha256": "a81a5d8948aaff26975115bfabc1e48144e76a7cb536c55c18b519c443ffe3b1",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2021-2022_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2021-2022_m16.json",
+    "source_sha256": "e87ed58c4401afb207d2f035b2bc7eccb2283bb5b954cfca0d6da0206e53c6a0",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2021-2022_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cross_sectional_2023-2024.json",
+    "source_sha256": "590a1c706f389a65af289267f1f2ae11bc1d250fa1dbd0221bbbf28c7559f381",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cross_sectional_2023-2024.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2023-2024_m04.json",
+    "source_sha256": "c5b62364a92e82c3aa04f4120234ce27230935c89ccd874ded75bf176f46ef75",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2023-2024_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2023-2024_m06.json",
+    "source_sha256": "6dc0fcd9665929815da6ff3834a651af67ce67751a217582a3de6fbbdc45133c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2023-2024_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2023-2024_m08.json",
+    "source_sha256": "375b215450d4efeb6292c24c1d2fa60ffc1db4d58140c967acb5f81fbc5198c1",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2023-2024_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2023-2024_m10.json",
+    "source_sha256": "4725db9bea03a0dcb4e5f7ea157731d08a22878c160963c3ddb9abf96d140716",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2023-2024_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2023-2024_m12.json",
+    "source_sha256": "d61d9e5671bf5a0bf5f44bccab4fd0357e2dd38a3bb1300ab0032a5eb175946d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2023-2024_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2023-2024_m14.json",
+    "source_sha256": "9bba592b3064aca8aa0e7a7efd8e34054c9509dd03c41870dde26ea472383830",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2023-2024_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cross_sectional_2023-2024_m16.json",
+    "source_sha256": "2a7fa8556012a6b627b3ee48ed1b444ae137d8f4f7bc936cab090d0f669b087b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cross_sectional_2023-2024_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cumulative_2015-2016.json",
+    "source_sha256": "8da7df9c4aec2d0f3be1b0efe9b4bcb082d4cc54523d2c5b0956df6a6779d029",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cumulative_2015-2016.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2016_m04.json",
+    "source_sha256": "d6324d0ba280616552fdece0ae39937f2f52bd8bd9d463a6189ecccb597fda4a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2016_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2016_m06.json",
+    "source_sha256": "9aa96431cad4cc0dd8913b5d55146d5e14fe936942677e58fb6582e6203587fb",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2016_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2016_m08.json",
+    "source_sha256": "d7786d24f136b0a20260fcc1de81f10a95ba28c211ad1040698bd4b4a24dc7a3",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2016_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2016_m10.json",
+    "source_sha256": "d8e4c5aca20cde34f655be4be7d52a0cd0b741796a336ca7aea596da3c942466",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2016_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2016_m12.json",
+    "source_sha256": "e0f7f52b9115e12140c6940b4729b665e0b046fceb854aa338c035585c429b3c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2016_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2016_m14.json",
+    "source_sha256": "5886197afc73d9e605e417cfc73561cf30690690cbe3e25301e530fe335a76a5",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2016_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2016_m16.json",
+    "source_sha256": "8f91ae093d3e7b581daeb3f0352bf2da62b26e5a5e43b00dbfe732067320bb77",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2016_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cumulative_2015-2018.json",
+    "source_sha256": "d88101e407c4c355141675040115f366ec8793f68073cf0a98cb324e9314f69d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cumulative_2015-2018.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2018_m04.json",
+    "source_sha256": "41232b49b606d5476a36df3a4b1c14464a6c1d90c0149bb6b1fe0078794e2d7e",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2018_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2018_m06.json",
+    "source_sha256": "2c0f77a0e41b04e8045e9b0fcc0fbb60d3a44944e0297e3dfda61b9b72ce163a",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2018_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2018_m08.json",
+    "source_sha256": "84e4e7c0ddc83b9608832fc3d909c5b35a9c9610a77e885ca9239815aa5d67e1",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2018_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2018_m10.json",
+    "source_sha256": "9176ec2eaf899afb5cb5b773283d4036f0a631d1f80410bc2ab5c3f58fac4674",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2018_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2018_m12.json",
+    "source_sha256": "9b47b83854a4d4cccb5c557ba406d1dc0754523517f75fd47fe9376515d2ce91",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2018_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2018_m14.json",
+    "source_sha256": "228f0a42708ad4b327a5da3b809d1399a5ccd60242b5fd79aa7235b8027db0f6",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2018_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2018_m16.json",
+    "source_sha256": "964ebd61b6d1a63089a4d4396ea6e01d17f7b7cf336a4e278abd972223f44da0",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2018_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cumulative_2015-2020.json",
+    "source_sha256": "214b23b3b8b5c263e9738adcaab251719c332c43e7e0a1c58c5553a6b6751d1e",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cumulative_2015-2020.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2020_m04.json",
+    "source_sha256": "d05236b9ea24fd2bdbd0c3fb684e47a7e2195593ec8001694a0614c51c4e4eaf",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2020_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2020_m06.json",
+    "source_sha256": "b68576a57319bae9c730ba9543efed1ad04741dba0568e1101c2644f816c396c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2020_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2020_m08.json",
+    "source_sha256": "5b55fbb49859255cbb0d7858c939a71226dfa86a82705b10d2fccbf8cd38ce2d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2020_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2020_m10.json",
+    "source_sha256": "d22d694cff216f2a66f6169e33ce6c6e4a2254cab3f3e4fda0c9555949476191",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2020_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2020_m12.json",
+    "source_sha256": "acf4f8c4a130834b5ae08c43973c766322e78778df1ed2aebd8f1fb45ae96613",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2020_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2020_m14.json",
+    "source_sha256": "a9a04659f8a2392f48ee09d6fef7235c09dbd95e50d305da371b3cba21e04a86",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2020_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2020_m16.json",
+    "source_sha256": "78c02b6c9bdf24b06eb1234abcead1fd8e414b64777a8e6be9ff893a67aa4a46",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2020_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cumulative_2015-2022.json",
+    "source_sha256": "6894d523f00fc81520960fcad1b13de0d26bd9921ab807e4cc11e9dc07716cd2",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cumulative_2015-2022.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2022_m04.json",
+    "source_sha256": "57a3d9d8475017f11586f8334a9ae8ee51f7ac33c186f41fa3d0c296cd72f95b",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2022_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2022_m06.json",
+    "source_sha256": "833fe1f9649caaca9095efa6f5c3fb282817260b797210862e5bd000b3c12d73",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2022_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2022_m08.json",
+    "source_sha256": "3051a13d900b6277a8f780540810dfb47448ee067040c5025034da362c02c1dc",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2022_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2022_m10.json",
+    "source_sha256": "590a811b145463a4c3c6e643c99bf07eb19f3abe6c624e2b293aa005b1dcae21",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2022_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2022_m12.json",
+    "source_sha256": "814fc07f99e540900da80da7f704acd31f6c29c3264de8e06c05c79de68aa3f1",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2022_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2022_m14.json",
+    "source_sha256": "6ec85c3a8e6cc687325d94c11398ba67a7f61cf4e7c75eb7b13199988d88812d",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2022_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2022_m16.json",
+    "source_sha256": "f303ccd92136db71bfa584b023de80d58582d077bd11305807ff78a2d3ff3075",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2022_m16.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/inputs/full/cumulative_2015-2024.json",
+    "source_sha256": "0aac3ea68d092f6562ec5da0d3003cbce0e44bc6e352dd05b0b92f8b8e801c58",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/full/cumulative_2015-2024.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2024_m04.json",
+    "source_sha256": "50f908b038286f87b6b55c540d6c9fe16bf310310fccc42f4637ed2b609aea55",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2024_m04.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2024_m06.json",
+    "source_sha256": "7194cef4299fc48911638d80e076a84a233a741c18f1bbbb014828857c4a078c",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2024_m06.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2024_m08.json",
+    "source_sha256": "db0f09dbdf8d5d87dd883a9ec95c604022fcd248f1a9e186bd674fea0597c8c2",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2024_m08.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2024_m10.json",
+    "source_sha256": "2b1e2d0463ee41142f60bc5d0a2a91adde9539426feabc65b496acb6570e8d55",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2024_m10.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2024_m12.json",
+    "source_sha256": "4cb77e0729733605ea4469ed5befdc03811f957f84b757bb359fd080bbe103ec",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2024_m12.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2024_m14.json",
+    "source_sha256": "1deb0ba635896aad7880e87a94ee2e0ed09c291dcc735762dc1d57b70f6b32ac",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2024_m14.json.gz"
+  },
+  {
+    "file": "data/frozen_graph_inputs.zip",
+    "source_name": "comparaison_expressions_tokens_20261110/phrases/graphs/cumulative_2015-2024_m16.json",
+    "source_sha256": "0d695266666f5842532748e2e0cba4714531b1dad64fb49718016c8ec65a7cdb",
+    "operation": "lossless gzip JSON stored in ZIP member",
+    "archive_member": "data/graphs/P/suppressed/cumulative_2015-2024_m16.json.gz"
+  },
+  {
+    "file": "results/keyword_representations/comparisons.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/comparisons.csv",
+    "source_sha256": "66d4fdd415a5e5eb6ce9513a32a38f72535328106ad9a72475485bd667eec0f2",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/document_availability.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/document_availability.csv",
+    "source_sha256": "5b4fdd4bb993eeaa93d8e137f33e67d1422a1edca5b02b946c9b4bf5b6009986",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/graph_statistics.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/graph_statistics.csv",
+    "source_sha256": "d35bc411c8aeff12871c751fc047c92b9582bcc58d505d00f27aff418751fe21",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/hierarchy_depth_summary.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/hierarchy_depth_summary.csv",
+    "source_sha256": "1e3f89360103f0871973437fd645b8691f7623481cee8b398a2c41baf8c3aebb",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/persistent_core_coverage.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/persistent_core_coverage.csv",
+    "source_sha256": "53cec19ee0f25c257204d3961a8f23609af2c9f248814e09bcec743e12294aa8",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/persistent_expression_cores_with_support.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/persistent_expression_cores_with_support.csv",
+    "source_sha256": "4f714a69819852120efa8d94ae1344d8a8b83292b620b62f89175a5db3f022fd",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/recurring_persistent_expression_cores.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/recurring_persistent_expression_cores.csv",
+    "source_sha256": "8e8304fd7c8aadaa298f744075ac1d2be517c33175219c9e9fb559d506888862",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/reference_document_agreement.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/reference_document_agreement.csv",
+    "source_sha256": "e14ca84975960cd95b11dfd593fea0d3842150a694edd692e9c7135e88e81ab4",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/seed_summaries.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/seed_summaries.csv",
+    "source_sha256": "b140a2b283091420a7e6c8b8c9e55112757fa7fc09ce447c2895386cc320df2b",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/run_quality.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/run_quality.csv",
+    "source_sha256": "f33832335769b1d44a5593995a695c282c6aa70a1a0cf7442b9039175f1f2bfe",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/claim_probe_results.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/claim_probe_results.csv",
+    "source_sha256": "c34478680cf2cfd63d056d440db40a548f4f19018eed3dd02816e972941d0429",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/claim_probe_summary.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/claim_probe_summary.csv",
+    "source_sha256": "e3b77dfad543ae21f4b9a2ba55c147e3d71164806bc0a6e1fe0726f5edfa1723",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/claim_probe_source_trajectories.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/claim_probe_source_trajectories.csv",
+    "source_sha256": "a46268e9f7afb730f99a1fc8e9923da8060293cd91592dac7c502c13be9ac8c2",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/keyword_representations/frequently_coassigned_pairs.csv.gz",
+    "source_name": "comparaison_expressions_tokens_20261110/tables/frequently_coassigned_pairs.csv",
+    "source_sha256": "0e5347eeacfd35ff10e585ae1c4b0cd15b7ca62393f2938071bc176b5e586212",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/document_projection/u0_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/u0_units.json",
+    "source_sha256": "1f8c3d2ce553ad0eaa1eaf7a7bdfaba6fe417baa7132085c16cd9b9b59e19fcb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/u1_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/u1_units.json",
+    "source_sha256": "d5f7b506d861567c49908eec3dd25b3d68b54f7799ee24ca75242f19ccdabd96",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/u2_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/u2_units.json",
+    "source_sha256": "93911034420af2825d008ab37ad43f6d02bcbaca02011a272f9c8ef2e58d48ab",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/u3_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/u3_units.json",
+    "source_sha256": "ea575b84af532cec43b2e920b1a5ecf9eb121e3b00e47ea85ae7dd315038e3c8",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/u4_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/u4_units.json",
+    "source_sha256": "6a3b207be67a4744a7fbbcce11009ba47d274977246029f2889e1ea98deafb5a",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/x0_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/x0_units.json",
+    "source_sha256": "1f8c3d2ce553ad0eaa1eaf7a7bdfaba6fe417baa7132085c16cd9b9b59e19fcb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/x1_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/x1_units.json",
+    "source_sha256": "042795926aef9adf814be91b6423deb9bc9779821b7390aa0d29a2e80843afe4",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/x2_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/x2_units.json",
+    "source_sha256": "66551f3ad886b66657c5e3d4cb7f28c7ba1ec2ad7e6bd73544adeb59d6f40723",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/x3_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/x3_units.json",
+    "source_sha256": "ed86df135edac9f11dc627e6c4a44fb32a24d19300eb4dd82384dc022e247ced",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/document_projection/x4_units.json",
+    "source_name": "comparaison_expressions_tokens_20261110/metrics/x4_units.json",
+    "source_sha256": "09a1103729c654678ed9c32b07ca4591383797f445c3b66e7cd841d6d83556a8",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S1.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S1_coverage_sample.csv",
+    "source_sha256": "cc7f258c5003f4c7cb723222237f7a06c0912fbf8a407cd3baf5a3ffb78dbacb",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S2.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S2_records_without_usable_keywords.csv",
+    "source_sha256": "a17a7be8dd5b3b55126593ab662cc7e34301a570084a145ac679c67e4812c622",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S3a.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S3a_token_source_forms.csv",
+    "source_sha256": "c80b36147ba2b2f22e9ad027978a30ce32001ef9c9d71bcc5cffb3abdca89cf3",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S3b.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S3b_expression_provenance.csv",
+    "source_sha256": "648d3100e243c9305fea74262614003137542efe8f12b505bc945e8885505782",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S4a.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S4a_Figure2_membership_key.csv",
+    "source_sha256": "19226e89a13a45ab628f6089570e58ba31249e8efd74444c3cd320b6f8825261",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S4b.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S4b_Figure5_membership_key.csv",
+    "source_sha256": "9f3505e7edb8b2b4ab0f43536ec128ea1fe371695c83f82bb5115b969cadfdfd",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S5.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S5_Figure3_four_series.csv",
+    "source_sha256": "10b43492dea6ba595d66f0b56b24a2f0161f33f47c91fc06e41d103d0d761e6c",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S6.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Supplementary_Table_S6_retraction_flags.csv",
+    "source_sha256": "d89581c3f554d9779cae32f6af0990be6fea63abeb03eaa1db03a61eea01c336",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S7.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/S7_reference_runs.csv",
+    "source_sha256": "98f57f5eaae1453e593031ac619690c1ff67342bad6340b10ce6661fae1076c2",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "supplementary/tables/Table_S7_parent_child_memberships.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/S7_parent_child_memberships.csv",
+    "source_sha256": "0fcc00a434959fc80e803c9f49310f63ffa3af7bf8691b7ab7f5e80b0ca87219",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "data/reference_publication_version_membership.csv",
+    "source_name": "revision_article_240_controles_20261112/Supplementary_evidence/Reference_publication_version_membership.csv",
+    "source_sha256": "e8cd0e93ed9939e2cf8b00abcdd8d560b69f684f5ff6ebe831acb2b69b1f4251",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/prevalence/corpus_denominators.csv",
+    "source_name": "prevalence_statistiques_comparables_DE_20261111/tables/corpus_denominators.csv",
+    "source_sha256": "9ddc078d98f04b6a568287f79ba023e1f947b92acf6becac6091dcebab6cb690",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/prevalence/keyword_prevalence_complete.csv",
+    "source_name": "prevalence_statistiques_comparables_DE_20261111/tables/keyword_prevalence_complete.csv",
+    "source_sha256": "7f043705b59174e92b93253d704dd023fb0e1a0165afec9c74062119df66d4a8",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/prevalence/first_last_keyword_changes.csv",
+    "source_name": "prevalence_statistiques_comparables_DE_20261111/tables/first_last_keyword_changes.csv",
+    "source_sha256": "cf9266a44a3b4e27d9f5a8a42092b3ff4127be9df209f52aaee6648a0f6bf1fc",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/prevalence/focus_pair_prevalence.csv",
+    "source_name": "prevalence_statistiques_comparables_DE_20261111/tables/focus_pair_prevalence.csv",
+    "source_sha256": "201481029d3df8b44eb59953a24cd493b0bfbc25119e0e7115cddb881fc9d51d",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/prevalence/network_statistics_all_thresholds.csv",
+    "source_name": "prevalence_statistiques_comparables_DE_20261111/tables/network_statistics_all_thresholds.csv",
+    "source_sha256": "52d351a05d5f7f1e7bde5863d51b360f8ba1bd197a7ec6aad1a488624cf6e735",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/prevalence/node_connectivity_normalized.csv",
+    "source_name": "prevalence_statistiques_comparables_DE_20261111/tables/node_connectivity_normalized.csv",
+    "source_sha256": "6811a57c208775e51612f6363b1adb427bc802c4b1342c58d922299cc99de993",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/temporal/reference_transition_summary.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/reference_transition_summary.csv",
+    "source_sha256": "10e950cba2fb61132cc2a548f3577a8f288fd19f45f669e4b47d61be178290a8",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/community_overlaps_reference_visible.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/community_overlaps_reference_visible.csv",
+    "source_sha256": "8a44f303902e21c2e4815ef130948f3864a8a59233562582172b14c8feb9a7ff",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/community_overlaps_reference_full.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/community_overlaps_reference_full.csv",
+    "source_sha256": "c502e0eabf933540837e895b177d466c1a732503e4b83712b9c29727e7327e87",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/flow_core_support_summary.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/flow_core_support_summary.csv",
+    "source_sha256": "f2d8090cdd080c0752464d87440e8cc793d63476469caa42ae6c2d3d382f7519",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/maximal_temporal_cores.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/maximal_temporal_cores.csv",
+    "source_sha256": "b35210749705f581d62fed783c40113a79297b97dce7901c7e818afb5a05abc6",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/threshold_seed_summary.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/threshold_seed_summary.csv",
+    "source_sha256": "31bf571ccbcbe0237e782db99f3d2764f4043b4b6e4f91e80efcda4a0f30c42a",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/level_availability.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/level_availability.csv",
+    "source_sha256": "138abd5423494391fa5deaf61bcb8f8b5b16987432825f80762c495dcdcd588b",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/additional_level_parent_child_memberships.csv.gz",
+    "source_name": "correspondance_temporelle_DE_20261111/tables/additional_level_parent_child_memberships.csv",
+    "source_sha256": "653515326260affded6530584f9d92c2192e2959036b05c0a91a80c97a05a0a8",
+    "operation": "lossless gzip compression"
+  },
+  {
+    "file": "results/temporal/archived_temporal_overlaps.csv",
+    "source_name": "correspondance_temporelle_DE_20261111/claims/archived_temporal_overlaps.csv",
+    "source_sha256": "796f27307f0675cd2cea39b8bca8822e52be987abcb59c19d2ca41fdab799491",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/temporal/archived_transition_coverage.csv",
+    "source_name": "correspondance_temporelle_DE_20261111/claims/archived_transition_coverage.csv",
+    "source_sha256": "e1eb838aa9711e7b9414a91767d3faf6440efdaa49d01e04eb5e0bcda26433c2",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/temporal/archived_communities.csv",
+    "source_name": "correspondance_temporelle_DE_20261111/claims/archived_communities.csv",
+    "source_sha256": "dd234926945e382dede6382134971c9e331b4e01c4cb7ac5c05ec536a07829f9",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "results/temporal/archived_focal_states.csv",
+    "source_name": "correspondance_temporelle_DE_20261111/claims/archived_focal_states.csv",
+    "source_sha256": "d862506a8a71c71a301317e7c6d3e72e38abd7c4da4730b18c6b93715a5c1290",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "data/openalex/eligible_reference_publications.csv",
+    "source_name": "verification_rappel_OpenAlex_seul_20261113/controle_independant/primary_full_publications_OpenAlex_reference_records.csv",
+    "source_sha256": "cf459a8b716a7303dc97dfafadd0e7d55c46314bc377a0833682b7209f4e3a62",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "data/openalex/matched_publications.csv",
+    "source_name": "verification_rappel_OpenAlex_seul_20261113/controle_independant/primary_full_publications_OpenAlex_retrieval_matches.csv",
+    "source_sha256": "67d430645acd80d622a8c4c0a9682f44e4dda032f0fa5f33577ffc426fbb4628",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "data/openalex/publisher_verified_alias_matches.csv",
+    "source_name": "verification_rappel_OpenAlex_seul_20261113/controle_independant/publisher_verified_alias_matches.csv",
+    "source_sha256": "7c48de073b8c7a73e04f0a8edc177b62fdf4245cd2bd842380e6264a26b074b0",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "data/openalex/search_manifest.json",
+    "source_name": "validation_couverture_independante_20261112/database_reference/manifest.json",
+    "source_sha256": "8cd0d2cfabbaed7c77856080ebedc9738fe813bf620bf6244e3182e1f4c73539",
+    "operation": "metadata selection or lossless compression"
+  },
+  {
+    "file": "src/vendor/networkx_leiden/leiden.py",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/sources/networkx_leiden/leiden.py",
+    "source_sha256": "f26484e1820417d865c9f54c012417c16bad3634e33ce1422a2e04cab88ac7da",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "src/vendor/networkx_leiden/LICENSE.txt",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/sources/networkx_leiden/LICENSE.txt",
+    "source_sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "src/vendor/networkx_leiden/provenance.json",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/sources/networkx_leiden/provenance.json",
+    "source_sha256": "2b9b110bda76d4a06d7e6541626f1f6af09959abc7b7ce675e55587eb2c705ee",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "archive/analysis_source/campaign_DE_complete_20261110.py",
+    "source_name": "campagne_complete_mots_cles_auteurs_20261110/sources/campaign_DE_complete_20261110.py",
+    "source_sha256": "ba3f181470f54076eb6ace10804bd64a3d008ad111412409871044871ec359f5",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "archive/analysis_source/campaign_phrase_token_20261110.py",
+    "source_name": "comparaison_expressions_tokens_20261110/sources/campaign_phrase_token_20261110.py",
+    "source_sha256": "a4bf8ce8e83ce7b0ed7e87a570d5f1fc3715e5d11f3d2e0ead8e22bd7fd101fc",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "archive/analysis_source/analyze_phrase_token_20261110.py",
+    "source_name": "comparaison_expressions_tokens_20261110/sources/analyze_phrase_token_20261110.py",
+    "source_sha256": "c541ba35ec0b2954d1b9920650ea3e6611740f2d07b0a6a24e529408dc84aa35",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "archive/analysis_source/sci2_normalizer.py",
+    "source_name": "comparaison_expressions_tokens_20261110/sources/sci2_normalizer.py",
+    "source_sha256": "f65e73f5a2aac0f2e0252ddaafa744e8b4e5dff3820cabfe76b7324ab680b7cf",
+    "operation": "byte-identical copy"
+  },
+  {
+    "file": "archive/analysis_source/sci2_pruning.py",
+    "source_name": "comparaison_expressions_tokens_20261110/sources/sci2_pruning.py",
+    "source_sha256": "d777a13e8b06e75f92d727dee5885ec906469ff5b403d73efb05aa7964625141",
+    "operation": "byte-identical copy"
+  }
+]

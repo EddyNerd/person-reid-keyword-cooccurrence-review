@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the associated article when using these supplementary materials."
+title: "Supplementary materials for Person Re-Identification A Longitudinal Keyword Co-Occurrence Graph-Based Review of Its Evolution Toward Open-World Applications"
+type: dataset
+authors:
+  - family-names: Bengono Essola
+    given-names: Edouard
+  - family-names: Tsukai
+    given-names: Makoto
+version: "2026-11-14"
+date-released: 2026-11-14
+repository-code: "https://github.com/EddyNerd/person-reid-keyword-cooccurrence-review"
+url: "https://github.com/EddyNerd/person-reid-keyword-cooccurrence-review"

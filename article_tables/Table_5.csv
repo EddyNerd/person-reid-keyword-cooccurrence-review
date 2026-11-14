@@ -1,0 +1,7 @@
+﻿Contrast,Algorithm,Eligible records,Share of 834,Valid pairs,"Median ARI [Q1, Q3]"
+T-N,Louvain,355,42.57%,30,"0.163 [0.137, 0.197]"
+T-N,Leiden,244,29.26%,30,"0.162 [0.142, 0.188]"
+T-P,Louvain,369,44.24%,30,"0.140 [0.125, 0.167]"
+T-P,Leiden,251,30.10%,30,"0.140 [0.122, 0.160]"
+N-P,Louvain,576,69.06%,30,"0.301 [0.284, 0.340]"
+N-P,Leiden,578,69.30%,30,"0.298 [0.277, 0.317]"

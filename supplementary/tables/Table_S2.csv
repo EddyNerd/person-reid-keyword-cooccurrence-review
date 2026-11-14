@@ -1,0 +1,74 @@
+﻿WoS accession number,Title,Publication source,Final publication year,DOI,Original author keywords,Reason for no contribution to keyword network
+WOS:000365645700005,Modelling errors in a biometric re-identification system,IET BIOMETRICS,2015,10.1049/iet-bmt.2015.0061,,Missing author keywords
+WOS:000359605600010,Learning a non-linear combination of Mahalanobis distances using statistical inference for similarity measure,IET COMPUTER VISION,2015,10.1049/iet-cvi.2014.0011,,Missing author keywords
+WOS:000382521000015,Person re-identification by graph-based metric fusion,ELECTRONICS LETTERS,2016,10.1049/el.2016.2109,,Missing author keywords
+WOS:000367257100005,"Relevance Metric Learning for Person Re-Identification by Exploiting Listwise Similarities (vol 24, pg 4741, 2015)",IEEE TRANSACTIONS ON IMAGE PROCESSING,2016,10.1109/TIP.2015.2502299,,Missing author keywords
+WOS:000396098100002,Multi-directional saliency metric learning for person re-identification,IET COMPUTER VISION,2016,10.1049/iet-cvi.2015.0343,,Missing author keywords
+WOS:000379846400019,Person re-identification based on a novel mahalanobis distance feature dominated KISS metric learning,ELECTRONICS LETTERS,2016,10.1049/el.2016.0290,,Missing author keywords
+WOS:000382520300005,Pedestrian re-identification via coarse-to-fine ranking,IET COMPUTER VISION,2016,10.1049/iet-cvi.2014.0288,,Missing author keywords
+WOS:000393352000011,Expanding Access to Large-Scale Genomic Data While Promoting Privacy: A Game Theoretic Approach,AMERICAN JOURNAL OF HUMAN GENETICS,2017,10.1016/j.ajhg.2016.12.002,,Missing author keywords
+WOS:000435463600015,Joint transfer component analysis and metric learning for person re-identification,ELECTRONICS LETTERS,2018,10.1049/el.2018.0324,,Missing author keywords
+WOS:000425132600035,"Person re-identification by the symmetric triplet and identification loss function (vol 77, pg 3533, 2018)",MULTIMEDIA TOOLS AND APPLICATIONS,2018,10.1007/s11042-017-5344-z,,Missing author keywords
+WOS:000426552700004,"Enhancing person re-identification by late fusion of low-, mid- and high-level features",IET BIOMETRICS,2018,10.1049/iet-bmt.2016.0200,,Missing author keywords
+WOS:000444867900001,Ensemble Learning-Based Person Re-identification with Multiple Feature Representations,COMPLEXITY,2018,10.1155/2018/5940181,,Missing author keywords
+WOS:000437851500012,Personalised anonymity for microdata release,IET INFORMATION SECURITY,2018,10.1049/iet-ifs.2016.0613,,Missing author keywords
+WOS:000463690100004,Joint person re-identification and camera network topology inference in hock for multiple cameras,COMPUTER VISION AND IMAGE UNDERSTANDING,2019,10.1016/j.cviu.2019.01.003,,Missing author keywords
+WOS:000482374500031,Distance-based camera network topology inference for person re-identification,PATTERN RECOGNITION LETTERS,2019,10.1016/j.patrec.2019.04.009,,Missing author keywords
+WOS:000465090800468,Transfer Learning with Loss Combination and Feature Fusion for Person Re-identification,BASIC & CLINICAL PHARMACOLOGY & TOXICOLOGY,2019,,,Missing author keywords
+WOS:000472493700006,Random Occlusion Recovery for Person Re-identification,JOURNAL OF IMAGING SCIENCE AND TECHNOLOGY,2019,10.2352/J.ImagingSci.Technol.2019.63.3.030405,,Missing author keywords
+WOS:000458922500012,Group affinity guided deep hypergraph model for person re-identification,ELECTRONICS LETTERS,2019,10.1049/el.2018.7791,,Missing author keywords
+WOS:000468198200014,Mutual reinforced part-aligned network for person re-identification,ELECTRONICS LETTERS,2019,10.1049/el.2019.0363,,Missing author keywords
+WOS:000466841800002,Balancing People Re-Identification Data for Deep Parts Similarity Learning,JOURNAL OF IMAGING SCIENCE AND TECHNOLOGY,2019,10.2352/J.ImagingSci.Technol.2019.63.2.020401,,Missing author keywords
+WOS:000493892700019,Multi-level attention model for person re-identification,PATTERN RECOGNITION LETTERS,2019,10.1016/j.patrec.2018.08.024,,Missing author keywords
+WOS:000476724300001,Estimating the success of re-identifications in incomplete datasets using generative models,NATURE COMMUNICATIONS,2019,10.1038/s41467-019-10933-3,,Missing author keywords
+WOS:000514226900003,Learning feature aggregation in temporal domain for re-identification,COMPUTER VISION AND IMAGE UNDERSTANDING,2020,10.1016/j.cviu.2019.102883,,Missing author keywords
+WOS:000541706100032,Deviation based clustering for unsupervised person re -identification,PATTERN RECOGNITION LETTERS,2020,10.1016/j.patrec.2020.04.039,,Missing author keywords
+WOS:000527909700001,Mobile person re-identification with a lightweight trident CNN,SCIENCE CHINA-INFORMATION SCIENCES,2020,10.1007/s11432-019-2782-3,,Missing author keywords
+WOS:000519445700001,Deep learning network for UAV person re-identification based on residual block,SCIENCE CHINA-INFORMATION SCIENCES,2020,10.1007/s11432-018-9633-7,,Missing author keywords
+WOS:000541447000009,Object and background disentanglement for unsupervised cross -domain person re -identification,NEUROCOMPUTING,2020,10.1016/j.neucom.2020.04.088,,Missing author keywords
+WOS:000540920100007,A Cross -Modal Multi -granularity Attention Network for RGB-IR Person Re -identification,NEUROCOMPUTING,2020,10.1016/j.neucom.2020.03.109,,Missing author keywords
+WOS:000598231900011,Spatial-temporal representation for video re-identification via key images,IET COMPUTER VISION,2020,10.1049/iet-cvi.2018.5562,,Missing author keywords
+WOS:000528638600002,Unsupervised Person Re-identification via Cross-Camera Similarity Exploration,IEEE TRANSACTIONS ON IMAGE PROCESSING,2020,10.1109/TIP.2020.2982826,,Missing author keywords
+WOS:000609499800008,Circle-Based Ratio Loss for Person Reidentification,COMPLEXITY,2020,10.1155/2020/9860562,,Missing author keywords
+WOS:000653827800003,When Autonomous Systems Meet Accuracy and Transferability through AI: A Survey,PATTERNS,2020,10.1016/j.patter.2020.100050,,Missing author keywords
+WOS:000591332600001,Learning generalizable deep feature using triplet-batch-center loss for person re-identification,SCIENCE CHINA-INFORMATION SCIENCES,2021,10.1007/s11432-019-2943-6,,Missing author keywords
+WOS:000670164300001,"Long-Short Temporal-Spatial Clues Excited Network for Robust Person Re-identification (vol 128, pg 2936, 2020)",INTERNATIONAL JOURNAL OF COMPUTER VISION,2021,10.1007/s11263-021-01497-1,,Missing author keywords
+WOS:000672467700007,"Expression of Concern ""Crossing generative adversarial networks for cross-view person re-identification"" [Neurocomputing 340 (2019) 259-269]",NEUROCOMPUTING,2021,10.1016/j.neucom.2020.10.078,,Missing author keywords
+WOS:000730596500021,Using game theory to thwart multistage privacy intrusions when sharing data,SCIENCE ADVANCES,2021,10.1126/sciadv.abe9986,,Missing author keywords
+WOS:000738928200001,Online Discrete Anchor Graph Hashing for Mobile Person Re-Identification,JOURNAL OF ADVANCED TRANSPORTATION,2021,10.1155/2021/5038832,,Missing author keywords
+WOS:000641181300001,Segment attention-guided part-aligned network for person re-identification,ELECTRONICS LETTERS,2021,10.1049/ell2.12178,,Missing author keywords
+WOS:000664339000001,Part-level attention networks for cross-domain person re-identification,IET IMAGE PROCESSING,2021,10.1049/ipr2.12292,,Missing author keywords
+WOS:000655217300001,Two-way constraint network for RGB-Infrared person re-identification,ELECTRONICS LETTERS,2021,10.1049/ell2.12215,,Missing author keywords
+WOS:000680213900001,Stable Median Centre Clustering for Unsupervised Domain Adaptation Person Re-Identification,COMPUTATIONAL INTELLIGENCE AND NEUROSCIENCE,2021,10.1155/2021/2883559,,Missing author keywords
+WOS:000650193000001,An unsupervised person re-identification approach based on cross-view distribution alignment,IET IMAGE PROCESSING,2021,10.1049/ipr2.12256,,Missing author keywords
+WOS:000695340000005,SAN-GAL: Spatial Attention Network Guided by Attribute Label for Person Re-identification,WIRELESS COMMUNICATIONS & MOBILE COMPUTING,2021,10.1155/2021/7557361,,Missing author keywords
+WOS:000643724900001,Pedestrian re-identification based on attribute mining and reasoning,IET IMAGE PROCESSING,2021,10.1049/ipr2.12225,,Missing author keywords
+WOS:000724125800001,Sequences consistency feature learning for video-based person re-identification,ELECTRONICS LETTERS,2022,10.1049/ell2.12382,,Missing author keywords
+WOS:000803772500001,Short range correlation transformer for occluded person re-identification,NEURAL COMPUTING & APPLICATIONS,2022,10.1007/s00521-022-07400-4,,Missing author keywords
+WOS:000750153500001,Focusing on shared areas for partial person re-identification,APPLIED ARTIFICIAL INTELLIGENCE,2022,10.1080/08839514.2022.2031818,,Missing author keywords
+WOS:000853051800002,Choice of Activation Function in Convolutional Neural Networks for Person Re-Identification in Video Surveillance Systems,PROGRAMMING AND COMPUTER SOFTWARE,2022,10.1134/S0361768822050036,,Missing author keywords
+WOS:000697672400003,"Expression of concern: ""Deep Adaptive Feature Embedding with Local Sample Distributions for Person Re-identification""[Pattern Recognition, Volume 73, January 2018, Pages 275-288]",PATTERN RECOGNITION,2022,10.1016/j.patcog.2021.108133,,Missing author keywords
+WOS:000697672400008,"Expression of concern: ""What-and-where to match: Deep spatially multiplicative integration networks for person re-identification"" [Pattern Recognition, Volume 76, April 2018, Pages 727-738]",PATTERN RECOGNITION,2022,10.1016/j.patcog.2021.108134,,Missing author keywords
+WOS:000766375900001,Multi-scale feature combination for person re-identification,IET IMAGE PROCESSING,2022,10.1049/ipr2.12465,,Missing author keywords
+WOS:000761520000001,Cross-domain person re-identification based on background suppression and identity consistency,IET IMAGE PROCESSING,2022,10.1049/ipr2.12458,,Missing author keywords
+WOS:000794188200001,Person Re-identification Based on Feature Erasure and Diverse Feature Learning,IET COMPUTER VISION,2022,10.1049/cvi2.12108,,Missing author keywords
+WOS:000721843700001,Exploiting robust unsupervised video person re-identification,IET IMAGE PROCESSING,2022,10.1049/ipr2.12380,,Missing author keywords
+WOS:000831011600012,SR-DSFF and FENet-ReID: A Two-Stage Approach for Cross Resolution Person Re-Identification,COMPUTATIONAL INTELLIGENCE AND NEUROSCIENCE,2022,10.1155/2022/4398727,,Missing author keywords
+WOS:000892255200006,On the effectiveness of graph matching attacks against privacy-preserving record linkage,PLOS ONE,2022,10.1371/journal.pone.0267893,,Missing author keywords
+WOS:000876512300005,Learning Identity-Consistent Feature for Cross-Modality Person Re-Identification via Pixel and Feature Alignment,MOBILE INFORMATION SYSTEMS,2022,10.1155/2022/4131322,,Missing author keywords
+WOS:000848760800069,Deep learning-based patient re-identification is able to exploit the biometric nature of medical chest X-ray data,SCIENTIFIC REPORTS,2022,10.1038/s41598-022-19045-3,,Missing author keywords
+WOS:000766951400001,Unsupervised person re-identification by part-compensated soft multi-label learning,IET IMAGE PROCESSING,2022,10.1049/ipr2.12468,,Missing author keywords
+WOS:000877215000013,A comprehensive scheme for tattoo text detection,PATTERN RECOGNITION LETTERS,2022,10.1016/j.patrec.2022.10.007,,Missing author keywords
+WOS:001000246000001,"Integration graph attention network and multi-centre constrained loss for cross-modality person re-identification (vol 17, pg 76, 2023)",IET COMPUTER VISION,2023,10.1049/cvi2.12210,,Missing author keywords
+WOS:001025404600015,Vision Transformer with hierarchical structure and windows shifting for person re-identification,PLOS ONE,2023,10.1371/journal.pone.0287979,,Missing author keywords
+WOS:000813689200001,Denseformer: A dense transformer framework for person re-identification,IET COMPUTER VISION,2023,10.1049/cvi2.12118,,Missing author keywords
+WOS:000888375600001,Bi-level deep mutual learning assisted multi-task network for occluded person re-identification,IET IMAGE PROCESSING,2023,10.1049/ipr2.12688,,Missing author keywords
+WOS:000822581400001,Cross-modality person re-identification using hybrid mutual learning,IET COMPUTER VISION,2023,10.1049/cvi2.12123,,Missing author keywords
+WOS:000837899000001,Integration graph attention network and multi-centre constrained loss for cross-modality person re-identification,IET COMPUTER VISION,2023,10.1049/cvi2.12132,,Missing author keywords
+WOS:001227241500001,Pyramid-resolution person restoration for cross-resolution person re-identification,SCIENCE CHINA-INFORMATION SCIENCES,2024,10.1007/s11432-023-4023-y,,Missing author keywords
+WOS:001351908500001,"Mask-guided discriminative feature network for occluded person re-identification (vol 101, 104178, 2024)",JOURNAL OF VISUAL COMMUNICATION AND IMAGE REPRESENTATION,2024,10.1016/j.jvcir.2024.104301,,Missing author keywords
+WOS:001338106300004,Inter-camera Identity Discrimination for Unsupervised Person Re-identification,ACM TRANSACTIONS ON MULTIMEDIA COMPUTING COMMUNICATIONS AND APPLICATIONS,2024,10.1145/3652858,,Missing author keywords
+WOS:001150526800101,Channel semantic mutual learning for visible-thermal person re-identification,PLOS ONE,2024,10.1371/journal.pone.0293498,,Missing author keywords
+WOS:001357794900003,Representation strategy for unsupervised domain adaptation on person re-identification,OPTOELECTRONICS LETTERS,2024,10.1007/s11801-024-3226-y,A,Nonempty keyword field yields no usable native token
+WOS:001364816800019,ReMamba: a hybrid CNN-Mamba aggregation network for visible-infrared person re-identification,SCIENTIFIC REPORTS,2024,10.1038/s41598-024-80766-8,,Missing author keywords
+WOS:001142462100060,An enhanced Swin Transformer for soccer player reidentification,SCIENTIFIC REPORTS,2024,10.1038/s41598-024-51767-4,,Missing author keywords

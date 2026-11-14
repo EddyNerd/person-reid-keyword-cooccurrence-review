@@ -1,0 +1,12 @@
+{
+  "unique_saved_outputs": 10920,
+  "keys": [
+    "graph_sha256",
+    "algorithm",
+    "seed"
+  ],
+  "sharding": "first hexadecimal character of graph_sha256",
+  "levels": "L0 first returned partition; L1 only when returned; FINAL last returned partition",
+  "note": "Identical graph inputs can serve several windows or display masks; these are not independent detections.",
+  "storage": "Lossless membership_arrays with one integer community ID per sorted graph node, at every returned level. Resolve graph_sha256 through data/graph_index.csv. src/saved_partitions.py decodes to the original token-to-community dictionaries."
+}

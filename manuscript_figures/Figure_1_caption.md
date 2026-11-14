@@ -1,0 +1,2 @@
+Figure 1. Closed-set and open-set person re-identification. Q and G denote image sets, with corresponding identity setsIQ and IG. Letters A, B, C, and D represent distinct person identities. (a) Closed-set evaluation requires IQ⊆IG: every query identity is represented in the gallery. (b) Open-set evaluation includes unknown query identities, so IQ∖IG≠∅; D illustrates an identity absent from the gallery. Solid and dashed boundaries denote gallery and query identity sets, respectively.
+

@@ -1,0 +1,81 @@
+{
+  "source_renderer": "frozen_input/plot_prevalence_statistics_20261111.py",
+  "source_renderer_sha256": "1c5d90941db9f6bdc291f0a6a707d894b395b6f599eb6cbe6a139b402c2b63be",
+  "source_data": "frozen_input/statistical_results.json",
+  "source_data_sha256": "324a70c3704892537a14f7011f8c5ceedbfcb87ef86020b47cba2b80ceb6d291",
+  "changes": "Legend token text italic; identical data, series, colours, titles, axes and plot geometry. Export at 400 dpi, SVG and PDF.",
+  "series": {
+    "metric": {
+      "counts": [
+        13,
+        40,
+        41,
+        43,
+        31
+      ],
+      "prevalence_percent": [
+        19.696969696969695,
+        22.857142857142858,
+        8.436213991769549,
+        6.03932584269663,
+        3.7758830694275276
+      ]
+    },
+    "learn": {
+      "counts": [
+        26,
+        88,
+        213,
+        319,
+        335
+      ],
+      "prevalence_percent": [
+        39.39393939393939,
+        50.28571428571429,
+        43.82716049382716,
+        44.80337078651686,
+        40.803897685749085
+      ]
+    },
+    "convolut": {
+      "counts": [
+        1,
+        21,
+        73,
+        91,
+        62
+      ],
+      "prevalence_percent": [
+        1.5151515151515151,
+        12.0,
+        15.020576131687244,
+        12.780898876404494,
+        7.551766138855055
+      ]
+    },
+    "attent": {
+      "counts": [
+        0,
+        1,
+        59,
+        133,
+        124
+      ],
+      "prevalence_percent": [
+        0.0,
+        0.5714285714285714,
+        12.139917695473251,
+        18.679775280898877,
+        15.10353227771011
+      ]
+    }
+  },
+  "periods": [
+    "2015–2016",
+    "2017–2018",
+    "2019–2020",
+    "2021–2022",
+    "2023–2024"
+  ],
+  "data_recomputed": false
+}

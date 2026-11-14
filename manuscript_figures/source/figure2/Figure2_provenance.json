@@ -1,0 +1,370 @@
+{
+  "source_graph": "frozen_input/cases.json",
+  "source_graph_file_sha256": "367cab18b59a78984fd793407207bbb6385fafe00eb9df73ba3c6c3483ac5750",
+  "source_graph_case": "cross_sectional_2017-2018",
+  "source_gdf_sha256": "b5621dbad8b1166483d591cc18ed6ef2b06afbd8efdbe6fde12aa28b0680de0a",
+  "source_membership_key": "frozen_input/Supplementary_Table_S4a_Figure2_membership_key.csv",
+  "source_membership_key_sha256": "19226e89a13a45ab628f6089570e58ba31249e8efd74444c3cd320b6f8825261",
+  "layout_reference": "frozen_input/body105_image2.png",
+  "layout_reference_sha256": "853ccf8b49efecca21fce0f013c9718c943ec241cead2f17a6af059d1a7f360a",
+  "layout": "Node centres digitized from the existing Figure 2 detail for visual continuity; not claimed to be original GDF coordinates.",
+  "low_resolution_raster_enlarged": false,
+  "new_community_detection_runs": 0,
+  "selected_nodes": 15,
+  "induced_saved_edges": 27,
+  "membership_agreement_with_S4a": true,
+  "node_area": "3.4 times archived document frequency in points squared",
+  "edge_width": ".065 times archived document cooccurrence count in points",
+  "font_pt_at_6in_width": 9.6,
+  "node_table": [
+    {
+      "id": "n6",
+      "token": "attribut",
+      "x": 131.67816091954023,
+      "y": 353.6264367816092,
+      "L0": "community_1",
+      "L1": "community_2",
+      "document_frequency": 9,
+      "colour": "#e69f00",
+      "original_archived_x": 269.3450927734375,
+      "original_archived_y": 270.236572265625
+    },
+    {
+      "id": "n19",
+      "token": "convolut",
+      "x": 435.5,
+      "y": 121.5,
+      "L0": "community_2",
+      "L1": "community_1",
+      "document_frequency": 21,
+      "colour": "#009e73",
+      "original_archived_x": 611.1943359375,
+      "original_archived_y": 654.312744140625
+    },
+    {
+      "id": "n21",
+      "token": "deep",
+      "x": 264.0,
+      "y": 42.5,
+      "L0": "community_2",
+      "L1": "community_1",
+      "document_frequency": 33,
+      "colour": "#009e73",
+      "original_archived_x": 458.7554626464844,
+      "original_archived_y": 825.87890625
+    },
+    {
+      "id": "n12",
+      "token": "featur",
+      "x": 649.4712328767123,
+      "y": 92.7041095890411,
+      "L0": "community_0",
+      "L1": "community_0",
+      "document_frequency": 35,
+      "colour": "#0072b2",
+      "original_archived_x": 769.2595825195312,
+      "original_archived_y": 680.476806640625
+    },
+    {
+      "id": "n14",
+      "token": "fusion",
+      "x": 560.1551724137931,
+      "y": 282.1551724137931,
+      "L0": "community_0",
+      "L1": "community_0",
+      "document_frequency": 9,
+      "colour": "#0072b2",
+      "original_archived_x": 690.8584594726562,
+      "original_archived_y": 509.29925537109375
+    },
+    {
+      "id": "n23",
+      "token": "kernel",
+      "x": 328.2631578947368,
+      "y": 314.2631578947368,
+      "L0": "community_1",
+      "L1": "community_2",
+      "document_frequency": 10,
+      "colour": "#e69f00",
+      "original_archived_x": 466.5081481933594,
+      "original_archived_y": 312.03936767578125
+    },
+    {
+      "id": "n3",
+      "token": "learn",
+      "x": 228.08670520231215,
+      "y": 232.10549132947978,
+      "L0": "community_1",
+      "L1": "community_2",
+      "document_frequency": 88,
+      "colour": "#e69f00",
+      "original_archived_x": 332.54388427734375,
+      "original_archived_y": 408.79864501953125
+    },
+    {
+      "id": "n16",
+      "token": "metric",
+      "x": 81.96153846153847,
+      "y": 157.0,
+      "L0": "community_1",
+      "L1": "community_2",
+      "document_frequency": 40,
+      "colour": "#e69f00",
+      "original_archived_x": 188.09146118164062,
+      "original_archived_y": 605.9393920898438
+    },
+    {
+      "id": "n18",
+      "token": "multi",
+      "x": 78.26315789473684,
+      "y": 264.2631578947368,
+      "L0": "community_3",
+      "L1": "community_2",
+      "document_frequency": 24,
+      "colour": "#332288",
+      "original_archived_x": 197.3758087158203,
+      "original_archived_y": 370.36444091796875
+    },
+    {
+      "id": "n4",
+      "token": "network",
+      "x": 610.0,
+      "y": 189.0,
+      "L0": "community_2",
+      "L1": "community_1",
+      "document_frequency": 34,
+      "colour": "#009e73",
+      "original_archived_x": 819.2339477539062,
+      "original_archived_y": 574.7606811523438
+    },
+    {
+      "id": "n9",
+      "token": "neural",
+      "x": 110.025,
+      "y": 103.025,
+      "L0": "community_2",
+      "L1": "community_1",
+      "document_frequency": 23,
+      "colour": "#009e73",
+      "original_archived_x": 252.3412628173828,
+      "original_archived_y": 710.6478881835938
+    },
+    {
+      "id": "n8",
+      "token": "represent",
+      "x": 403.0,
+      "y": 246.5,
+      "L0": "community_1",
+      "L1": "community_2",
+      "document_frequency": 14,
+      "colour": "#e69f00",
+      "original_archived_x": 499.9717712402344,
+      "original_archived_y": 499.9729309082031
+    },
+    {
+      "id": "n13",
+      "token": "surveil",
+      "x": 328.11475409836066,
+      "y": 146.27322404371586,
+      "L0": "community_4",
+      "L1": "community_3",
+      "document_frequency": 21,
+      "colour": "#cc79a7",
+      "original_archived_x": 448.2920227050781,
+      "original_archived_y": 683.8568725585938
+    },
+    {
+      "id": "n2",
+      "token": "video",
+      "x": 410.41818181818184,
+      "y": 382.22424242424245,
+      "L0": "community_4",
+      "L1": "community_3",
+      "document_frequency": 26,
+      "colour": "#cc79a7",
+      "original_archived_x": 600.2686157226562,
+      "original_archived_y": 192.37844848632812
+    },
+    {
+      "id": "n20",
+      "token": "view",
+      "x": 146.0,
+      "y": 164.05,
+      "L0": "community_3",
+      "L1": "community_2",
+      "document_frequency": 12,
+      "colour": "#332288",
+      "original_archived_x": 324.558837890625,
+      "original_archived_y": 574.2596435546875
+    }
+  ],
+  "edge_table": [
+    {
+      "source": "kernel",
+      "target": "metric",
+      "cooccurrence_documents": 6
+    },
+    {
+      "source": "represent",
+      "target": "learn",
+      "cooccurrence_documents": 6
+    },
+    {
+      "source": "learn",
+      "target": "attribut",
+      "cooccurrence_documents": 6
+    },
+    {
+      "source": "learn",
+      "target": "surveil",
+      "cooccurrence_documents": 6
+    },
+    {
+      "source": "fusion",
+      "target": "featur",
+      "cooccurrence_documents": 6
+    },
+    {
+      "source": "learn",
+      "target": "fusion",
+      "cooccurrence_documents": 6
+    },
+    {
+      "source": "learn",
+      "target": "kernel",
+      "cooccurrence_documents": 7
+    },
+    {
+      "source": "learn",
+      "target": "view",
+      "cooccurrence_documents": 7
+    },
+    {
+      "source": "deep",
+      "target": "neural",
+      "cooccurrence_documents": 7
+    },
+    {
+      "source": "deep",
+      "target": "convolut",
+      "cooccurrence_documents": 7
+    },
+    {
+      "source": "view",
+      "target": "multi",
+      "cooccurrence_documents": 7
+    },
+    {
+      "source": "network",
+      "target": "featur",
+      "cooccurrence_documents": 7
+    },
+    {
+      "source": "learn",
+      "target": "video",
+      "cooccurrence_documents": 8
+    },
+    {
+      "source": "learn",
+      "target": "neural",
+      "cooccurrence_documents": 8
+    },
+    {
+      "source": "learn",
+      "target": "convolut",
+      "cooccurrence_documents": 8
+    },
+    {
+      "source": "deep",
+      "target": "featur",
+      "cooccurrence_documents": 9
+    },
+    {
+      "source": "deep",
+      "target": "metric",
+      "cooccurrence_documents": 9
+    },
+    {
+      "source": "network",
+      "target": "learn",
+      "cooccurrence_documents": 10
+    },
+    {
+      "source": "video",
+      "target": "surveil",
+      "cooccurrence_documents": 11
+    },
+    {
+      "source": "network",
+      "target": "deep",
+      "cooccurrence_documents": 11
+    },
+    {
+      "source": "learn",
+      "target": "multi",
+      "cooccurrence_documents": 13
+    },
+    {
+      "source": "learn",
+      "target": "featur",
+      "cooccurrence_documents": 18
+    },
+    {
+      "source": "network",
+      "target": "convolut",
+      "cooccurrence_documents": 21
+    },
+    {
+      "source": "convolut",
+      "target": "neural",
+      "cooccurrence_documents": 21
+    },
+    {
+      "source": "network",
+      "target": "neural",
+      "cooccurrence_documents": 23
+    },
+    {
+      "source": "learn",
+      "target": "deep",
+      "cooccurrence_documents": 25
+    },
+    {
+      "source": "learn",
+      "target": "metric",
+      "cooccurrence_documents": 39
+    }
+  ],
+  "palette": {
+    "community_1": "#e69f00",
+    "community_2": "#009e73",
+    "community_0": "#0072b2",
+    "community_3": "#332288",
+    "community_4": "#cc79a7"
+  },
+  "L1_marker": {
+    "community_0": "o",
+    "community_1": "s",
+    "community_2": "D",
+    "community_3": "*"
+  },
+  "outside_text": [],
+  "overlapping_text": [],
+  "visual_QA": "passed: full preview inspected;15 italic token labels complete, no overlaps/clipping, all27 frozen edges present",
+  "output_files": [
+    {
+      "name": "Figure2_publication.png",
+      "bytes": 245945,
+      "sha256": "1ae150aace7465b6d68e3a4ad83efd5f7d27a099c87281836276500b6013ec91",
+      "pixel_dimensions": [
+        2400,
+        1460
+      ]
+    },
+    {
+      "name": "Figure2_publication.svg",
+      "bytes": 16705,
+      "sha256": "8d7cbdd34dda54cd2759adead08a911e69faa9ef3636723578554071d392f178"
+    }
+  ]
+}

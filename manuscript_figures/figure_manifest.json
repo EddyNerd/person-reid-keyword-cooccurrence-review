@@ -1,0 +1,44 @@
+[
+  {
+    "figure": 1,
+    "image": "Figure_1.png",
+    "sha256": "4305fe178f212f28426f4c9354c096f1b001b3255fb8d86f6ae2af72df62b614",
+    "source_member": "word/media/image1.png"
+  },
+  {
+    "figure": 2,
+    "image": "Figure_2.png",
+    "sha256": "1ae150aace7465b6d68e3a4ad83efd5f7d27a099c87281836276500b6013ec91",
+    "source_member": "word/media/image2.png"
+  },
+  {
+    "figure": 3,
+    "image": "Figure_3.png",
+    "sha256": "fdbc173a0b80128a8248b089581f769e9058ddd2156c18799dd27e1c27c97ef4",
+    "source_member": "word/media/image3.png"
+  },
+  {
+    "figure": 4,
+    "image": "Figure_4.png",
+    "sha256": "395396e506c4f6657ff13cec9a4a92650b4e6be7f83bae52485ffe7fea79ba4c",
+    "source_member": "word/media/image4.png"
+  },
+  {
+    "figure": 5,
+    "image": "Figure_5.png",
+    "sha256": "df573954aea6a936a3f3d29f9d44f5fbe92680066f99a6a3bd8408ffcb047c88",
+    "source_member": "word/media/image5.png"
+  },
+  {
+    "figure": 6,
+    "image": "Figure_6.png",
+    "sha256": "90ac916430feebfbc7e2c1f9e4c3696f119025e897bb82894c7e658db991b0d6",
+    "source_member": "word/media/image6.png"
+  },
+  {
+    "figure": 7,
+    "image": "Figure_7.png",
+    "sha256": "db79cd157bacb0c38048af4e393d931f1f02bdb53229e1a06c5735133935ca53",
+    "source_member": "word/media/image7.png"
+  }
+]

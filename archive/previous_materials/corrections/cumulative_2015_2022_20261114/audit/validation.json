@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-14",
+  "scope": "Corrected cumulative author-keyword network, final publication years 2015–2022; frozen outputs checked without new detector executions.",
+  "status": "passed",
+  "corpus": {
+    "records": 1499,
+    "unique_records": 1499,
+    "usable_keyword_records": 1439,
+    "restored_2015_2018_records": 254,
+    "annual_record_counts": {
+      "2015": 34,
+      "2016": 39,
+      "2017": 64,
+      "2018": 117,
+      "2019": 217,
+      "2020": 288,
+      "2021": 336,
+      "2022": 404
+    },
+    "original_incomplete_records": 1245,
+    "original_actual_years": "2019–2022"
+  },
+  "independent_checks": {
+    "all_records_within_2015_2022": true,
+    "cross_sectional_union_exact": true,
+    "full_frequency_matrix_matches_source_records": true,
+    "full_edge_matrix_matches_source_records": true,
+    "normalized_record_DE_and_final_year_match_raw_export": true,
+    "healthcare_exclusion_preserved": true
+  },
+  "release_hash_validation": {
+    "manifest_sha256": "8d5db904d636d6f2d91de4ad4459c29de015e3f3c5a1ad23320b8c7bc9620b0d",
+    "expected_pointer_sha256": "8d5db904d636d6f2d91de4ad4459c29de015e3f3c5a1ad23320b8c7bc9620b0d",
+    "files_checked": 654,
+    "missing": [],
+    "mismatched": []
+  },
+  "full_graph": {
+    "nodes": 1365,
+    "edges": 33630,
+    "total_edge_weight": 72170.0,
+    "graph_sha256": "8372066b4606176d56ea7e12f48f542e72044001ba8e66c9ee391f121cd74eaa",
+    "file_sha256": "53ae7616f8a0d4f95f179ea4d732357e19700f935dbbd4a4fb415cae6e6b657d"
+  },
+  "preselection": {
+    "nodes": 500,
+    "edges": 7300,
+    "mean_edge_weight": 6.054109589041096,
+    "computed_tau": 16.33986018378498,
+    "recorded_tau": 16.33986018378498,
+    "reference_cutoff": 16,
+    "comparator": ">"
+  },
+  "reference_graph": {
+    "nodes": 91,
+    "edges": 434,
+    "total_weight": 15907.0,
+    "weight_fraction": 0.22041014271858111,
+    "file_sha256": "049b8b281fe809f29237e64b0777f8759338b8b27fb704c5cc01fe558df25381",
+    "graph_sha256": "e7dc140e462747638ba953a9fdda7f6d4cf5dbe4057c349d5660e515152c9d17"
+  },
+  "seven_mask_reconstructions": [
+    {
+      "multiplier": 0.4,
+      "nodes": 202,
+      "edges": 1463,
+      "cutoff": 6.4,
+      "exact_candidate_rule_reconstruction": true,
+      "graph_sha256": "f5d9ff43e36df58cb1500739f790a4fcec8f1bc67cbbfdc8749ce39bbb6c363b"
+    },
+    {
+      "multiplier": 0.6,
+      "nodes": 153,
+      "edges": 930,
+      "cutoff": 9.6,
+      "exact_candidate_rule_reconstruction": true,
+      "graph_sha256": "59597ee567ab8f9f4119926351ef223b20cd1b628664630cad5a15ab7b6f5c6e"
+    },
+    {
+      "multiplier": 0.8,
+      "nodes": 118,
+      "edges": 635,
+      "cutoff": 12.8,
+      "exact_candidate_rule_reconstruction": true,
+      "graph_sha256": "325de843be6d393c0e23d077c79c471d03ef56563b16de9d121c92572716d3ae"
+    },
+    {
+      "multiplier": 1.0,
+      "nodes": 91,
+      "edges": 434,
+      "cutoff": 16.0,
+      "exact_candidate_rule_reconstruction": true,
+      "graph_sha256": "e7dc140e462747638ba953a9fdda7f6d4cf5dbe4057c349d5660e515152c9d17"
+    },
+    {
+      "multiplier": 1.2,
+      "nodes": 73,
+      "edges": 330,
+      "cutoff": 19.2,
+      "exact_candidate_rule_reconstruction": true,
+      "graph_sha256": "ec1b3dc200cbefb3087fbbac194a22fb75558d8c876ee746c9d716f6db69af1f"
+    },
+    {
+      "multiplier": 1.4,
+      "nodes": 65,
+      "edges": 270,
+      "cutoff": 22.4,
+      "exact_candidate_rule_reconstruction": true,
+      "graph_sha256": "82ee3f2a1361ab7edf912d16dbe09f362e6728719a9fc0a0ee53aa3c29a820f5"
+    },
+    {
+      "multiplier": 1.6,
+      "nodes": 56,
+      "edges": 218,
+      "cutoff": 25.6,
+      "exact_candidate_rule_reconstruction": true,
+      "graph_sha256": "bc2f207fdbb409a0ce6ba7ccd005fb2cac9150dd7080bb237e0dbcc73ba3dfac"
+    }
+  ],
+  "detector_outputs": {
+    "unique_outputs": 480,
+    "algorithms": [
+      "Louvain",
+      "Leiden"
+    ],
+    "seeds": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029
+    ],
+    "suppression_multipliers": [
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2,
+      1.4,
+      1.6
+    ],
+    "full_network_outputs_per_algorithm": 30,
+    "all_graph_hashes_coverage_and_hierarchy_nesting_match": true
+  },
+  "hierarchy_scope_reuse": {
+    "ignored_metadata_field": "provenance",
+    "unchanged_count": 18,
+    "unchanged": [
+      [
+        "cross_sectional_2015-2016",
+        "louvain"
+      ],
+      [
+        "cross_sectional_2015-2016",
+        "leiden"
+      ],
+      [
+        "cross_sectional_2017-2018",
+        "louvain"
+      ],
+      [
+        "cross_sectional_2017-2018",
+        "leiden"
+      ],
+      [
+        "cross_sectional_2019-2020",
+        "louvain"
+      ],
+      [
+        "cross_sectional_2019-2020",
+        "leiden"
+      ],
+      [
+        "cross_sectional_2021-2022",
+        "louvain"
+      ],
+      [
+        "cross_sectional_2021-2022",
+        "leiden"
+      ],
+      [
+        "cross_sectional_2023-2024",
+        "louvain"
+      ],
+      [
+        "cross_sectional_2023-2024",
+        "leiden"
+      ],
+      [
+        "cumulative_2015-2016",
+        "louvain"
+      ],
+      [
+        "cumulative_2015-2016",
+        "leiden"
+      ],
+      [
+        "cumulative_2015-2018",
+        "louvain"
+      ],
+      [
+        "cumulative_2015-2018",
+        "leiden"
+      ],
+      [
+        "cumulative_2015-2020",
+        "louvain"
+      ],
+      [
+        "cumulative_2015-2020",
+        "leiden"
+      ],
+      [
+        "cumulative_2015-2024",
+        "louvain"
+      ],
+      [
+        "cumulative_2015-2024",
+        "leiden"
+      ]
+    ],
+    "changed_count": 2,
+    "changed": [
+      [
+        "cumulative_2015-2022",
+        "louvain"
+      ],
+      [
+        "cumulative_2015-2022",
+        "leiden"
+      ]
+    ]
+  },
+  "scope_distinction": "The 18 unaffected scopes are nine windows × two algorithms, not 18 historical L0/L1 partitions. They do not validate the incomplete historical cumulative case as a 2015–2022 cohort.",
+  "seed1000_hierarchies": [
+    {
+      "treatment": "suppress",
+      "multiplier": 1.0,
+      "algorithm": "louvain",
+      "seed": 1000,
+      "detection_nodes": 91,
+      "FINAL_level": "L1",
+      "FINAL_groups": 7,
+      "L0_groups": 14,
+      "L1_groups": 7,
+      "L2_groups": null,
+      "L3_groups": null,
+      "L4_groups": null
+    },
+    {
+      "treatment": "suppress",
+      "multiplier": 1.0,
+      "algorithm": "leiden",
+      "seed": 1000,
+      "detection_nodes": 91,
+      "FINAL_level": "L2",
+      "FINAL_groups": 6,
+      "L0_groups": 19,
+      "L1_groups": 7,
+      "L2_groups": 6,
+      "L3_groups": null,
+      "L4_groups": null
+    },
+    {
+      "treatment": "hide",
+      "multiplier": null,
+      "algorithm": "louvain",
+      "seed": 1000,
+      "detection_nodes": 1365,
+      "FINAL_level": "L1",
+      "FINAL_groups": 7,
+      "L0_groups": 59,
+      "L1_groups": 7,
+      "L2_groups": null,
+      "L3_groups": null,
+      "L4_groups": null
+    },
+    {
+      "treatment": "hide",
+      "multiplier": null,
+      "algorithm": "leiden",
+      "seed": 1000,
+      "detection_nodes": 1365,
+      "FINAL_level": "L3",
+      "FINAL_groups": 7,
+      "L0_groups": 247,
+      "L1_groups": 52,
+      "L2_groups": 14,
+      "L3_groups": 7,
+      "L4_groups": null
+    }
+  ],
+  "Leiden_additional_levels": {
+    "suppression_reference": "L2 merges existing L1 groups; FINAL = L2 (6 groups).",
+    "full_network_hide": "L2 and L3 merge existing groups; FINAL = L3 (7 groups).",
+    "membership_file": "corrected_seed1000_parent_child_memberships.json",
+    "interpretation": "Additional aggregation levels do not demonstrate additional or newly emerging research themes."
+  },
+  "TNP_corrected_input_checks": {
+    "tokens": {
+      "records": 1499,
+      "same_UTs_and_DE_and_years_as_corrected": true,
+      "matrix_exact": true,
+      "nodes": 1365,
+      "edges": 33630,
+      "graph_sha256": "8372066b4606176d56ea7e12f48f542e72044001ba8e66c9ee391f121cd74eaa",
+      "full_file_sha256": "53ae7616f8a0d4f95f179ea4d732357e19700f935dbbd4a4fb415cae6e6b657d"
+    },
+    "phrases_normalized": {
+      "records": 1499,
+      "same_UTs_and_DE_and_years_as_corrected": true,
+      "matrix_exact": true,
+      "nodes": 3005,
+      "edges": 16685,
+      "graph_sha256": "89d1e382cc96f668553e0cb8f9f5aafb170e802e826e709193de83e41e57605e",
+      "full_file_sha256": "827e9fa74be16e813071cd515e14f61d85c5f65de7cf902585f11e20eb69fcc1"
+    },
+    "phrases": {
+      "records": 1499,
+      "same_UTs_and_DE_and_years_as_corrected": true,
+      "matrix_exact": true,
+      "nodes": 3281,
+      "edges": 17004,
+      "graph_sha256": "04c2ca44695839e2e0f510f69f77758a2bb58fcf6c0b9d67c271ee35e27a6c8b",
+      "full_file_sha256": "6894d523f00fc81520960fcad1b13de0d26bd9921ab807e4cc11e9dc07716cd2"
+    }
+  },
+  "current_downstream_corrected_input_hash_checks": {
+    "prevalence_statistiques_comparables_DE_20261111": {
+      "corrected_inputs_in_manifest": 10,
+      "corrected_input_hash_mismatches": []
+    },
+    "correspondance_temporelle_DE_20261111": {
+      "corrected_inputs_in_manifest": 490,
+      "corrected_input_hash_mismatches": []
+    }
+  },
+  "old_vs_corrected_L1_partition_agreement": {
+    "definition": "ARI compares old incomplete-cohort and corrected full-cohort partitions on common nodes, pairing the same algorithm and numerical seed. Medians summarize 30 paired seeds at multiplier 1. These are agreement scores, not changes in an ARI score or evidence that the old cohort was valid.",
+    "source_summary_sha256": "339fa5bb420db487205fda2b10e8dd994c357b863eacbf9abb16803d26f415bb",
+    "rows": [
+      {
+        "treatment": "suppress",
+        "algorithm": "louvain",
+        "level": "L1",
+        "common_nodes": 75,
+        "old_nodes": 75,
+        "corrected_nodes": 91,
+        "valid": 30,
+        "median": 0.5398511714118273,
+        "q25": 0.5006892335245914,
+        "q75": 0.5666433317417827,
+        "minimum": 0.39409874783483134,
+        "maximum": 0.612576231875637
+      },
+      {
+        "treatment": "suppress",
+        "algorithm": "leiden",
+        "level": "L1",
+        "common_nodes": 75,
+        "old_nodes": 75,
+        "corrected_nodes": 91,
+        "valid": 30,
+        "median": 0.5079502396291293,
+        "q25": 0.48424466658686716,
+        "q75": 0.5602477064829624,
+        "minimum": 0.4412561826396617,
+        "maximum": 0.6489970485023254
+      },
+      {
+        "treatment": "hide",
+        "algorithm": "louvain",
+        "level": "L1",
+        "common_nodes": 1218,
+        "old_nodes": 1218,
+        "corrected_nodes": 1365,
+        "valid": 30,
+        "median": 0.24636180382594675,
+        "q25": 0.22136914325210796,
+        "q75": 0.2780724677837989,
+        "minimum": 0.16395268593054094,
+        "maximum": 0.3245178909539872
+      },
+      {
+        "treatment": "hide",
+        "algorithm": "leiden",
+        "level": "L1",
+        "common_nodes": 1218,
+        "old_nodes": 1218,
+        "corrected_nodes": 1365,
+        "valid": 30,
+        "median": 0.3225934887699415,
+        "q25": 0.2515718212631689,
+        "q75": 0.35283791118620633,
+        "minimum": 0.2023752307975608,
+        "maximum": 0.46914094885034363
+      }
+    ]
+  },
+  "limitations": [
+    "The original historical input omitted 2015–2018. Its graphs and community interpretations must not be reused as the complete 2015–2022 result.",
+    "This audit verifies computation and provenance, not the completeness or representativeness of the WoS corpus.",
+    "Matched numerical seeds do not imply identical stochastic paths on different graphs.",
+    "The reused 18 hierarchy scopes were compared ignoring only the documentary provenance field.",
+    "The portable audit requires the original local release and input files. This public subset contains no raw WoS record text."
+  ],
+  "public_artifact_sha256": {
+    "audit_corrected_campaign.py": "bda463152fd7dc8693614ae6513622fa3c1949695bf8c840381eb735656fc830",
+    "corrected_hierarchy_counts_all_480_runs.csv": "eae09d2c29565caba5e492b799b62004c69fac16754ae646c83e14017e1bd5ca",
+    "corrected_seed1000_parent_child_memberships.json": "d9a8ea9252df81e710d9cac2f2089ca1de2e0ded5873dd26bb1b3322d9a5d2e3"
+  }
+}

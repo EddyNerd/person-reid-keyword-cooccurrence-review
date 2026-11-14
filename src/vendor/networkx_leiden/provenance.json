@@ -1,0 +1,15 @@
+{
+    "commit":  "49ca2290b80c1389eb4d8d8e49dcba73f8fec016",
+    "files":  {
+                  "leiden.py":  {
+                                    "sha256":  "f26484e1820417d865c9f54c012417c16bad3634e33ce1422a2e04cab88ac7da",
+                                    "url":  "https://raw.githubusercontent.com/networkx/networkx/49ca2290b80c1389eb4d8d8e49dcba73f8fec016/networkx/algorithms/community/leiden.py"
+                                },
+                  "LICENSE.txt":  {
+                                      "sha256":  "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e",
+                                      "url":  "https://raw.githubusercontent.com/networkx/networkx/49ca2290b80c1389eb4d8d8e49dcba73f8fec016/LICENSE.txt"
+                                  }
+              },
+    "upstream":  "NetworkX",
+    "ref":  "networkx-3.7"
+}

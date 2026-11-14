@@ -1,0 +1,293 @@
+{
+  "scope": "Frozen source data and publication rendering; no scientific rerun or new image",
+  "original_sources": [
+    {
+      "public_file": "vector/Figure_1.svg",
+      "source_sha256": "4ec6517ea12757428ecc90144f234d3c755a0fefcc92c45dd4b78710db8b298f"
+    },
+    {
+      "public_file": "vector/Figure_2.svg",
+      "source_sha256": "8d7cbdd34dda54cd2759adead08a911e69faa9ef3636723578554071d392f178"
+    },
+    {
+      "public_file": "vector/Figure_3.svg",
+      "source_sha256": "47b3768b381d679460501ea1e7ab87dcc828e88273c38a802ad3ffae0ec88c0b"
+    },
+    {
+      "public_file": "vector/Figure_4.svg",
+      "source_sha256": "1628b56d053e6858d4672a034d140bde7c4eb0f36400fa8fbb3583a27064dc50"
+    },
+    {
+      "public_file": "vector/Figure_5.svg",
+      "source_sha256": "44c26b8e764ad14b9452f21e39e676ff6c3fea81b43aefc536de46f52ab24d38"
+    },
+    {
+      "public_file": "vector/Figure_6.svg",
+      "source_sha256": "39c1a1e4cbd072f4f85a54b1f05c5c7a88c2202f7a3fcaedb1597fcd237023a0"
+    },
+    {
+      "public_file": "vector/Figure_7.svg",
+      "source_sha256": "dec24c4bad08f89346a29e53733466393203d3e477e007c181d3c65dfeedf55a"
+    },
+    {
+      "public_file": "conceptual/draw_figure1_publication.py",
+      "source_sha256": "f3a53fc8948fcc3b8a1613862fb683834cd8ac5b067014d463d4b01be73dcd18"
+    },
+    {
+      "public_file": "figure2/Figure2_provenance.json",
+      "source_sha256": "7fb0286d5af945b3c132ed018c75816778a96e78fec31f9f4c90e61d1c0c2907",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    },
+    {
+      "public_file": "figure2/Figure2_memberships.csv",
+      "source_sha256": "ab9a5b42f156caa09b63dd95ca7cf8985905a29ed4f6b0afd1749644425dd9ae"
+    },
+    {
+      "public_file": "figure2/render_figure2.py",
+      "source_sha256": "d0409bc9233d04546c9252efcdc585c04c3b010b9dc4137302330c940a0bba1c",
+      "change": "Only replaced raster/archival extraction with the frozen final publication node/edge tables; retained drawing block."
+    },
+    {
+      "public_file": "figure3/Figure3_provenance.json",
+      "source_sha256": "0159064471356667d9e0a2ba0b303729d5833bfaa6d1efacb8b0816daa2b37ba",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    },
+    {
+      "public_file": "figure3/render_figure3.py",
+      "source_sha256": "54ea7a03a5bfb3c2bc92f6f1bcc9764d8bab98b66db180d00e99483086879dea",
+      "change": "Only input series loader made self-contained; plotting geometry/styles retained."
+    },
+    {
+      "public_file": "alluvial/source_panels.json",
+      "source_sha256": "be60e2ec4f548ee920704a588311672d292a374e4aafa3498d0258f3f96f84d9",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    },
+    {
+      "public_file": "alluvial/render_translucent.py",
+      "source_sha256": "1d76cc1f3be17025c8d705c1974c94241a6d5f184c866d327382442c4ef0d551",
+      "change": "Input path relative; former Figure 6 numbered Figure 7, drawing unchanged."
+    },
+    {
+      "public_file": "hierarchy/inputs/runs/0556cd02a5763dd2_lo_1000.json",
+      "source_sha256": "fbd319ecf7d621abefb0df37d9c31f464209eaf25583963b93bc38193631953f",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    },
+    {
+      "public_file": "hierarchy/inputs/runs/0556cd02a5763dd2_le_1000.json",
+      "source_sha256": "f2ec61acc8a201933d20a8a5d02c4563b46cc1d0e7ef8b88b41f61e9c95f2c65",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    },
+    {
+      "public_file": "hierarchy/inputs/runs/5f468569c6c8918e_lo_1000.json",
+      "source_sha256": "251babbce6627c90a8786d3e435ff32db9a5e4daa67e5dcd1c4d5d122692c45f",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    },
+    {
+      "public_file": "hierarchy/inputs/runs/5f468569c6c8918e_le_1000.json",
+      "source_sha256": "c5f5c3b5c614b2b58ad9894002e5908da5a52c79427a3af84ae7e215e002b686",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    },
+    {
+      "public_file": "hierarchy/inputs/positions/node_memberships.csv",
+      "source_sha256": "0f213aafce48aa398bd728a24aef1700ed4fb65dfb19d19c0c4684eb980e1abd"
+    },
+    {
+      "public_file": "hierarchy/node_memberships.csv",
+      "source_sha256": "99529f4fb5739efb6f18dfc5a95e9d0235dcc0f424a6a59636d18b853fc2898b"
+    },
+    {
+      "public_file": "hierarchy/membership_contours.py",
+      "source_sha256": "d64691e9c2f8a043f06c1d49b756ebee348dcefa53569052109cadb06b35a911"
+    },
+    {
+      "public_file": "hierarchy/higher_hierarchy.py",
+      "source_sha256": "94fd5f9992e0840b9d6135344a2c3a640e2d4533ddfe63d85a840ae17da45323"
+    },
+    {
+      "public_file": "hierarchy/render_hierarchical_networks.py",
+      "source_sha256": "f0a0d6e1b905b018371c690589b8edb607f58d8f298e01c9e2978410da943fc8",
+      "change": "Only relative input paths and removal of unused NetworkX import; detection, layout and memberships not recomputed."
+    },
+    {
+      "public_file": "network_publication/render_publication.py",
+      "source_sha256": "45650296470d154bfae3dbe4ea5739016d729149308a94654d7df47da6f11010",
+      "change": "Only relative hierarchy-module path; original publication rendering retained."
+    },
+    {
+      "public_file": "network_publication/all_64_memberships.csv",
+      "source_sha256": "38f42b160548808ae3842ba820266e6f4001afaba2c0d889c730f625ee1a8ab2"
+    },
+    {
+      "public_file": "network_publication/publication_provenance.json",
+      "source_sha256": "df09f5e049672f28fe179a61448a5d1a62827558380abd6429a6bba766941500",
+      "change": "Only local absolute provenance paths replaced with neutral relative identifiers."
+    }
+  ],
+  "public_files": [
+    {
+      "path": "README.md",
+      "bytes": 4072,
+      "sha256": "c5a28a61d80ee25b5224bb7befa73d8f5713d85858c47f2ddf9af7bf4b0ed05d"
+    },
+    {
+      "path": "requirements-figures.txt",
+      "bytes": 84,
+      "sha256": "708bc0ce1ef2fad62dc136049c7de896d3f54d653e4e29db6d8b5a8c6097187f"
+    },
+    {
+      "path": "alluvial/render_translucent.py",
+      "bytes": 10127,
+      "sha256": "94c0fe0f2e0346337205a005cde6991b003e46591603e3eb16dfc7bc354285a0"
+    },
+    {
+      "path": "alluvial/source_panels.json",
+      "bytes": 37076,
+      "sha256": "6e3a1a1c9f9670be8bfc2eb2e6cef3f1bee06c2a5c17b9877b6df8e8dccc3346"
+    },
+    {
+      "path": "conceptual/draw_figure1_publication.py",
+      "bytes": 3960,
+      "sha256": "f3a53fc8948fcc3b8a1613862fb683834cd8ac5b067014d463d4b01be73dcd18"
+    },
+    {
+      "path": "figure2/Figure2_memberships.csv",
+      "bytes": 1717,
+      "sha256": "ab9a5b42f156caa09b63dd95ca7cf8985905a29ed4f6b0afd1749644425dd9ae"
+    },
+    {
+      "path": "figure2/Figure2_provenance.json",
+      "bytes": 9807,
+      "sha256": "6c630678980ed1c3d08ee1b8de1f3d13a72104b18f4c8653410050c0bc6feafa"
+    },
+    {
+      "path": "figure2/render_figure2.py",
+      "bytes": 2886,
+      "sha256": "87f3aaf35acfd9a756631e073d0dae6a76752309d10c2510af9db0636358309f"
+    },
+    {
+      "path": "figure3/Figure3_provenance.json",
+      "bytes": 1814,
+      "sha256": "8c6d214278ebebb03022c70737aa8c2c7afae8847078cad67b05ccd985e3f0b6"
+    },
+    {
+      "path": "figure3/render_figure3.py",
+      "bytes": 1680,
+      "sha256": "f1113de17837507df48a7ed70014b8a97e70b02d3c4cd1603614f3a80b451d06"
+    },
+    {
+      "path": "hierarchy/higher_hierarchy.py",
+      "bytes": 7998,
+      "sha256": "94fd5f9992e0840b9d6135344a2c3a640e2d4533ddfe63d85a840ae17da45323"
+    },
+    {
+      "path": "hierarchy/membership_contours.py",
+      "bytes": 7860,
+      "sha256": "d64691e9c2f8a043f06c1d49b756ebee348dcefa53569052109cadb06b35a911"
+    },
+    {
+      "path": "hierarchy/node_memberships.csv",
+      "bytes": 24527,
+      "sha256": "99529f4fb5739efb6f18dfc5a95e9d0235dcc0f424a6a59636d18b853fc2898b"
+    },
+    {
+      "path": "hierarchy/render_hierarchical_networks.py",
+      "bytes": 19211,
+      "sha256": "bbd17b4a34db775291ca4ddec1c2af2421ccbee41cb907a33723fcbb121ac986"
+    },
+    {
+      "path": "network_publication/all_64_memberships.csv",
+      "bytes": 23774,
+      "sha256": "38f42b160548808ae3842ba820266e6f4001afaba2c0d889c730f625ee1a8ab2"
+    },
+    {
+      "path": "network_publication/publication_provenance.json",
+      "bytes": 39573,
+      "sha256": "e89379f540344e52c0124b00a52f3496649337401c35fa9863dc5c91f967a452"
+    },
+    {
+      "path": "network_publication/render_publication.py",
+      "bytes": 12260,
+      "sha256": "e7b49cff6d50b93d9400baa52f4eef046e0c2244f5ce30d7a857f2ed08f913ec"
+    },
+    {
+      "path": "vector/Figure_1.svg",
+      "bytes": 59321,
+      "sha256": "4ec6517ea12757428ecc90144f234d3c755a0fefcc92c45dd4b78710db8b298f"
+    },
+    {
+      "path": "vector/Figure_2.svg",
+      "bytes": 16705,
+      "sha256": "8d7cbdd34dda54cd2759adead08a911e69faa9ef3636723578554071d392f178"
+    },
+    {
+      "path": "vector/Figure_3.svg",
+      "bytes": 29620,
+      "sha256": "47b3768b381d679460501ea1e7ab87dcc828e88273c38a802ad3ffae0ec88c0b"
+    },
+    {
+      "path": "vector/Figure_4.svg",
+      "bytes": 19003,
+      "sha256": "1628b56d053e6858d4672a034d140bde7c4eb0f36400fa8fbb3583a27064dc50"
+    },
+    {
+      "path": "vector/Figure_5.svg",
+      "bytes": 966133,
+      "sha256": "44c26b8e764ad14b9452f21e39e676ff6c3fea81b43aefc536de46f52ab24d38"
+    },
+    {
+      "path": "vector/Figure_6.svg",
+      "bytes": 3287193,
+      "sha256": "39c1a1e4cbd072f4f85a54b1f05c5c7a88c2202f7a3fcaedb1597fcd237023a0"
+    },
+    {
+      "path": "vector/Figure_7.svg",
+      "bytes": 27015,
+      "sha256": "dec24c4bad08f89346a29e53733466393203d3e477e007c181d3c65dfeedf55a"
+    },
+    {
+      "path": "hierarchy/inputs/x4.js",
+      "bytes": 20827,
+      "sha256": "282c61c7169ed34bac5d903634b10ff226cc0dcbd0cb9e76ced721d628bb9554"
+    },
+    {
+      "path": "hierarchy/inputs/positions/node_memberships.csv",
+      "bytes": 23881,
+      "sha256": "0f213aafce48aa398bd728a24aef1700ed4fb65dfb19d19c0c4684eb980e1abd"
+    },
+    {
+      "path": "hierarchy/inputs/runs/0556cd02a5763dd2_le_1000.json",
+      "bytes": 4874,
+      "sha256": "cf6c5b164521e5a4f1562f7f1b02432f5bfc4b5272702d2779e00813d175ecfa"
+    },
+    {
+      "path": "hierarchy/inputs/runs/0556cd02a5763dd2_lo_1000.json",
+      "bytes": 3531,
+      "sha256": "e9dfea683f4b415cb855da58b3b4deb378e70865bddf7ac405a445c978f34fe1"
+    },
+    {
+      "path": "hierarchy/inputs/runs/5f468569c6c8918e_le_1000.json",
+      "bytes": 100325,
+      "sha256": "3f770903f0b37ea4a0619e54c8e67c3198d705d319e6ab284c15af0deea63806"
+    },
+    {
+      "path": "hierarchy/inputs/runs/5f468569c6c8918e_lo_1000.json",
+      "bytes": 59885,
+      "sha256": "142a76a62570f00cb9fd1b9ba8d16351490ef7795ce3eb77e2bdb73e6d25fb09"
+    },
+    {
+      "path": "hierarchy/inputs/historical/tables/visually_supported_memberships.csv",
+      "bytes": 20297,
+      "sha256": "020b1659b3a54e447db6efed3129c932865e50c76413ee3695057258ba37f507"
+    }
+  ],
+  "checks": {
+    "python_syntax": true,
+    "private_local_paths_absent": true,
+    "existing_pngs_modified": false,
+    "new_images_rendered": false,
+    "frozen_network_membership_rows_exact": 256,
+    "frozen_network_nodes": 64,
+    "frozen_network_edges": 239,
+    "readme_links_resolve": true
+  }
+}

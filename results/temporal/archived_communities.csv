@@ -1,0 +1,58 @@
+﻿case,period,level,community,words,size
+cross_sectional_2015-2016,2015-2016,L0,community_0,"[""deep"", ""distanc"", ""fusion"", ""learn"", ""metric""]",5
+cross_sectional_2015-2016,2015-2016,L0,community_1,"[""appear"", ""featur"", ""model""]",3
+cross_sectional_2015-2016,2015-2016,L0,community_2,"[""surveil"", ""video""]",2
+cross_sectional_2017-2018,2017-2018,L0,community_0,"[""featur"", ""fusion""]",2
+cross_sectional_2017-2018,2017-2018,L0,community_1,"[""attribut"", ""base"", ""cross"", ""dictionari"", ""imag"", ""kernel"", ""larg"", ""learn"", ""method"", ""metric"", ""model"", ""multipl"", ""rank"", ""represent"", ""similar""]",15
+cross_sectional_2017-2018,2017-2018,L0,community_2,"[""convolut"", ""deep"", ""network"", ""neural""]",4
+cross_sectional_2017-2018,2017-2018,L0,community_3,"[""multi"", ""view""]",2
+cross_sectional_2017-2018,2017-2018,L0,community_4,"[""surveil"", ""video""]",2
+cross_sectional_2017-2018,2017-2018,L1,community_0,"[""featur"", ""fusion""]",2
+cross_sectional_2017-2018,2017-2018,L1,community_1,"[""convolut"", ""deep"", ""network"", ""neural""]",4
+cross_sectional_2017-2018,2017-2018,L1,community_2,"[""attribut"", ""base"", ""cross"", ""dictionari"", ""imag"", ""kernel"", ""larg"", ""learn"", ""method"", ""metric"", ""model"", ""multi"", ""multipl"", ""rank"", ""represent"", ""similar"", ""view""]",17
+cross_sectional_2017-2018,2017-2018,L1,community_3,"[""surveil"", ""video""]",2
+cross_sectional_2019-2020,2019-2020,L0,community_0,"[""attribut"", ""data"", ""dictionari"", ""distanc"", ""id"", ""intellig"", ""label"", ""learn"", ""machin"", ""metric"", ""recognit"", ""robust"", ""semi"", ""supervis"", ""system"", ""vision""]",16
+cross_sectional_2019-2020,2019-2020,L0,community_1,"[""adversari"", ""generat""]",2
+cross_sectional_2019-2020,2019-2020,L0,community_2,"[""analysi"", ""camera"", ""comput"", ""extract"", ""measur"", ""model"", ""task"", ""train"", ""visual""]",9
+cross_sectional_2019-2020,2019-2020,L0,community_3,"[""attent"", ""convolut"", ""deep"", ""multi"", ""network"", ""neural""]",6
+cross_sectional_2019-2020,2019-2020,L0,community_4,"[""featur"", ""fusion"", ""imag"", ""local"", ""represent"", ""retriev"", ""semant""]",7
+cross_sectional_2019-2020,2019-2020,L0,community_5,"[""loss"", ""triplet""]",2
+cross_sectional_2019-2020,2019-2020,L0,community_6,"[""cross"", ""modal""]",2
+cross_sectional_2019-2020,2019-2020,L0,community_7,"[""adapt"", ""domain"", ""unsupervis""]",3
+cross_sectional_2019-2020,2019-2020,L0,community_8,"[""base"", ""surveil"", ""video""]",3
+cross_sectional_2019-2020,2019-2020,L1,community_0,"[""analysi"", ""camera"", ""comput"", ""extract"", ""featur"", ""fusion"", ""imag"", ""local"", ""measur"", ""model"", ""represent"", ""retriev"", ""semant"", ""task"", ""train"", ""visual""]",16
+cross_sectional_2019-2020,2019-2020,L1,community_1,"[""adversari"", ""attent"", ""convolut"", ""deep"", ""generat"", ""loss"", ""multi"", ""network"", ""neural"", ""triplet""]",10
+cross_sectional_2019-2020,2019-2020,L1,community_2,"[""cross"", ""modal""]",2
+cross_sectional_2019-2020,2019-2020,L1,community_3,"[""adapt"", ""attribut"", ""base"", ""data"", ""dictionari"", ""distanc"", ""domain"", ""id"", ""intellig"", ""label"", ""learn"", ""machin"", ""metric"", ""recognit"", ""robust"", ""semi"", ""supervis"", ""surveil"", ""system"", ""unsupervis"", ""video"", ""vision""]",22
+cross_sectional_2021-2022,2021-2022,L0,community_0,"[""base"", ""color"", ""comput"", ""extract"", ""featur"", ""fusion"", ""global"", ""local"", ""mine"", ""represent"", ""surveil"", ""video"", ""visual""]",13
+cross_sectional_2021-2022,2021-2022,L0,community_1,"[""analysi"", ""camera"", ""data"", ""imag"", ""measur"", ""model"", ""nois"", ""semant"", ""task"", ""test"", ""train""]",11
+cross_sectional_2021-2022,2021-2022,L0,community_2,"[""contrast"", ""deep"", ""id"", ""learn"", ""metric"", ""multi"", ""recognit"", ""retriev"", ""scale"", ""supervis"", ""transfer"", ""vision""]",12
+cross_sectional_2021-2022,2021-2022,L0,community_3,"[""cross"", ""modal""]",2
+cross_sectional_2021-2022,2021-2022,L0,community_4,"[""adapt"", ""algorithm"", ""cluster"", ""domain"", ""label"", ""pseudo"", ""unsupervis""]",7
+cross_sectional_2021-2022,2021-2022,L0,community_5,"[""convolut"", ""graph"", ""network"", ""neural""]",4
+cross_sectional_2021-2022,2021-2022,L0,community_6,"[""attent"", ""mechan""]",2
+cross_sectional_2021-2022,2021-2022,L0,community_7,"[""adversari"", ""generat""]",2
+cross_sectional_2021-2022,2021-2022,L0,community_8,"[""infrar"", ""visibl""]",2
+cross_sectional_2021-2022,2021-2022,L0,community_9,"[""loss"", ""triplet""]",2
+cross_sectional_2021-2022,2021-2022,L1,community_0,"[""analysi"", ""base"", ""camera"", ""color"", ""comput"", ""data"", ""extract"", ""featur"", ""fusion"", ""global"", ""imag"", ""local"", ""measur"", ""mine"", ""model"", ""nois"", ""represent"", ""semant"", ""surveil"", ""task"", ""test"", ""train"", ""video"", ""visual""]",24
+cross_sectional_2021-2022,2021-2022,L1,community_1,"[""attent"", ""contrast"", ""convolut"", ""deep"", ""graph"", ""id"", ""learn"", ""loss"", ""mechan"", ""metric"", ""multi"", ""network"", ""neural"", ""recognit"", ""retriev"", ""scale"", ""supervis"", ""transfer"", ""triplet"", ""vision""]",20
+cross_sectional_2021-2022,2021-2022,L1,community_2,"[""adapt"", ""adversari"", ""algorithm"", ""cluster"", ""domain"", ""generat"", ""label"", ""pseudo"", ""unsupervis""]",9
+cross_sectional_2021-2022,2021-2022,L1,community_3,"[""cross"", ""infrar"", ""modal"", ""visibl""]",4
+cross_sectional_2023-2024,2023-2024,L0,community_0,"[""color"", ""cross"", ""imag"", ""modal"", ""retriev"", ""text""]",6
+cross_sectional_2023-2024,2023-2024,L0,community_1,"[""featur"", ""fusion"", ""inform"", ""local"", ""occlud"", ""transform"", ""vision""]",7
+cross_sectional_2023-2024,2023-2024,L0,community_10,"[""granular"", ""multi"", ""scale""]",3
+cross_sectional_2023-2024,2023-2024,L0,community_11,"[""convolut"", ""graph"", ""network"", ""neural""]",4
+cross_sectional_2023-2024,2023-2024,L0,community_12,"[""chang"", ""cloth""]",2
+cross_sectional_2023-2024,2023-2024,L0,community_2,"[""analysi"", ""augment"", ""camera"", ""comput"", ""data"", ""extract"", ""measur"", ""model"", ""pedestrian"", ""represent"", ""semant"", ""task"", ""train"", ""visual""]",14
+cross_sectional_2023-2024,2023-2024,L0,community_3,"[""contrast"", ""deep"", ""id"", ""learn"", ""loss"", ""meta"", ""metric"", ""recognit"", ""self"", ""supervis"", ""system""]",11
+cross_sectional_2023-2024,2023-2024,L0,community_4,"[""infrar"", ""visibl""]",2
+cross_sectional_2023-2024,2023-2024,L0,community_5,"[""label"", ""nois"", ""pseudo""]",3
+cross_sectional_2023-2024,2023-2024,L0,community_6,"[""attent"", ""mechan""]",2
+cross_sectional_2023-2024,2023-2024,L0,community_7,"[""adapt"", ""cluster"", ""domain"", ""general"", ""unsupervis""]",5
+cross_sectional_2023-2024,2023-2024,L0,community_8,"[""base"", ""surveil"", ""video""]",3
+cross_sectional_2023-2024,2023-2024,L0,community_9,"[""adversari"", ""generat""]",2
+cross_sectional_2023-2024,2023-2024,L1,community_0,"[""analysi"", ""augment"", ""camera"", ""comput"", ""data"", ""extract"", ""measur"", ""model"", ""pedestrian"", ""represent"", ""semant"", ""task"", ""train"", ""visual""]",14
+cross_sectional_2023-2024,2023-2024,L1,community_1,"[""color"", ""cross"", ""imag"", ""infrar"", ""modal"", ""retriev"", ""text"", ""visibl""]",8
+cross_sectional_2023-2024,2023-2024,L1,community_2,"[""attent"", ""chang"", ""cloth"", ""featur"", ""fusion"", ""granular"", ""inform"", ""local"", ""mechan"", ""multi"", ""occlud"", ""scale"", ""transform"", ""vision""]",14
+cross_sectional_2023-2024,2023-2024,L1,community_3,"[""adapt"", ""base"", ""cluster"", ""contrast"", ""deep"", ""domain"", ""general"", ""id"", ""label"", ""learn"", ""loss"", ""meta"", ""metric"", ""nois"", ""pseudo"", ""recognit"", ""self"", ""supervis"", ""surveil"", ""system"", ""unsupervis"", ""video""]",22
+cross_sectional_2023-2024,2023-2024,L1,community_4,"[""adversari"", ""convolut"", ""generat"", ""graph"", ""network"", ""neural""]",6

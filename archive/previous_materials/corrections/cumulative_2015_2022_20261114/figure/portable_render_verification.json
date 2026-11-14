@@ -1,0 +1,13 @@
+{
+  "portable_inputs_only": [
+    "render_corrected_cumulative.py",
+    "nodes.csv",
+    "edges.csv",
+    "labels.csv"
+  ],
+  "ran_from_different_working_directory": true,
+  "reproduced_PNG_byte_identical": true,
+  "PNG_sha256": "2d42d2a9734430fdc7f67b8847f32aa7108a6994a427faf1932e1dc45f87d729",
+  "renderer_exit_code": 0,
+  "requires_raw_WoS_or_original_project_for_redraw": false
+}
