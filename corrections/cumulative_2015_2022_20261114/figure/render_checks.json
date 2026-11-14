@@ -1,0 +1,31 @@
+{
+  "visible_nodes": 91,
+  "visible_edges": 434,
+  "all_91_labels_present": true,
+  "overlapping_label_pairs": [],
+  "clipped_labels": [],
+  "leader_lines": 89,
+  "font_points": 14,
+  "canvas_inches": [
+    15,
+    15
+  ],
+  "PNG_pixels": [
+    3600,
+    3600
+  ],
+  "edge_weight_sum": 15907,
+  "L0_groups": 14,
+  "L1_groups": 7,
+  "FINAL": "L1",
+  "native_GEM_node_positions_reused": true,
+  "label_positions_frozen": true,
+  "PDF_pages": 1,
+  "PDF_all_91_labels_present_after_whitespace_normalization": true,
+  "SVG_all_91_labels_present": true,
+  "unique_L0_colors": 14,
+  "unique_L1_shapes": 7,
+  "all_nodes_edges_frequencies_memberships_coordinates_exactly_match_corrected_sources": true,
+  "portable_PNG_byte_identical": true,
+  "visual_review": "V2 main PNG and separate membership key inspected by figure agent and root. Enlarged 14pt labels; no text overlaps or clipped labels. Exact corrected memberships and frozen native GEM coordinates retained."
+}

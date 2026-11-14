@@ -1,0 +1,169 @@
+{
+  "period": "2015–2022",
+  "selected_records": 1499,
+  "usable_author_keyword_records": 1439,
+  "source_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "keyword_field": "DE only",
+  "titles_abstracts_KeywordsPlus_not_used": true,
+  "algorithm": "Louvain",
+  "seed": 1000,
+  "treatment": "filter-and-suppress",
+  "multiplier": 1,
+  "cutoff": 16,
+  "operator": ">",
+  "retained_minimum_integer_weight": 17,
+  "nodes": 91,
+  "edges": 434,
+  "full_nodes": 1365,
+  "full_edges": 33630,
+  "retained_edge_weight": 15907,
+  "full_edge_weight": 72170.0,
+  "graph_canonical_sha256": "e7dc140e462747638ba953a9fdda7f6d4cf5dbe4057c349d5660e515152c9d17",
+  "groups": {
+    "L0": 14,
+    "L1": 7,
+    "FINAL": "L1"
+  },
+  "geometry": {
+    "source": "Frozen corrected-campaign native GUESS GEM union coordinates",
+    "algorithm": "Installed GUESS com.hp.hpl.guess.layout.GEM",
+    "layout_seed": 1000,
+    "layout_graph_nodes": 202,
+    "layout_graph_edges": 1463,
+    "node_coordinates_recomputed": false,
+    "view_only": "91 retained nodes shown with an enlarged viewport; no coordinate optimization or community manipulation",
+    "weighting": "Unweighted adjacency, as implemented by historical GUESS GEM; weights retained separately in scientific graph",
+    "guess_jar_sha256": "6fb39fbd45014c190c74d0fcf480484541910c587ba805235d4ca48c10171002",
+    "viewport_padding_factor": 1.08
+  },
+  "design": {
+    "source": "Archived original plotting code and original GitHub PNG",
+    "original_palette": [
+      "#0173B2",
+      "#DE8F05",
+      "#029E73",
+      "#D55E00",
+      "#CC78BC",
+      "#CA9161",
+      "#FBAFE4",
+      "#949494",
+      "#ECE133",
+      "#56B4E9"
+    ],
+    "cumulative_lightening_factor": 0.6,
+    "pastel_palette_extended_to_14_distinct_colours": [
+      "#67abd1",
+      "#ebbc69",
+      "#67c5ab",
+      "#e69e66",
+      "#e0aed7",
+      "#dfbda0",
+      "#fdcfef",
+      "#bfbfbf",
+      "#f4ed85",
+      "#9ad2f2",
+      "#7B99C2",
+      "#D7A6AC",
+      "#B5C187",
+      "#AAA4D1"
+    ],
+    "node_area": "3 × document frequency in points squared",
+    "colour": "L0 community; display styles aligned by maximum shared-token overlap",
+    "shape": "L1 community; display styles aligned by maximum shared-token overlap",
+    "display_alignment_not_membership_identity": true,
+    "label_style": "14pt title-case normalized stems; deterministic repulsion",
+    "edge_width": "1 + 4 × normalized within-graph weight",
+    "edge_alpha": "0.01 + 0.39 × normalized within-graph weight"
+  },
+  "historical_input_used_only_for": "Display code alignment and visual design; never network data or corrected membership",
+  "historical_github_path": "figures/cumulative_graphs/2015–2022.png",
+  "sources": [
+    {
+      "path_relative_to_project": "resultats/Historical_2021_2022_Comparison_Report/test again one ok/correction_cumul_2015_2022_DE_20261110/graphs/cumulative_2015-2022_m10.json",
+      "sha256": "049b8b281fe809f29237e64b0777f8759338b8b27fb704c5cc01fe558df25381"
+    },
+    {
+      "path_relative_to_project": "resultats/Historical_2021_2022_Comparison_Report/test again one ok/correction_cumul_2015_2022_DE_20261110/runs/e7dc140e46274763_lo_1000.json",
+      "sha256": "eb4e1e2f84a6e9c0f5807f87ff61fba3d6f0dfd0afa93e9182d3fdccee73393c"
+    },
+    {
+      "path_relative_to_project": "resultats/Historical_2021_2022_Comparison_Report/test again one ok/correction_cumul_2015_2022_DE_20261110/layouts/cumulative_2015-2022.json",
+      "sha256": "df7216cc92b8cc4835ebfbe8611b4dd62417bd447426b3191e127be657acb386"
+    },
+    {
+      "path_relative_to_project": "resultats/Historical_2021_2022_Comparison_Report/test again one ok/correction_cumul_2015_2022_DE_20261110/inputs/full/cumulative_2015-2022.json",
+      "sha256": "53ae7616f8a0d4f95f179ea4d732357e19700f935dbbd4a4fb415cae6e6b657d"
+    },
+    {
+      "path_relative_to_project": "resultats/reproduction_historique_2418_20261104/cases.json",
+      "sha256": "e75b1efcd98e74c1843f6ba9a7a24f40442893bcdc60e728ec4a4adc19b6eab3"
+    },
+    {
+      "path_relative_to_project": "scripts/render_recovered_historical.py",
+      "sha256": "e62b433b242a1cbb26d571ccba7e543c08d499544383145976e939bd56df973e"
+    }
+  ],
+  "Leiden_seed1000_summary": [
+    {
+      "treatment": "suppress",
+      "algorithm": "leiden",
+      "seed": 1000,
+      "levels": [
+        {
+          "level": "L0",
+          "groups": 19
+        },
+        {
+          "level": "L1",
+          "groups": 7
+        },
+        {
+          "level": "L2",
+          "groups": 6
+        }
+      ],
+      "FINAL": "L2",
+      "FINAL_differs_from_L1": true,
+      "additional_levels_above_L1": 1,
+      "source_file": "runs/e7dc140e46274763_le_1000.json",
+      "source_sha256": "bd9b1743c14750e70bfbbde5201d8d26545898a49e8b2f6b87da95b176858ee4"
+    },
+    {
+      "treatment": "hide",
+      "algorithm": "leiden",
+      "seed": 1000,
+      "levels": [
+        {
+          "level": "L0",
+          "groups": 247
+        },
+        {
+          "level": "L1",
+          "groups": 52
+        },
+        {
+          "level": "L2",
+          "groups": 14
+        },
+        {
+          "level": "L3",
+          "groups": 7
+        }
+      ],
+      "FINAL": "L3",
+      "FINAL_differs_from_L1": true,
+      "additional_levels_above_L1": 2,
+      "source_file": "runs/8372066b4606176d_le_1000.json",
+      "source_sha256": "1c479c8093949a078ed776f1d8da536b2a9876a51a92c3b28d26138e5da88087"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "2015–2022.pdf": {
+    "sha256": "1a184dc9db5bdad84ed1e2de481348676cfc422c50c3e5e9d03e45fdea17dada",
+    "bytes": 37702
+  },
+  "2015–2022.png": {
+    "sha256": "2d42d2a9734430fdc7f67b8847f32aa7108a6994a427faf1932e1dc45f87d729",
+    "bytes": 1339041
+  },
+  "2015–2022.svg": {
+    "sha256": "0e4e6f90f715f5cfa28bc1efde3f34b11fc51daea376b7afd93f97532cb66be5",
+    "bytes": 198086
+  },
+  "community_key.pdf": {
+    "sha256": "1dcec2f6dd5687bfd9bb5567f3ca9757387e01cd84b6ff99e85743cc58dd6053",
+    "bytes": 14438
+  },
+  "community_key.png": {
+    "sha256": "65855d88042732238864fdded7aa66803e82a49b4ece2143036ccf32b5086991",
+    "bytes": 98676
+  },
+  "community_key.svg": {
+    "sha256": "0acd4c3c845d3ec92f8b74e2b532e2b4c81b6f76097905a8113005eb886124f3",
+    "bytes": 11388
+  },
+  "display_alignment.json": {
+    "sha256": "ab95f4eebbbf63e50ca38cdf6c149349886b00347313f0e0e74c89f98bfba31f",
+    "bytes": 4081
+  },
+  "edges.csv": {
+    "sha256": "951ca622349b58382153853cba6a0ff506529e8a69007fcf4f810d5c70ac26eb",
+    "bytes": 7669
+  },
+  "labels.csv": {
+    "sha256": "6ceda40c7dac02ecbf44a882a7f12d6a1ce42e472de492b807f3c87517b3bc3c",
+    "bytes": 4430
+  },
+  "leiden_hierarchy_reference.json": {
+    "sha256": "ca2360241970360d7c985d139e15952a9fce7ec71aaef2d91339f5a6e418f59a",
+    "bytes": 175001
+  },
+  "nodes.csv": {
+    "sha256": "9173470f5d49d55123615ce143749c8982d61ea486b884d76f1b3455dcae81d6",
+    "bytes": 7219
+  },
+  "portable_render_verification.json": {
+    "sha256": "f29d1abfd04e107ee6d6c5f6f751db05d3f32ce1252442d5e5dcb0eefa6f028d",
+    "bytes": 396
+  },
+  "prepare_inputs_workspace.py": {
+    "sha256": "495e7d3d081cb1cc4a08620f9da480c6def3520d68bc252858a9bae16f8615ae",
+    "bytes": 10162
+  },
+  "provenance.json": {
+    "sha256": "1a249d8be7772ae13d083aeb2f5c6813136dc5e93c0d41475b013763886a9f56",
+    "bytes": 5652
+  },
+  "README.md": {
+    "sha256": "e3d22d76a62fe28e9f8e65958cc2801ffcf3408070c1efe29b6991ba03387aa1",
+    "bytes": 4364
+  },
+  "render_checks.json": {
+    "sha256": "4cd209351358f5cb0c3f2344f01bf3c3a8355ec67cc99013a9ad088c556c67cc",
+    "bytes": 991
+  },
+  "render_corrected_cumulative.py": {
+    "sha256": "ba8ab8a302fbd4d63ddb7833f84faf0b7fdeb26504c627034f305b8a821d9e78",
+    "bytes": 7449
+  },
+  "requirements.txt": {
+    "sha256": "8f59f7802743631b32bacb48f093fc7d8e7590033eea4254e0e33195c004d651",
+    "bytes": 50
+  }
+}

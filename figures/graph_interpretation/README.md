@@ -42,13 +42,13 @@ A community should be interpreted by combining:
 
 For example, a group containing terms such as `deep`, `neural`, `convolut`, and `network` can be interpreted as a deep neural network topic. A group containing `metric`, `learn`, `kernel`, and `represent` can be interpreted as a metric-learning and representation-learning topic.
 
-## Kamada-Kawai Layout
+## Layouts
 
-The graphs use the Kamada-Kawai layout. This layout places structurally close nodes near each other by trying to preserve graph-theoretical distances in a two-dimensional space.
+The historical cross-sectional figures use Kamada–Kawai. The cumulative figures use GEM (Graph Embedder) in GUESS.
 
-Keywords connected by shorter graph-theoretical paths tend to appear closer together. Keywords connected through longer paths tend to appear farther apart.
+The corrected cumulative 2015–2022 figure uses saved native GUESS GEM coordinates calculated from the union of its seven display masks, with layout seed 1000. Its actual community memberships are computed separately and supplied in the [correction files](../../corrections/cumulative_2015_2022_20261114/README.md).
 
-However, the layout is a two-dimensional projection of a more complex network structure. Some local distortions can occur, so visual proximity should not be interpreted alone.
+Node positions help display the network. Interpret a position together with the recorded links and community memberships; visual proximity alone does not establish a common community.
 
 ## Interpretation Rule
 
@@ -58,6 +58,6 @@ The graph should be read using both topology and visual encoding:
 - colors identify fine-grained communities;
 - shapes identify broader communities;
 - node size indicates keyword frequency;
-- node position indicates structural proximity under the Kamada-Kawai layout.
+- node position is determined by the layout used for that figure.
 
 The most reliable interpretation comes from reading these elements together rather than relying on a single visual cue.

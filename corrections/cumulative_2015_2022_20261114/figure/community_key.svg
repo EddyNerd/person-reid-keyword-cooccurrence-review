@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="683.996972pt" height="457.92pt" viewBox="0 0 683.996972 457.92" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T17:15:54.017752</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 457.92 
+L 683.996972 457.92 
+L 683.996972 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m90287173c0" d="M 0 -6.020797 
+L -1.351753 -1.860529 
+L -5.726118 -1.860529 
+L -2.187183 0.710659 
+L -3.538936 4.870927 
+L -0 2.29974 
+L 3.538936 4.870927 
+L 2.187183 0.710659 
+L 5.726118 -1.860529 
+L 1.351753 -1.860529 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m90287173c0" x="22.244118" y="33.8112" style="fill: #7b99c2; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m808fbfe035" d="M 0 8.514693 
+L 8.514693 0 
+L 0 -8.514693 
+L -8.514693 0 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m808fbfe035" x="22.244118" y="61.75296" style="fill: #9ad2f2; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="m309c00d0ce" d="M 0 6.020797 
+C 1.596734 6.020797 3.128285 5.386408 4.257347 4.257347 
+C 5.386408 3.128285 6.020797 1.596734 6.020797 0 
+C 6.020797 -1.596734 5.386408 -3.128285 4.257347 -4.257347 
+C 3.128285 -5.386408 1.596734 -6.020797 0 -6.020797 
+C -1.596734 -6.020797 -3.128285 -5.386408 -4.257347 -4.257347 
+C -5.386408 -3.128285 -6.020797 -1.596734 -6.020797 0 
+C -6.020797 1.596734 -5.386408 3.128285 -4.257347 4.257347 
+C -3.128285 5.386408 -1.596734 6.020797 0 6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m309c00d0ce" x="22.244118" y="89.69472" style="fill: #e69e66; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="md56cd16f1e" d="M 0 8.514693 
+L 8.514693 0 
+L 0 -8.514693 
+L -8.514693 0 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#md56cd16f1e" x="22.244118" y="117.63648" style="fill: #d7a6ac; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path id="m00314d0da2" d="M 0 8.514693 
+L 8.514693 0 
+L 0 -8.514693 
+L -8.514693 0 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m00314d0da2" x="22.244118" y="145.57824" style="fill: #fdcfef; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <defs>
+     <path id="m5bdc6180e3" d="M 0 -6.020797 
+L -6.020797 6.020797 
+L 6.020797 6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m5bdc6180e3" x="22.244118" y="173.52" style="fill: #67c5ab; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <defs>
+     <path id="m8aa1c8a467" d="M -0 6.020797 
+L 6.020797 -6.020797 
+L -6.020797 -6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m8aa1c8a467" x="22.244118" y="201.46176" style="fill: #f4ed85; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <defs>
+     <path id="m718a46e977" d="M 0 6.020797 
+C 1.596734 6.020797 3.128285 5.386408 4.257347 4.257347 
+C 5.386408 3.128285 6.020797 1.596734 6.020797 0 
+C 6.020797 -1.596734 5.386408 -3.128285 4.257347 -4.257347 
+C 3.128285 -5.386408 1.596734 -6.020797 0 -6.020797 
+C -1.596734 -6.020797 -3.128285 -5.386408 -4.257347 -4.257347 
+C -5.386408 -3.128285 -6.020797 -1.596734 -6.020797 0 
+C -6.020797 1.596734 -5.386408 3.128285 -4.257347 4.257347 
+C -3.128285 5.386408 -1.596734 6.020797 0 6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m718a46e977" x="22.244118" y="229.40352" style="fill: #e0aed7; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_9">
+    <defs>
+     <path id="mca2b453839" d="M -6.020797 6.020797 
+L 6.020797 6.020797 
+L 6.020797 -6.020797 
+L -6.020797 -6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#mca2b453839" x="22.244118" y="257.34528" style="fill: #ebbc69; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_10">
+    <defs>
+     <path id="m655eef1fb0" d="M -6.020797 -0 
+L 6.020797 6.020797 
+L 6.020797 -6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m655eef1fb0" x="22.244118" y="285.28704" style="fill: #dfbda0; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_11">
+    <defs>
+     <path id="maa3d54af27" d="M -6.020797 6.020797 
+L 6.020797 6.020797 
+L 6.020797 -6.020797 
+L -6.020797 -6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#maa3d54af27" x="22.244118" y="313.2288" style="fill: #bfbfbf; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_12">
+    <defs>
+     <path id="me067488954" d="M -6.020797 6.020797 
+L 6.020797 6.020797 
+L 6.020797 -6.020797 
+L -6.020797 -6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#me067488954" x="22.244118" y="341.17056" style="fill: #67abd1; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_13">
+    <defs>
+     <path id="m9c0c92bff7" d="M -6.020797 6.020797 
+L 6.020797 6.020797 
+L 6.020797 -6.020797 
+L -6.020797 -6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m9c0c92bff7" x="22.244118" y="369.11232" style="fill: #b5c187; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="PathCollection_14">
+    <defs>
+     <path id="m4486019ebd" d="M -0 6.020797 
+L 6.020797 -6.020797 
+L -6.020797 -6.020797 
+z
+" style="stroke: #000000; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#pb30b911aa8)">
+     <use xlink:href="#m4486019ebd" x="22.244118" y="397.05408" style="fill: #aaa4d1; stroke: #000000; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="35.967579" transform="rotate(-0 46.314706 35.967579)">L0 0 / L1 0: adapt, algorithm, cluster, domain, label, pseudo, unsupervis</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="63.909339" transform="rotate(-0 46.314706 63.909339)">L0 1 / L1 1: adversari, generat</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="91.851099" transform="rotate(-0 46.314706 91.851099)">L0 2 / L1 2: analysi, augment, camera, comput, data, measur, model, nois, task, test, train</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="119.792859" transform="rotate(-0 46.314706 119.792859)">L0 3 / L1 1: attent, mechan, modul</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="147.734619" transform="rotate(-0 46.314706 147.734619)">L0 4 / L1 1: attribut, convolut, graph, network, neural, siames</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="175.676379" transform="rotate(-0 46.314706 175.676379)">L0 5 / L1 3: base, sequenc, spatial, surveil, tempor, video</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="203.618139" transform="rotate(-0 46.314706 203.618139)">L0 6 / L1 4: center, function, loss, triplet</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="231.559899" transform="rotate(-0 46.314706 231.559899)">L0 7 / L1 2: channel, color, extract, featur, global, imag, local, mine, represent, robust, semant, visual</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'" transform="translate(46.314706 254.520524)">L0 8 / L1 5: contrast, deep, dictionari, distanc, fusion, id, inform, intellig, learn, machin, metric, rank, retriev, self, semi, shot, similar, structur, supervis,</text>
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'" transform="translate(46.314706 264.482794)">system, transfer, transform, vision</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="287.443419" transform="rotate(-0 46.314706 287.443419)">L0 9 / L1 6: cross, infrar, modal, visibl</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="315.385179" transform="rotate(-0 46.314706 315.385179)">L0 10 / L1 5: detect, object, pedestrian, search</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="343.326939" transform="rotate(-0 46.314706 343.326939)">L0 11 / L1 5: estim, pose</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="371.268699" transform="rotate(-0 46.314706 371.268699)">L0 12 / L1 5: face, recognit</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.3px; font-family: 'DejaVu Sans'; text-anchor: start" x="46.314706" y="399.210459" transform="rotate(-0 46.314706 399.210459)">L0 13 / L1 4: level, multi, scale, track, view</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb30b911aa8">
+   <rect x="7.2" y="7.2" width="613.8" height="443.52"/>
+  </clipPath>
+ </defs>
+</svg>

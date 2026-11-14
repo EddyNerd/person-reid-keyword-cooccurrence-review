@@ -6,6 +6,14 @@ This repository contains supplementary materials for the paper:
 
 The repository provides the figures, tables, and methodological notes used to support the longitudinal analysis of person Re-ID research from 2015 to 2024.
 
+## Corrected cumulative graph for 2015–2022
+
+The cumulative 2015–2022 figure has been rebuilt from the complete study-period corpus. The earlier input labelled 2015–2022 contained only 2019–2022 records. Restoring the 254 records from 2015–2018 gives **1,499 records**, including **1,439 with usable author keywords**.
+
+The [corrected figure](figures/cumulative_graphs/2015%E2%80%932022.png) displays **91 nodes and 434 weighted links**. It uses the saved Louvain partition under filter-and-suppress (seed 1000; threshold multiplier 1): 14 L0 communities and 7 L1 communities, with FINAL at L1. The historical visual design is retained, while the memberships come from the corrected analysis. Its native GUESS GEM layout uses seed 1000 and saved coordinates from the union of the seven display masks (202 nodes and 1,463 links).
+
+The [correction record](corrections/cumulative_2015_2022_20261114/README.md) provides the cohort counts, graph statistics, portable rendering files, Leiden hierarchy memberships and analysis audit. The earlier figure remains available in the versioned Git history and is not the current cumulative 2015–2022 reference.
+
 ## Contents
 
 ### Figures
@@ -71,7 +79,7 @@ The `methodology/` directory documents the workflow used to generate and interpr
 
 In the keyword co-occurrence graphs, each node represents a keyword and each edge represents a co-occurrence between two keywords. Thicker edges indicate stronger co-occurrence. Node colors indicate Level 0 communities, corresponding to fine-grained thematic groups. Node shapes indicate Level 1 communities, corresponding to broader thematic groups.
 
-The cross-sectional graphs use the Kamada–Kawai layout. In this layout, keywords that are structurally close in the network tend to be placed near each other, while keywords connected through longer graph-theoretical paths are placed farther apart. Because the layout projects a high-dimensional network onto a two-dimensional plane, local distortions may occur. For the cumulative graphs, the utilization of the Kamada-Kawai layout resulted in a cluttered graph. For this reason, we preferred the GEM (Graph Embedder) layout. Fruchterman-Reingold layout aims to create a balanced layout where nodes are evenly distributed across the graph and the attraction/repulsion forces are proportional to the number of connected edges. Conversely, GEM modifies Fruchterman-Reingold using a simulated annealing process, which results in a graph where the distances between nodes are maximized, and edge crossings are minimized. This makes the graph more legible (see the annexes).
+The historical cross-sectional figures use Kamada–Kawai, and the cumulative figures use GEM (Graph Embedder) in GUESS. The corrected cumulative 2015–2022 figure reuses the saved native GUESS GEM coordinates from the corrected campaign. These layout coordinates arrange nodes for display; the community-detection algorithm determines community membership separately. The corrected coordinates remain fixed within comparisons of that window's pruning masks. Spatial proximity alone does not establish a shared community or thematic persistence.
 
 References
 

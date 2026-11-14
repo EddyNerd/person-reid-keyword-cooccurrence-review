@@ -37,16 +37,19 @@ Because Sci2 applies stemming, graph labels often appear as normalized word stem
 
 Topics should therefore be interpreted by considering groups of terms, communities, and edge strengths rather than isolated labels alone.
 
-## Kamada-Kawai Layout
+## Layouts and saved coordinates
 
-The graphs use the Kamada-Kawai layout. Kamada-Kawai is a spring-based layout model in which the ideal distance between every pair of nodes is proportional to their graph-theoretical distance, usually measured by shortest-path distance.
+The historical cross-sectional graphs use Kamada–Kawai, while the historical cumulative graphs use GEM (Graph Embedder) in GUESS. The two layouts arrange nodes for display; the community-detection algorithm determines their community assignments separately.
 
-In practical terms, keywords that are structurally close in the network tend to be placed near one another, while keywords connected through longer graph-theoretical paths tend to be placed farther apart.
+Kamada–Kawai is a spring-based layout in which the ideal distance between two nodes depends on their shortest-path distance in the graph. Structurally close nodes therefore tend to appear near one another, although a two-dimensional drawing cannot preserve every network distance.
 
-This layout is useful for the pruned co-occurrence networks because it emphasizes global shortest-path structure and helps preserve relative proximity between thematically related keywords.
+The corrected cumulative 2015–2022 figure uses the native GUESS GEM implementation with layout seed 1000. One layout was calculated from the union of all seven display masks (202 nodes and 1,463 links), and its exported coordinates are retained for the reference figure and comparisons between masks. The reference figure displays 91 of these nodes and 434 links. Label positions are adjusted for readability without moving the nodes. The [portable figure files](../corrections/cumulative_2015_2022_20261114/figure/README.md) contain the node coordinates, label positions and rendering code.
+
+Node sizes use keyword document frequencies. Colours encode the corrected L0 memberships, shapes encode the corrected L1 memberships, and link widths use co-occurrence counts. Matching historical display styles does not mean that the corrected and historical communities contain identical terms.
 
 ## Interpretation Caution
 
 The final node positions are obtained through an energy-minimization process. Because the layout projects a high-dimensional network structure onto a two-dimensional plane, local distortions are inevitable.
 
 Therefore, visual proximity should be interpreted together with edge thickness, community membership, and the keyword tables.
+

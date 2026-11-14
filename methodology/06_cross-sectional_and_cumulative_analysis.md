@@ -36,9 +36,13 @@ In cumulative graphs, each window includes the literature from 2015 up to the en
 
 ## Node Position Consistency
 
-For cumulative evolution, node positions were maintained across time slices by exporting and importing x-y coordinates in GUESS using the node position import/export workflow.
+The input for the corrected 2015–2022 cumulative network contains all 1,499 study records published from 2015 through 2022, including 1,439 with usable author keywords. It replaces the earlier 1,245-record input labelled 2015–2022, which covered only 2019–2022. The [correction record](../corrections/cumulative_2015_2022_20261114/README.md) documents the restored 254 records and the corrected graph.
 
-This makes cumulative graphs more visually comparable over time because recurring keywords can remain in stable positions across successive windows.
+The original GUESS workflow allowed node coordinates to be exported and imported. Saved historical figures retain their recorded coordinates; we do not assume that every historical graph or successive cumulative window has identical node positions.
+
+For the corrected 2015–2022 window, a common native GUESS GEM layout was calculated from the union of the seven display masks, containing 202 nodes and 1,463 links. The layout seed is 1000. The exported coordinates are fixed when the masks within this window are compared. Changing a threshold therefore changes which nodes and links are displayed without moving the remaining nodes. This consistency applies within the corrected window; it does not imply fixed coordinates across different publication periods.
+
+Community correspondence is calculated from actual memberships, not from matching colours, shapes or nearby positions in a figure.
 
 ## Interpretation of Cumulative Graphs
 
