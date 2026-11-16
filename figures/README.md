@@ -9,6 +9,8 @@ GEM-coordinate convention. The former inherits 58 positions from 2015-2020,
 fixed-anchor GEM placements. Five reinstated terms are aligned in the 2024
 drawing so that all 89 shared displayed terms have exactly equal coordinates.
 Graphs, frequencies, pruning rules and saved communities are unchanged.
+Node fill opacity is 0.60 to match the appearance of the historical published PNGs.
+The pastel palette is retained separately; coordinates and labels are unchanged.
 
-See the [coordinate verification, data and rendering sources](../corrections/cumulative_fixed_GEM_20261116/README.md).
+See the [coordinate verification, data and rendering sources](../corrections/cumulative_node_translucency_20261116/README.md).
 The earlier drawings remain identified in [archive](../archive/README.md).

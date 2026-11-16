@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Restore the successive fixed-coordinate GEM drawing convention",
+  "analysis_recomputed": false,
+  "community_detection_recomputed": false,
+  "historical_GEM_seed": "Not recorded",
+  "corrected_2022": {
+    "records": 1499,
+    "usable_keyword_records": 1439,
+    "nodes": 91,
+    "edges": 434,
+    "edge_weight_sum": 15907,
+    "partition": "Saved Louvain seed 1000, filter-and-suppress, weight >16",
+    "L0_groups": 14,
+    "L1_groups": 7,
+    "FINAL": "L1",
+    "coordinate_sources": {
+      "preserved_from_2020": 58,
+      "additional_from_2024": 31,
+      "new_fixed_anchor_GEM": 2
+    }
+  },
+  "aligned_2024": {
+    "nodes": 116,
+    "edges": 615,
+    "unchanged_positions": 111,
+    "aligned_positions": [
+      "face",
+      "intellig",
+      "rank",
+      "similar",
+      "spatial"
+    ],
+    "scientific_graph_and_saved_memberships_unchanged": true
+  },
+  "new_node_placement": {
+    "method": "Pure-Python fixed-anchor extension of GUESS GEM arrangement",
+    "unmodified_native_GEM": false,
+    "native_evidence": "tmp/guess_layout_runtime/GEM_bytecode.txt: a_round/displace",
+    "seed": 1000,
+    "rng": "java.util.Random nextDouble reimplementation",
+    "fixed_nodes": 89,
+    "movable_nodes": [
+      "modul",
+      "structur"
+    ],
+    "nodes": 91,
+    "edges": 434,
+    "weighted_forces": false,
+    "characteristic_length": 32.0,
+    "characteristic_length_rule": "Explicit archived-coordinate characteristic length: native ELEN 128 times final rescaling factor 0.25 = 32",
+    "initial_positions": {
+      "modul": [
+        118.16558769152665,
+        210.2992228199396
+      ],
+      "structur": [
+        90.04457366615561,
+        79.85032582018687
+      ]
+    },
+    "initialization_neighbors": {
+      "modul": [
+        "attent"
+      ],
+      "structur": [
+        "learn"
+      ]
+    },
+    "initialization": "anchored-neighbour barycentre plus seeded 0.2*ELEN offset",
+    "arrangement_coefficients": {
+      "starttemp": 1.0,
+      "maxtemp": 1.5,
+      "finaltemp": 0.02,
+      "shake": 0.3,
+      "gravity": 0.1,
+      "oscillation": 0.4,
+      "rotation": 0.9
+    },
+    "rounds": 16,
+    "displacement_attempts": 32,
+    "maximum_rounds": 1000,
+    "stop_reason": "movable_temperature_below_GEM_arrangement_threshold",
+    "final_local_temperature": {
+      "modul": 0.6438789431409438,
+      "structur": 0.5333140190737183
+    },
+    "final_movable_temperature": 0.8360645527474904,
+    "all_input_anchor_values_unchanged": true,
+    "post_layout_rescaling": false,
+    "native_differences": [
+      "Only new nodes are initialized or displaced; anchors enter every force calculation.",
+      "Characteristic length follows the archived coordinate scale.",
+      "Floating-point arithmetic replaces native integer/float rounding.",
+      "Stopping and shuffled selection concern movable nodes only.",
+      "No insertion/optimization stages or final whole-graph rescaling."
+    ],
+    "community_detection_or_partition_changes": false
+  },
+  "sources": {
+    "archived_cumulative_cases_sha256": "e75b1efcd98e74c1843f6ba9a7a24f40442893bcdc60e728ec4a4adc19b6eab3",
+    "archived_2024_GDF_sha256": "ff28e1a29efc73a693fdb9c7ac891b22c8dc6a9d6828aec15d888f745c6dc727",
+    "corrected_2022_nodes_before_coordinate_update_sha256": "9173470f5d49d55123615ce143749c8982d61ea486b884d76f1b3455dcae81d6",
+    "corrected_2022_edges_sha256": "951ca622349b58382153853cba6a0ff506529e8a69007fcf4f810d5c70ac26eb"
+  },
+  "source_documents": "Original cumulative graph inputs and corrected 14 November figure inputs; only neutral derived tables are redistributed.",
+  "node_style_update": {
+    "date": "2026-11-16",
+    "request": "Match the visible node translucency in the published cumulative drawings",
+    "node_alpha_before": 0.95,
+    "node_alpha_after": 0.6,
+    "pastel_lightening_factor_unchanged": 0.6,
+    "historical_code_node_alpha": 0.95,
+    "historical_code_note": "The inspected Code_GEM.txt records alpha 0.95. Published PNG face colours are paler than the current reproduction. The 0.60 value is an equivalent visual match on the same pastel palette, not a recovered historical source parameter.",
+    "historical_code_sha256": "61005d23df38e94113851aa540eb81be5ceb8041829dacd5ff0738db40798e8d",
+    "samples": [
+      {
+        "name": "blue",
+        "pastel_rgb": [
+          103,
+          171,
+          209
+        ],
+        "published_rgb": [
+          164,
+          204,
+          227
+        ],
+        "equivalent_alpha_least_squares": 0.601189738505391,
+        "predicted_rgb_at_0_60": [
+          164,
+          205,
+          227
+        ]
+      },
+      {
+        "name": "orange",
+        "pastel_rgb": [
+          230,
+          158,
+          102
+        ],
+        "published_rgb": [
+          240,
+          196,
+          163
+        ],
+        "equivalent_alpha_least_squares": 0.6032353556798135,
+        "predicted_rgb_at_0_60": [
+          240,
+          197,
+          163
+        ]
+      },
+      {
+        "name": "green",
+        "pastel_rgb": [
+          103,
+          197,
+          171
+        ],
+        "published_rgb": [
+          164,
+          220,
+          204
+        ],
+        "equivalent_alpha_least_squares": 0.6009426082806347,
+        "predicted_rgb_at_0_60": [
+          164,
+          220,
+          205
+        ]
+      },
+      {
+        "name": "gold",
+        "pastel_rgb": [
+          235,
+          188,
+          105
+        ],
+        "published_rgb": [
+          243,
+          214,
+          165
+        ],
+        "equivalent_alpha_least_squares": 0.6019569900324948,
+        "predicted_rgb_at_0_60": [
+          243,
+          215,
+          165
+        ]
+      }
+    ],
+    "updated_periods": [
+      "2015-2022",
+      "2015-2024"
+    ],
+    "node_positions_and_memberships_unchanged": true,
+    "new_GEM_execution": false,
+    "edge_opacity_and_weights_unchanged": true,
+    "font_and_labels_unchanged": true,
+    "historical_raster_sources": [
+      {
+        "period": "2015-2020",
+        "sha256": "59dd80224b411d23ed3c55c05d8daa64a54e53690ed9ae4b671aa8c7019fb184"
+      },
+      {
+        "period": "2015-2024",
+        "sha256": "f1fec0f8f722cf3a53b92e982d4e5a5ac0072b5207aa0b7f4294facf48c3fd75"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-16",
+  "request": "Match the visible node translucency in the published cumulative drawings",
+  "node_alpha_before": 0.95,
+  "node_alpha_after": 0.6,
+  "pastel_lightening_factor_unchanged": 0.6,
+  "historical_code_node_alpha": 0.95,
+  "historical_code_note": "The inspected Code_GEM.txt records alpha 0.95. Published PNG face colours are paler than the current reproduction. The 0.60 value is an equivalent visual match on the same pastel palette, not a recovered historical source parameter.",
+  "historical_code_sha256": "61005d23df38e94113851aa540eb81be5ceb8041829dacd5ff0738db40798e8d",
+  "samples": [
+    {
+      "name": "blue",
+      "pastel_rgb": [
+        103,
+        171,
+        209
+      ],
+      "published_rgb": [
+        164,
+        204,
+        227
+      ],
+      "equivalent_alpha_least_squares": 0.601189738505391,
+      "predicted_rgb_at_0_60": [
+        164,
+        205,
+        227
+      ]
+    },
+    {
+      "name": "orange",
+      "pastel_rgb": [
+        230,
+        158,
+        102
+      ],
+      "published_rgb": [
+        240,
+        196,
+        163
+      ],
+      "equivalent_alpha_least_squares": 0.6032353556798135,
+      "predicted_rgb_at_0_60": [
+        240,
+        197,
+        163
+      ]
+    },
+    {
+      "name": "green",
+      "pastel_rgb": [
+        103,
+        197,
+        171
+      ],
+      "published_rgb": [
+        164,
+        220,
+        204
+      ],
+      "equivalent_alpha_least_squares": 0.6009426082806347,
+      "predicted_rgb_at_0_60": [
+        164,
+        220,
+        205
+      ]
+    },
+    {
+      "name": "gold",
+      "pastel_rgb": [
+        235,
+        188,
+        105
+      ],
+      "published_rgb": [
+        243,
+        214,
+        165
+      ],
+      "equivalent_alpha_least_squares": 0.6019569900324948,
+      "predicted_rgb_at_0_60": [
+        243,
+        215,
+        165
+      ]
+    }
+  ],
+  "updated_periods": [
+    "2015-2022",
+    "2015-2024"
+  ],
+  "node_positions_and_memberships_unchanged": true,
+  "new_GEM_execution": false,
+  "edge_opacity_and_weights_unchanged": true,
+  "font_and_labels_unchanged": true,
+  "historical_raster_sources": [
+    {
+      "period": "2015-2020",
+      "sha256": "59dd80224b411d23ed3c55c05d8daa64a54e53690ed9ae4b671aa8c7019fb184"
+    },
+    {
+      "period": "2015-2024",
+      "sha256": "f1fec0f8f722cf3a53b92e982d4e5a5ac0072b5207aa0b7f4294facf48c3fd75"
+    }
+  ]
+}

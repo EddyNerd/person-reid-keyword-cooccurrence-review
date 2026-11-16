@@ -1,0 +1,30 @@
+{
+  "nodes": 116,
+  "edges": 615,
+  "labels": 116,
+  "overlapping_label_pairs": [],
+  "clipped_labels": [],
+  "leader_lines": 55,
+  "node_coordinates_never_adjusted_by_renderer": true,
+  "label_font_pt": 12,
+  "node_alpha": 0.6,
+  "pastel_lightening_factor": 0.6,
+  "PNG_pixels": [
+    3600,
+    3600
+  ],
+  "preview_pixels": [
+    954,
+    954
+  ],
+  "common_viewport": [
+    -19.775000000000002,
+    415.275,
+    -22.275000000000002,
+    467.775
+  ],
+  "versions": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
+  }
+}

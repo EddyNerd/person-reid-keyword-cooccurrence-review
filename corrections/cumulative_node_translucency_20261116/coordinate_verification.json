@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "adjacent_shared_node_positions": [
+    {
+      "earlier": "2015-2016",
+      "later": "2015-2018",
+      "shared": 10,
+      "exactly_equal": 10
+    },
+    {
+      "earlier": "2015-2018",
+      "later": "2015-2020",
+      "shared": 23,
+      "exactly_equal": 23
+    },
+    {
+      "earlier": "2015-2020",
+      "later": "2015-2022 corrected",
+      "shared": 58,
+      "exactly_equal": 58
+    },
+    {
+      "earlier": "2015-2022 corrected",
+      "later": "2015-2024 aligned",
+      "shared": 89,
+      "exactly_equal": 89
+    }
+  ],
+  "corrected_2022_partition_and_frequencies_unchanged": true,
+  "corrected_2022_edges_byte_identical": true,
+  "aligned_2024_changed_tokens": [
+    "face",
+    "intellig",
+    "rank",
+    "similar",
+    "spatial"
+  ],
+  "aligned_2024_other_111_coordinates_unchanged": true,
+  "new_tokens": [
+    "modul",
+    "structur"
+  ]
+}
