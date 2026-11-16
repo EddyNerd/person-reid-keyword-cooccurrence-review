@@ -1,0 +1,147 @@
+[
+  {
+    "path": "2015-2022/2015\u20132022.pdf",
+    "bytes": 36745,
+    "sha256": "a6ed890e74ef5c7f29bc9079de99109940a69269ebff1d46d78ef8a50c478fa1"
+  },
+  {
+    "path": "2015-2022/2015\u20132022.png",
+    "bytes": 1413726,
+    "sha256": "a5c026161829a1572cdc8bbedff1d4e92eaf14f2b6fac11b7c1d29e9d229ff16"
+  },
+  {
+    "path": "2015-2022/2015\u20132022.svg",
+    "bytes": 187613,
+    "sha256": "474d1eb87f1d655d58dda24b348d647fd54b3aad3544d28c2b18b6b2be7e4f53"
+  },
+  {
+    "path": "2015-2022/display_alignment.json",
+    "bytes": 4081,
+    "sha256": "ab95f4eebbbf63e50ca38cdf6c149349886b00347313f0e0e74c89f98bfba31f"
+  },
+  {
+    "path": "2015-2022/edges.csv",
+    "bytes": 7669,
+    "sha256": "951ca622349b58382153853cba6a0ff506529e8a69007fcf4f810d5c70ac26eb"
+  },
+  {
+    "path": "2015-2022/labels.csv",
+    "bytes": 4125,
+    "sha256": "555225b96851c3da11dd20f974a71126122692f290321f4855e62f405356d6a6"
+  },
+  {
+    "path": "2015-2022/leiden_hierarchy_reference.json",
+    "bytes": 175001,
+    "sha256": "ca2360241970360d7c985d139e15952a9fce7ec71aaef2d91339f5a6e418f59a"
+  },
+  {
+    "path": "2015-2022/nodes.csv",
+    "bytes": 6809,
+    "sha256": "4310f9201ba995528ff12228aa3fd7b5d61eb2486b90eb75f19288f1fc3804dc"
+  },
+  {
+    "path": "2015-2022/preview.png",
+    "bytes": 218682,
+    "sha256": "002d50aa2cc0ef779cbe40caf130dfe5166e387ecee91c877825d3c9c4b3841f"
+  },
+  {
+    "path": "2015-2022/render_checks.json",
+    "bytes": 492,
+    "sha256": "119dbfd238ca88344d16138f7bd4420088f8fe241909c2939b6e875408875339"
+  },
+  {
+    "path": "2015-2024/2015\u20132024.pdf",
+    "bytes": 45305,
+    "sha256": "6aa91e02b5230b0a634343bf456f968055f14d712a0604f89d06c7ec27a2ed39"
+  },
+  {
+    "path": "2015-2024/2015\u20132024.png",
+    "bytes": 1872808,
+    "sha256": "d479008c723f23c8c97ebb5c6e00f753a5308290877a63baa830c1624caebda1"
+  },
+  {
+    "path": "2015-2024/2015\u20132024.svg",
+    "bytes": 244875,
+    "sha256": "930716430da0db9e1f9069191e8fb3a407600836fc4ffeb2be1bc43721011c56"
+  },
+  {
+    "path": "2015-2024/edges.csv",
+    "bytes": 10912,
+    "sha256": "1b7e927e06ff0c1138f84bfae791aeb0dc03ea62e5f06dc80b4155a7743e79bc"
+  },
+  {
+    "path": "2015-2024/labels.csv",
+    "bytes": 5242,
+    "sha256": "86571cc6b053ce6510c08010db4a9263340e5b57d995e2c13efa1e4584ffd1d9"
+  },
+  {
+    "path": "2015-2024/nodes.csv",
+    "bytes": 13193,
+    "sha256": "f924e9e854813a65755e1612abb0ada8381dfde5166585041618518d8f5db17a"
+  },
+  {
+    "path": "2015-2024/preview.png",
+    "bytes": 281830,
+    "sha256": "cf6e3c3e90307d1a342f994893e457bb36641921e5b1d559c439235a6f45770d"
+  },
+  {
+    "path": "2015-2024/render_checks.json",
+    "bytes": 494,
+    "sha256": "7c7c49eebcecc32d26c04e3d3f92693ce787a1c1b0e66ede43842cc3449ae3ff"
+  },
+  {
+    "path": "anchored_gem.py",
+    "bytes": 10121,
+    "sha256": "c66f65c2f45255b11b24a32334d215d4204d5a5693bba735192c7b062e5cb6de"
+  },
+  {
+    "path": "archived_GEM_positions.csv",
+    "bytes": 6351,
+    "sha256": "6b0946195d6fb51920e227cffd1161fb2562ef70453a5a39a530a71820fd4c56"
+  },
+  {
+    "path": "baseline_memberships_2015-2022.csv",
+    "bytes": 1626,
+    "sha256": "f6a2fa6889b3ea3291885bf3ca17540e1f0355be9509068aefbb38daf7cd8809"
+  },
+  {
+    "path": "baseline_memberships_2015-2024.csv",
+    "bytes": 5559,
+    "sha256": "f2c3689bfe68f5f13c9ceffd0cb29ab4697d50426693668d9bb89896eda5b0a1"
+  },
+  {
+    "path": "coordinate_verification.json",
+    "bytes": 926,
+    "sha256": "399bfaaab72b9fbfd9b8ce01813f79119dd6015e00326ab381764b08d1641150"
+  },
+  {
+    "path": "provenance.json",
+    "bytes": 3731,
+    "sha256": "95435af84800ae6d381ed6464fb46ddaadf65dd32510d83f508338cfa229f242"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5034,
+    "sha256": "3ac693a548c66a4e5c49170730a1f9476a5d269a2746adf8075b722c0b518703"
+  },
+  {
+    "path": "render_incremental.py",
+    "bytes": 4882,
+    "sha256": "020bd5b9d0c7bd0d0ef57217d835cbb1d1c07ff2123c3fef77205b741c88e291"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 53,
+    "sha256": "50ae29a8c990ecebfa4c85de568b4755f639a71be5011fb42a5a0719e3a2bfa1"
+  },
+  {
+    "path": "verify_coordinates.py",
+    "bytes": 2387,
+    "sha256": "0aa0e2af7666df718d56ebbb0ec33d51b1fcbd5e004120f5cbddd80e1b87efe6"
+  },
+  {
+    "path": "viewport.json",
+    "bytes": 296,
+    "sha256": "04727f80dff4f0b8487b31c517dd3b2f408c26c3195493e49029705dc0d09b2b"
+  }
+]
